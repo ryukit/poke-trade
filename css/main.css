@@ -1,0 +1,125 @@
+.itemList {
+    /*border: 1px solid #c0c0c0;*/
+}
+.itemList-child {
+    position: relative;
+    margin-top: -1px;
+    border: 1px solid #c0c0c0;
+}
+/*.itemList-child:last-child {*/
+    /*border-bottom: 0;*/
+/*}*/
+.itemList-child:hover {
+    background: rgba(192, 192, 192, 0.3);
+}
+.itemList-item {
+    width: 600px;
+    margin: 0 auto 30px;
+}
+.titleSection {
+    background: #990073;
+    color: #fefefe;
+}
+.itemList-fuctional-value {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.itemList-fuctional-value.positive:after{
+    background-color: #3adb76;
+}
+.itemList-fuctional-value.negative:after{
+    background-color: #ff4081;
+}
+.is-hidden {
+    display: none !important;
+}
+.itemList-child .container {
+    position: relative;
+}
+.itemList-imageHolder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 140px;
+    overflow: hidden;
+    border-right: 1px solid #c0c0c0;
+}
+.itemList-imageHolder img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: none;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+.itemList-textInfo {
+    padding-left: 140px;
+}
+
+.mdl-button--file input {
+    cursor: pointer;
+    height: 100%;
+    right: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    z-index: 4;
+}
+
+.mdl-textfield--file .mdl-textfield__input {
+    box-sizing: border-box;
+    width: calc(100% - 32px);
+}
+.mdl-textfield--file .mdl-button--file {
+    right: 0 !important;
+}
+.pageHeader {
+    position: relative;
+}
+.addItem {
+    position: absolute;
+    right: 40px;
+    top: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+}
+.addPokemonForm {
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    right: -350px;
+    background: #fff;
+    -webkit-transition: right .3s;
+    -moz-transition: right .3s;
+    -ms-transition: right .3s;
+    -o-transition: right .3s;
+    transition: right .3s;
+}
+.itemList-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    margin: -14px 0 0 -14px;
+}
+.itemList-spinner:only-child {
+    display: block;
+}
+.text-right {
+    text-align: right;
+}
+.page-content {
+    padding: 50px 0;
+}
