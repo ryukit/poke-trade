@@ -5,6 +5,7 @@ export default class PokemonAddForm extends Component {
 		super(props)
         this.imageUploaded = this.imageUploaded.bind(this)
         this.handleForm = this.handleForm.bind(this)
+        this.toggleType = this.toggleType.bind(this)
 	}
 
 
@@ -22,16 +23,39 @@ export default class PokemonAddForm extends Component {
         }
     }
 
+    toggleType(e) {
+        e.stopPropagation();
+        let thisItem = e.target.parentNode;
+        let fieldStr = document.getElementById('poke-type');
+        let currType = thisItem.dataset.toggle;
+        // console.log(document.getElementById('poke-type'))
+        // console.log('text_field_value', fieldStr.value)
+        // console.log(currType)
+        if ( thisItem.classList.contains('is-active') ){
+            thisItem.classList.remove('is-active');
+            let newStr = fieldStr.value.replace(currType+",", '');
+            fieldStr.value = newStr;
+        } else {
+            thisItem.classList.add('is-active');
+            let newStr = fieldStr.value += ( currType+",");
+            fieldStr.value = newStr;
+            console.log(e.target.parentNode)
+        }
+    }
+
     handleForm(e) {
         e.preventDefault();
         var imageData = this.refs.image.value;
         var uid = '_' + Math.random().toString(36).substr(2, 9);
+        let typeValue = this.refs.poke_type.value;
+        let newTypeValue = typeValue.slice(0, -1);
         var newItem = {
             name: this.refs.name.value,
             dex_number: this.refs.dex_number.value,
             id: uid,
             description: this.refs.desc.value,
-            image: imageData
+            image: imageData,
+            poke_type: newTypeValue
         };
 
         this.refs.feedForm.reset();
@@ -43,6 +67,7 @@ export default class PokemonAddForm extends Component {
         var styles = {
             right: display
         };
+
         return (
             <div className="mdl-card mdl-shadow--2dp addPokemonForm" style={styles}>
                 <div className="mdl-card__supporting-text">
@@ -59,6 +84,28 @@ export default class PokemonAddForm extends Component {
                             <input ref="desc" type="text" className="mdl-textfield__input" id="sample2" />
                             <label className="mdl-textfield__label" htmlFor="sample2">Description</label>
                         </div>
+                        <p>Select type:</p>
+                        <ul className="TypeOptions js-typeToggle">
+                            <li className="TypeOptionItem" data-toggle="bug"><span onClick={this.toggleType} className="pokemontypes bug-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="dark"><span onClick={this.toggleType} className="pokemontypes dark-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="dragon"><span onClick={this.toggleType} className="pokemontypes dragon-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="electric"><span onClick={this.toggleType} className="pokemontypes electric-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="fairy"><span onClick={this.toggleType} className="pokemontypes fairy-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="fighting"><span onClick={this.toggleType} className="pokemontypes fighting-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="fire"><span onClick={this.toggleType} className="pokemontypes fire-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="flying"><span onClick={this.toggleType} className="pokemontypes flying-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="ghost"><span onClick={this.toggleType} className="pokemontypes ghost-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="grass"><span onClick={this.toggleType} className="pokemontypes grass-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="ground"><span onClick={this.toggleType} className="pokemontypes ground-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="ice"><span onClick={this.toggleType} className="pokemontypes ice-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="normal"><span onClick={this.toggleType} className="pokemontypes normal-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="poison"><span onClick={this.toggleType} className="pokemontypes poison-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="psychic"><span onClick={this.toggleType} className="pokemontypes psychic-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="rock"><span onClick={this.toggleType} className="pokemontypes rock-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="steel"><span onClick={this.toggleType} className="pokemontypes steel-type-img positionTypeOption">&nbsp;</span></li>
+                            <li className="TypeOptionItem" data-toggle="water"><span onClick={this.toggleType} className="pokemontypes water-type-img positionTypeOption">&nbsp;</span></li>
+                        </ul>
+                        <input ref="poke_type" type="hidden" id="poke-type" className="is-hidden"/>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
                             <input className="mdl-textfield__input" placeholder="File" type="text" id="uploadFile" readOnly />
                             <div className="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">

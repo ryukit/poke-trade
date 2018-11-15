@@ -17,16 +17,19 @@ export default class PokemonList extends Component {
                 name={item.name}
                 image={item.image}
                 description={item.description}
+                pokeType={item.poke_type}
                 onRemoveItem={this.props.onRemoveItem}
             />
         }.bind(this));
 
         return (
-            <div className="itemList">
+            <div className="itemList small-container">
             	<div className="mdl-spinner mdl-js-spinner is-active itemList-spinner"></div>
-	            <div className="mdl-list">
-                	{pokemonItems}
-                </div>
+	            <table className="mdl-data-table mdl-shadow--2dp">
+	            	<tbody>
+                		{pokemonItems}
+                	</tbody>
+                </table>
             </div>
         );
     }

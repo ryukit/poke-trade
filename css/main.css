@@ -123,3 +123,58 @@
 .page-content {
     padding: 50px 0;
 }
+.small-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.pokemontypes {
+    background: url(../images/Pokemon-GO-Types.png) no-repeat;
+    display:inline-block;
+    /*
+    overflow: hidden; 
+    text-indent: -9999px; 
+    text-align: left;
+    */ 
+}
+
+.bug-type-img { background-position: -2px -0px; width: 32px; height: 12px; }
+.dark-type-img { background-position: -36px -0px; width: 32px; height: 12px; }
+.dragon-type-img { background-position: -70px -0px; width: 32px; height: 12px; }
+.electric-type-img { background-position: -104px -0px; width: 32px; height: 12px; }
+.fairy-type-img { background-position: -2px -14px; width: 32px; height: 12px; }
+.fighting-type-img { background-position: -36px -14px; width: 32px; height: 12px; }
+.fire-type-img { background-position: -70px -14px; width: 32px; height: 12px; }
+.flying-type-img { background-position: -104px -14px; width: 32px; height: 12px; }
+.ghost-type-img { background-position: -2px -28px; width: 32px; height: 12px; }
+.grass-type-img { background-position: -36px -28px; width: 32px; height: 12px; }
+.ground-type-img { background-position: -70px -28px; width: 32px; height: 12px; }
+.ice-type-img { background-position: -104px -28px; width: 32px; height: 12px; }
+.normal-type-img { background-position: -2px -42px; width: 32px; height: 12px; }
+.poison-type-img { background-position: -36px -42px; width: 32px; height: 12px; }
+.psychic-type-img { background-position: -70px -42px; width: 32px; height: 12px; }
+.rock-type-img { background-position: -104px -42px; width: 32px; height: 12px; }
+.steel-type-img { background-position: -2px -56px; width: 32px; height: 12px; }
+.water-type-img { background-position: -36px -56px; width: 32px; height: 12px; }
+
+.TypeOptions {
+    font-size: 12px;
+    line-height: 1;
+    margin: 10px 0;
+    padding: 0;
+}
+.TypeOptions li {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid transparent;
+}
+.TypeOptions li.is-active {
+    border-color: #f00;
+}
+.TypeOptions li span {
+    cursor: pointer;
+}
+
