@@ -18,6 +18,7 @@ export default class PokemonList extends Component {
                 image={item.image}
                 description={item.description}
                 pokeType={item.poke_type}
+                isShiny={item.is_shiny}
                 onRemoveItem={this.props.onRemoveItem}
             />
         }.bind(this));

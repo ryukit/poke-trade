@@ -177,4 +177,35 @@
 .TypeOptions li span {
     cursor: pointer;
 }
+.mdl-list__item-text-body {
+    white-space: normal;
+}
+.mdl-data-table {
+    width: 100%;
+}
+.shinyCheck {
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    vertical-align: middle;
+    color: #000;
+    text-decoration: none;
+}
+.shinyCheck::before {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    border: 2px solid #000;
+}
 
+[data-shiny="false"] {
+
+}
+.shinyCheck[data-shiny="true"]::before {
+    background: #000;
+}

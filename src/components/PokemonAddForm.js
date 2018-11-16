@@ -6,6 +6,7 @@ export default class PokemonAddForm extends Component {
         this.imageUploaded = this.imageUploaded.bind(this)
         this.handleForm = this.handleForm.bind(this)
         this.toggleType = this.toggleType.bind(this)
+        this.shinyToggle = this.shinyToggle.bind(this)
 	}
 
 
@@ -42,6 +43,18 @@ export default class PokemonAddForm extends Component {
             console.log(e.target.parentNode)
         }
     }
+    shinyToggle(e){
+        e.preventDefault();
+        let thisItem = e.target;
+        let shinyField = document.getElementById('shiny_field');
+        if ( thisItem.dataset.shiny === "true" ) {
+            thisItem.setAttribute("data-shiny", "false");
+            shinyField.value = "false"
+        } else {
+            thisItem.setAttribute("data-shiny", "true");
+            shinyField.value = "true"
+        }
+    }
 
     handleForm(e) {
         e.preventDefault();
@@ -49,14 +62,20 @@ export default class PokemonAddForm extends Component {
         var uid = '_' + Math.random().toString(36).substr(2, 9);
         let typeValue = this.refs.poke_type.value;
         let newTypeValue = typeValue.slice(0, -1);
+        let seletRegion = this.refs.region;
+        let seletRegionValue = seletRegion.options[seletRegion.selectedIndex].value;
+
         var newItem = {
             name: this.refs.name.value,
             dex_number: this.refs.dex_number.value,
             id: uid,
             description: this.refs.desc.value,
             image: imageData,
-            poke_type: newTypeValue
+            poke_type: newTypeValue,
+            region: seletRegionValue,
+            is_shiny: this.refs.is_shiny.value
         };
+        debugger;
 
         this.refs.feedForm.reset();
         this.props.onNewItem(newItem);
@@ -105,6 +124,19 @@ export default class PokemonAddForm extends Component {
                             <li className="TypeOptionItem" data-toggle="steel"><span onClick={this.toggleType} className="pokemontypes steel-type-img positionTypeOption">&nbsp;</span></li>
                             <li className="TypeOptionItem" data-toggle="water"><span onClick={this.toggleType} className="pokemontypes water-type-img positionTypeOption">&nbsp;</span></li>
                         </ul>
+                        <div className="">
+                            <p>Select region:</p>
+                            <select ref="region" defaultValue="kanto">
+                                <option value="kanto">Kanto</option>
+                                <option value="johto">Johto</option>
+                                <option value="hoenn">Hoenn</option>
+                                <option value="sinnoh">Sinnoh</option>
+                            </select>
+                        </div>
+                        <a href="#" className="shinyCheck" data-shiny="false" onClick={this.shinyToggle}>
+                            Shiny
+                        </a>
+                        <input ref="is_shiny" type="hidden" id="shiny_field" className="is-hidden" value="false"/> 
                         <input ref="poke_type" type="hidden" id="poke-type" className="is-hidden"/>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
                             <input className="mdl-textfield__input" placeholder="File" type="text" id="uploadFile" readOnly />
