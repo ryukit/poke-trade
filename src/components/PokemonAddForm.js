@@ -88,7 +88,7 @@ export default class PokemonAddForm extends Component {
         };
 
         return (
-            <div className="mdl-card mdl-shadow--2dp addPokemonForm" style={styles}>
+            <div className="mdl-card mdl-shadow--2dp addForm" style={styles}>
                 <div className="mdl-card__supporting-text">
                     <form ref="feedForm" action="#" onSubmit={this.handleForm}>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
