@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 export default class TradeItem extends Component {
 	constructor(props) {
@@ -30,9 +31,11 @@ export default class TradeItem extends Component {
 						{/* <p>{this.props.adInfo}</p> */}
 					</div>
 					<div className="mdl-card__actions mdl-card--border">
-						<a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-						View Deal
-						</a>
+						<Link 
+							className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" 
+							to={'/trades/' + this.props.id}>
+							View Deal
+						</Link>
 					</div>
 				</div>
 			</div>

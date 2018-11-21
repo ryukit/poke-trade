@@ -54,7 +54,8 @@ export default class TradeAddForm extends Component {
             additional_info: this.refs.ad_info.value,
             attachment_image: imageData,
             sp_trade_shiny: this.refs.sp_trade_shiny.value,
-            rec_trade_shiny: this.refs.rec_trade_shiny.value
+            rec_trade_shiny: this.refs.rec_trade_shiny.value,
+            comment_list: ''
         };
         debugger;
 

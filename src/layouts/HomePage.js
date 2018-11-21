@@ -2,8 +2,11 @@ import React, {Component} from 'react'
 import PokemonList from '../components/PokemonList'
 import ShowAddButton from '../components/ShowAddButton'
 import PokemonAddForm from '../components/PokemonAddForm'
-import TradeList from '../components/TradeList'
 import TradeAddForm from '../components/TradeAddForm'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import Routes from '../components/routes'
+import Links from '../components/navigation'
+import { HashRouter } from 'react-router-dom'
 
 var config = {
     apiKey: "AIzaSyDtoR-x8n38H05-bi561PGmGmvjxXJwUvc",
@@ -28,7 +31,6 @@ export default class HomePage extends Component {
 		this.onToggleForm = this.onToggleForm.bind(this);
 		this.onNewItem = this.onNewItem.bind(this);
 		this.onNewTrade = this.onNewTrade.bind(this);
-		this.handleSearch = this.handleSearch.bind(this);
 	}
 
 	loadPokedexData () {
@@ -57,46 +59,8 @@ export default class HomePage extends Component {
 
     }
 
-    loadTradeData() {
-    	var ref = new firebase.database().ref('trade_ticket/');
-		ref.on('value', function(snapshot) {
-            const trades = [];
-            
-            snapshot.forEach(function(itemSnap) {
-                const item = itemSnap.val();
-                //item.key = itemSnap.getKey();
-                //item.id = itemSnap.getKey();
-                trades.push(item);
-            });
-
-            this.setState({
-                trade_list: trades,
-                default_trade_list: trades
-            });
-
-        }.bind(this));
-
-    }
-
-    handleSearch(e){
-		const defaultList = this.state.default_trade_list;
-		let searchQuery = e.target.value.toLowerCase();
-		let tradeList = this.state.trade_list;
-        tradeList = defaultList.filter(function(el){
-            var searchValue = el.sp_pokemon.toLowerCase();
-            return searchValue.indexOf(searchQuery) !== -1;
-        });
-        this.setState({
-            trade_list: tradeList
-        });
-        if (e.target.value == ''){
-        	this.loadTradeData();
-        }
-    }
-
     componentDidMount() {
         this.loadPokedexData();
-        this.loadTradeData();
     }
 
     onToggleForm() {
@@ -122,25 +86,24 @@ export default class HomePage extends Component {
 
 
 	render() {
+        const tradeList=this.state.trade_list;
 		return (
 			<div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
                 <header className="mdl-layout__header pageHeader">
                     <div className="mdl-layout__header-row">
                         <span className="mdl-layout-title">HELLO</span>
-                        <input type="text" className="searcField" onChange={this.handleSearch} />
                         <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
                     </div>
                     {/* <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem}  /> */}
                     <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} />
                 </header>
                 <div className="mdl-layout__drawer">
-                    <span className="mdl-layout-title">Title</span>
-                    <nav className="mdl-navigation">
-                        <a className="mdl-navigation__link" href="">Link</a>
-                        <a className="mdl-navigation__link" href="">Link</a>
-                        <a className="mdl-navigation__link" href="">Link</a>
-                        <a className="mdl-navigation__link" href="">Link</a>
-                    </nav>
+                    <span className="mdl-layout-title">Title</span>    
+                    <div>
+                        <nav className="mdl-navigation">
+                            <Links />
+                        </nav>
+                    </div>
                 </div>
                 <main className="mdl-layout__content">
                     <div className="page-content">
@@ -149,7 +112,8 @@ export default class HomePage extends Component {
                                 <div className="mdl-cell mdl-cell--12-col">
                                     {/* <PokemonList items={this.state.items} onRemoveItem={this.onRemoveItem} /> */}
 
-                                    <TradeList tradeList={this.state.trade_list} />
+                                    {/* <TradeList tradeList={this.state.trade_list} /> */}
+                                    <Routes />
                                 </div>
                             </div>
                         </section>
