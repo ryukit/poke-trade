@@ -77,7 +77,8 @@ export default class TradeAddForm extends Component {
             <div className="mdl-card mdl-shadow--2dp addForm" style={styles}>
                 <div className="mdl-card__supporting-text">
                     <form ref="addTradeForm" action="#" onSubmit={this.handleForm}>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <div className="mdl-textfield mdl-js-textfield">
+                        
                             <input ref="user_name" type="text" className="mdl-textfield__input" id="sample1" />
                             <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
                         </div>
