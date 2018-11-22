@@ -18,6 +18,7 @@ export default class Links extends Component {
 	            <ul id="nav-mobile" className="right hide-on-med-and-down">
 	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" exact to='/'>Home</NavLink></li>
 	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" to='/trades'>Trades</NavLink></li>
+	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" to='/pokedex'>Pokedex</NavLink></li>
 	            </ul>
 	        </div>
 	    )

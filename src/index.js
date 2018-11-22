@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HomePage from './layouts/HomePage'
+import Layout from './layouts/Layout'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
     <BrowserRouter>
-        <HomePage />
+        <Layout />
     </BrowserRouter>,
     document.getElementById('container')
 );
