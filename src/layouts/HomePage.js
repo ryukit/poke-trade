@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
 import PokemonList from '../components/PokemonList'
-import ShowAddButton from '../components/ShowAddButton'
 import PokemonAddForm from '../components/PokemonAddForm'
-import TradeAddForm from '../components/TradeAddForm'
+import { NavLink } from 'react-router-dom'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import Routes from '../components/routes'
 import Links from '../components/navigation'
@@ -23,14 +22,9 @@ export default class HomePage extends Component {
 		super(props)
 
 		this.state = {
-			items: [],
-			trade_list: [],
-			default_trade_list: [],
-			formDisplayed: false,
+			items: []
 		}
-		this.onToggleForm = this.onToggleForm.bind(this);
 		this.onNewItem = this.onNewItem.bind(this);
-		this.onNewTrade = this.onNewTrade.bind(this);
 	}
 
 	loadPokedexData () {
@@ -63,12 +57,6 @@ export default class HomePage extends Component {
         this.loadPokedexData();
     }
 
-    onToggleForm() {
-        this.setState({
-            formDisplayed: !this.state.formDisplayed
-        });
-    }
-
     onNewItem(newItem) {
         var ref = new firebase.database().ref('pokedex/');
         ref.child(newItem.id).set(newItem);
@@ -79,10 +67,6 @@ export default class HomePage extends Component {
         ref.child(itemId).remove();
     }
 
-    onNewTrade(newItem){
-    	var ref = new firebase.database().ref('trade_ticket/');
-        ref.child(newItem.id).set(newItem);
-    }
 
 
 	render() {
@@ -91,11 +75,11 @@ export default class HomePage extends Component {
 			<div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
                 <header className="mdl-layout__header pageHeader">
                     <div className="mdl-layout__header-row">
-                        <span className="mdl-layout-title">HELLO</span>
-                        <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
+                        <span className="mdl-layout-title"><NavLink className="mdl-navigation__link" exact to='/'>Home</NavLink></span>
+
                     </div>
                     {/* <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem}  /> */}
-                    <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} />
+                    
                 </header>
                 <div className="mdl-layout__drawer">
                     <span className="mdl-layout-title">Title</span>    
@@ -105,20 +89,7 @@ export default class HomePage extends Component {
                         </nav>
                     </div>
                 </div>
-                <main className="mdl-layout__content">
-                    <div className="page-content">
-                        <section className="sectionItemList">
-                            <div className="mdl-grid">
-                                <div className="mdl-cell mdl-cell--12-col">
-                                    {/* <PokemonList items={this.state.items} onRemoveItem={this.onRemoveItem} /> */}
-
-                                    {/* <TradeList tradeList={this.state.trade_list} /> */}
-                                    <Routes />
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </main>
+                <Routes />
             </div>
 		)
 	}

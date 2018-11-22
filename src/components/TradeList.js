@@ -19,6 +19,7 @@ export default class TradeList extends Component {
                 attachment_image={item.attachment_image}
                 sp_trade_shiny={item.sp_trade_shiny}
                 rec_trade_shiny={item.rec_trade_shiny}
+                time_stamp={item.time_stamp}
             />
         }.bind(this));
 

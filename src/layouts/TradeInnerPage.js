@@ -1,13 +1,15 @@
 import React, {Component} from 'react'
 import TradeList from "../components/TradeList"
 import TradeTicket from '../components/TradeTicket'
+import CommentList from '../components/CommentList'
 
 export default class TradePage extends Component {
 	constructor(props) {
         super(props)
 
         this.state = {
-            item: []
+            item: [],
+            comments: [],
         }
         this.onNewComment = this.onNewComment.bind(this)
     }
@@ -34,8 +36,36 @@ export default class TradePage extends Component {
         }.bind(this));
     }
 
+    loadCommentData() {
+    
+        let requiredId;
+        requiredId = this.props.itemId;
+        var ref = new firebase.database().ref('trade_ticket/'+requiredId+'/comment_list');
+        ref.on('value', function(snapshot) {
+            const itemEl = [];
+            let sorted = [];
+
+            snapshot.forEach(function(itemSnap) {
+                const itemValues = itemSnap.val();
+                //item.key = itemSnap.getKey();
+                //item.id = itemSnap.getKey();
+                itemEl.push(itemValues);
+            });
+
+            sorted = _.sortBy(itemEl, function(item) {
+                return item.timeStamp;
+            });
+
+            this.setState({
+                comments: sorted
+            });
+
+        }.bind(this));
+    }
+
     componentDidMount() {
         this.loadTradeData();
+        this.loadCommentData();
     }
 
     onNewComment(newItem){
@@ -49,8 +79,19 @@ export default class TradePage extends Component {
 	render() {
     
         return (
-            <div className="wow">
-                <TradeTicket item={this.state.item} onNewComment={this.onNewComment}/>
+            <div>
+                <main className="mdl-layout__content">            
+                    <div className="page-content">
+                        <section className="sectionItemList">
+                            <div className="mdl-grid">
+                                <div className="mdl-cell mdl-cell--12-col">
+                                    <TradeTicket item={this.state.item} />
+                                    <CommentList comments={this.state.comments} onNewComment={this.onNewComment} />
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
             </div>
         );
     }

@@ -13,10 +13,12 @@ export default class TradeAddForm extends Component {
 	imageUploaded() {
         var preview = document.getElementById('imageLoadForTrade');
         var file    = document.getElementById('trade_attachment_input').files[0];
+        var status  = document.getElementById('trade_attachment_status');
         var reader  = new FileReader();
 
         reader.addEventListener("load", function () {
             preview.value = reader.result;
+            status.value = file.name+' - uploaded';
         }, false);
 
         if (file) {
@@ -43,6 +45,7 @@ export default class TradeAddForm extends Component {
         e.preventDefault();
         var imageData = this.refs.image.value;
         var uid = '_' + Math.random().toString(36).substr(2, 9);
+        let date = new Date();
 
         var newItem = {
             user_name: this.refs.user_name.value,
@@ -55,6 +58,7 @@ export default class TradeAddForm extends Component {
             attachment_image: imageData,
             sp_trade_shiny: this.refs.sp_trade_shiny.value,
             rec_trade_shiny: this.refs.rec_trade_shiny.value,
+            time_stamp: date.getTime(),
             comment_list: ''
         };
         debugger;
@@ -98,7 +102,7 @@ export default class TradeAddForm extends Component {
                             <label className="mdl-textfield__label" htmlFor="sample2">More info here...</label>
                         </div> 
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
-                            <input className="mdl-textfield__input" placeholder="File" type="text" id="uploadFile" readOnly />
+                            <input className="mdl-textfield__input" placeholder="File" type="text" id="trade_attachment_status" readOnly />
                             <div className="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">
                                 <i className="material-icons">attach_file</i><input type="file" id="trade_attachment_input" onChange={this.imageUploaded} />
                             </div>

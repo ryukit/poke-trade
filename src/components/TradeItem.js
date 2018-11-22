@@ -20,6 +20,16 @@ export default class TradeItem extends Component {
         if ( typeof recShinyVal !== 'undefined' && recShinyVal == 'true') {
         	recShinyText = '(*shihy*)'
         }
+        let timestamp = this.props.time_stamp;
+		var a = new Date(timestamp);
+		var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+		var year = a.getFullYear();
+		var month = months[a.getMonth()];
+		var date = a.getDate();
+		var hour = a.getHours();
+		var min = a.getMinutes();
+		var sec = a.getSeconds();
+		var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
         return (
         	<div className="tradeList-item">
 	            <div className="demo-card-square mdl-card mdl-shadow--2dp" key={this.props.id} id={this.props.id}>
@@ -29,6 +39,7 @@ export default class TradeItem extends Component {
 					<div className="mdl-card__supporting-text">
 						<p>User - <strong>{this.props.user_name}</strong> trades "{this.props.sp_pokemon}{spShinyText}" for "{this.props.rec_pokemon}{recShinyText}"</p>
 						{/* <p>{this.props.adInfo}</p> */}
+						<p>{time}</p>
 					</div>
 					<div className="mdl-card__actions mdl-card--border">
 						<Link 

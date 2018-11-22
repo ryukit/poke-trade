@@ -85,9 +85,9 @@
     position: relative;
 }
 .addItem {
-    position: absolute;
+    position: fixed;
     right: 40px;
-    top: 100%;
+    top: 90px;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -97,8 +97,8 @@
 }
 .addForm {
     width: 300px;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 120px;
     right: -350px;
     background: #fff;
     -webkit-transition: right .3s;
@@ -106,6 +106,7 @@
     -ms-transition: right .3s;
     -o-transition: right .3s;
     transition: right .3s;
+    z-index: 998;
 }
 .itemList-spinner {
     position: fixed;
