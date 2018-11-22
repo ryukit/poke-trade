@@ -75,7 +75,6 @@ export default class PokemonAddForm extends Component {
             region: seletRegionValue,
             is_shiny: this.refs.is_shiny.value
         };
-        debugger;
 
         this.refs.feedForm.reset();
         this.props.onNewItem(newItem);

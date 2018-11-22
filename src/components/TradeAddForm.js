@@ -61,7 +61,6 @@ export default class TradeAddForm extends Component {
             time_stamp: date.getTime(),
             comment_list: ''
         };
-        debugger;
 
         this.refs.addTradeForm.reset();
         this.props.onNewTrade(newItem);
@@ -78,7 +77,7 @@ export default class TradeAddForm extends Component {
                 <div className="mdl-card__supporting-text">
                     <form ref="addTradeForm" action="#" onSubmit={this.handleForm}>
                         <div className="mdl-textfield mdl-js-textfield">
-                        
+
                             <input ref="user_name" type="text" className="mdl-textfield__input" id="sample1" />
                             <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
                         </div>
