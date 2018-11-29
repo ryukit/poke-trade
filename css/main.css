@@ -1,3 +1,8 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 .itemList {
     /*border: 1px solid #c0c0c0;*/
 }
@@ -83,6 +88,7 @@
 }
 .pageHeader {
     position: relative;
+    z-index: 0
 }
 .addItem {
     position: fixed;
@@ -126,11 +132,17 @@
 }
 .small-container {
     max-width: 630px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     background: #fff;
 }
+.mdl-layout__content {
+    width: 100%;
+}
 
-
+#nav-mobile {
+    list-style: none;
+    padding-left: 0;
+}
 .pokemontypes {
     background: url(../images/Pokemon-GO-Types.png) no-repeat;
     display:inline-block;
@@ -212,24 +224,120 @@
 }
 
 .demo-card-square.mdl-card {
-  width: 300px;
+  width: 100%;
   height: 300px;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
   background:
     url('http://placehold.it/320px320') top center no-repeat #46B6AC;
-  background-size: 100% auto !important;
+  background-size: cover !important;
 }
 .tradeList {
-    margin: 0 -15px;
+    margin: 0 -5px;
     font-size: 0;
     line-height: 0;
     text-align: center;
 }
 .tradeList-item {
+    width: 80%;
     display: inline-block;
     vertical-align: top;
-    padding: 0 15px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    max-width: 315px;
+    min-width: 200px;
+}
+.searcField {
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.searcField-input {
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    line-height: 44px;
+    font-size: 20px;
+    color: #ccc;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+}
+.searcField-input:focus {
+    border-color: #f00;
+    outline: none;
+}
+.mdl-card__supporting-text {
+    width: 100%;
+}
+.mdl-card__actions {
+    padding: 0;
+}
+.customLink {
+    display: block;
+    padding: 15px 20px;
+    color: #009688;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s;
+}
+.customLink:hover {
+    background: #009688;
+    color: #fff;
+}
+.shinyLabel {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjM4OTk1M0IwRjQxRjExRTg5MjZGODZCMUM5NEQxMzJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjM4OTk1M0IxRjQxRjExRTg5MjZGODZCMUM5NEQxMzJFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mzg5OTUzQUVGNDFGMTFFODkyNkY4NkIxQzk0RDEzMkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Mzg5OTUzQUZGNDFGMTFFODkyNkY4NkIxQzk0RDEzMkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4ydvd7AAAEBklEQVR42tRYW0gUYRT+dtzN3NbatN3sblhYG4ZBEdJDGXQzpKAHI8rAgi4vFdVLBdVDPURv0QUCAyGyh3ooyi7QPSiIjJbMsNCSzMtq2033ojOdM7/V6s7MzuxK1IFBZ/afc77/nPN/55yxKYoCyyJHbOh5NxzR9gJEO8rRG6yA3V0Jh6cKDq8fGXkhSMMsK7aZBtPXbUPw3gwE79Thy2MC1K2/VnICoxYA7sU+uBfVI82pDB2Y9otL0XLmJnq7rHvRngWM37oM3rJbqYH5/nIEGvd/R/gDUpb0ycDUIy64Zv/Qdajuy51XC/GmYmiAsLAe1sd6LYFpObMCjQdqoUQtZN8wIHOu8RrWx3pZvykwjLzl9HXLO8+cB+QeNreW9Wt4SIrLkabDtUmFwTWb8mKiSFgzwnbYni4YTlYrofklDi/gXSf+n7jT3DtqyMieJhg+vskka8Z0YPop8shIcT9mFQHaLXLITFKz3QFHmwnNv1I2zyOS8ICLwu700a0jfkm0k8MOBC4DXx4Y81DBNYmJUXgmeHeGNUKTaVcfxSX3aC+JtgMR+j2RXv6d7f/2zLs9Cj7fTo4/HGOIzI4CI+f350If0HyM3F9tXsfoJUDecZukFj2uNclKNECboRyJtIn71iprQFjUWhchMFx9jYqeqSL6jQBcIK+Qlz+dTaILIPuEQ1LbACviKQNyNsU///EKCDWSYo3Sk72aOGhKAg+3F0hqP2JFOL5ZS+Off3tG4dql/U7WctFSGILpKLerjZH5AgSMmEl/0gWPKJGBJyzUpO3JUUX03iw66s+B7nqdUxWskNQOzax41wJpLsErORuN12aXArMuAVP29fMJkeLM80A+mcuYpsE37kpJbRVNMS0pmLDjz/24LbRbg3TrqqH6c4jC9zy2SaNnBylZ32pQhKdKUntWw8jYgbHrxa7SMmJImLyTf45AbaY1Ggys9FJSk+qG7YIcA1cE/4Sb9eqb36b0hW14sVCOO95c+LJKiO7zyXCCOiNT0etpgEqcrRpRn7SXuOQh8PWJfs9ceF+S1C5eK9PlMO0uDFNVnNfIIfGOdrNGQJ7qv8/2CYddvXEX+2hXdQMWBC6Ji0+QZ42oxGnOeMAfTwBt58VpMiJFI+EpwlLVZtLyVf8BJNOxfr2BwlOfGnvHVW2ea3icMOw93lMCHo9x/cnUgbCw3f65auCo4i9VEjZYhY8ovsOB2iIk1RUOHl8Krtq0206ea7SOaax01wmeSBUI22F7uj0wD1i5B+cYKum6Qde11MPDdgYNdNoTJc81yYwrpvNkWwnlSo358ZbnGh4nUg3H4NCwR7JLX/zzs/Z/9BUi7vsMdfHBuxa+zxCzu4uH+PvMX/py9VOAAQCK0sMmz5/uNAAAAABJRU5ErkJggg==') 0 0 no-repeat;
+    background-size: contain;
+}
+.ticketInfo .shinyLabel,
+.tradeList-item .shinyLabel {
+    width: 15px;
+    height: 15px;
+}
+.ticketImage {
+    min-height: 300px;
+    background-size: cover !important
+}
+.ticketInfo {
+
+}
+.commentSection .mdl-card,
+.ticketInfo .mdl-card {
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.commentSection .mdl-card > *,
+.ticketInfo .mdl-card > * {
+  height: auto;
+}
+.commentSection .mdl-card .mdl-card__supporting-text,
+.ticketInfo .mdl-card .mdl-card__supporting-text {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: inherit;
+}
+.mdl-card__supporting-text h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.commentSection-form .mdl-textfield {
+    width: 100%;
+}
+.commentSection-list {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.commentSection-list-item {
     margin-bottom: 30px;
 }

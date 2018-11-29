@@ -6,6 +6,11 @@ export default class ShowAddButton extends Component {
 
 	}
 
+    componentDidMount() {
+        let button = document.getElementById('mdl-tooltip');
+        componentHandler.upgradeElement(button);
+    }
+
 
 	render() {
         var classString, buttonText;
@@ -19,9 +24,12 @@ export default class ShowAddButton extends Component {
         }
 
         return (
-            <button className={classString} onClick={this.props.onToggleForm}>
-                <i className="material-icons">{buttonText}</i>
-            </button>
+            <div id="button-show-more">
+                <button id="add-button" className={classString} onClick={this.props.onToggleForm} title={this.props.buttonText}>
+                    <i className="material-icons">{buttonText}</i>
+                </button>
+                <div className="mdl-tooltip" id="mdl-tooltip" data-mdl-for="add-button">{this.props.buttonText}</div>
+            </div>
         );
     }
 }

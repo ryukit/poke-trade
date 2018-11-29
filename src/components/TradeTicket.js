@@ -12,6 +12,7 @@ export default class TradeTicket extends Component {
         const tradeTicketInfo = this.props.item.map(function (item) {
             return <TradeTicketInfo
                 id={item.id}
+                key={item.id}
                 user_name={item.user_name}
                 sp_pokemon={item.sp_pokemon}
                 rec_pokemon={item.rec_pokemon}
@@ -24,7 +25,7 @@ export default class TradeTicket extends Component {
         });
     
         return (
-            <div className="wow">
+            <div className="small-container mdl-shadow--2dp">
                 {tradeTicketInfo} 
             </div>
         );

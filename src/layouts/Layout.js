@@ -32,7 +32,7 @@ export default class Layout extends Component {
 			<div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
                 <header className="mdl-layout__header pageHeader">
                     <div className="mdl-layout__header-row">
-                        <span className="mdl-layout-title"><NavLink className="mdl-navigation__link" exact to='/'>Home</NavLink></span>
+                        <span className="mdl-layout-title"><NavLink className="mdl-navigation__link" exact to='/'>Kharkiv Trade</NavLink></span>
 
                     </div>
                     {/* <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem}  /> */}

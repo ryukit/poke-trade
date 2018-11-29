@@ -13,6 +13,7 @@ export default class PokemonList extends Component {
         var pokemonItems = this.props.items.map(function(item) {
             return <PokemonItem
                 id={item.id}
+                key={item.id}
                 dex_number={item.dex_number}
                 name={item.name}
                 image={item.image}

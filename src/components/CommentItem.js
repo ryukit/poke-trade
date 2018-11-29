@@ -18,7 +18,7 @@ export default class CommentItem extends Component {
 		var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
 
         return (
-        	<div className="commentSection-list" key={this.props.id} id={this.props.id}>
+        	<div className="commentSection-list-item" key={this.props.id} id={this.props.id}>
         		<div><strong>{this.props.comment_user_name}</strong></div>
 	        	<div>{this.props.comment_text}</div>
 	        	<div>{time}</div>

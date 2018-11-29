@@ -57,17 +57,18 @@ export default class CommentList extends Component {
         });
     
         return (
-            <div className="wow">
-                <div className="commentSection">
-                    <div className="commentSection-form">
+            <div className="small-container mdl-shadow--2dp commentSection">
+                <div className="mdl-card mdl-cell mdl-cell--12-col">
+                    <div className="mdl-card__supporting-text commentSection-form">
                         <form ref="addNewCommentForm" action="#" onSubmit={this.handleForm}>
+                            <h4>Leave a comment</h4>
                             <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input ref="comment_user_name" type="text" className="mdl-textfield__input" id="sample1" />
                                 <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
                             </div>
                             <div className="mdl-textfield mdl-js-textfield">
                                 <textarea ref="comment_textarea" className="mdl-textfield__input" type="text" rows= "3" id="comment_textarea"></textarea>
-                                <label className="mdl-textfield__label" htmlFor="comment_textarea">name...</label>
+                                <label className="mdl-textfield__label" htmlFor="comment_textarea">Enter your message</label>
                             </div>
                             <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
                                 <input className="mdl-textfield__input" placeholder="File" type="text" id="comment_image_field_status" readOnly />
@@ -82,7 +83,9 @@ export default class CommentList extends Component {
                         </form>
                     </div>
                     <div className="commentSection-list">
-                        {commentItem}
+                        <div className="mdl-card__supporting-text">
+                            {commentItem}
+                        </div>
                     </div>
                 </div>
             </div>

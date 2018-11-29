@@ -10,6 +10,7 @@ export default class PokedexPage extends Component {
         this.state = {
             items: [],
             formDisplayed: false,
+            buttonText: "Add new Pokedex entry"
         }
         this.onToggleForm = this.onToggleForm.bind(this);
         this.onNewItem = this.onNewItem.bind(this);
@@ -68,7 +69,7 @@ export default class PokedexPage extends Component {
         return (
             <div>
                 <main className="mdl-layout__content">
-                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
+                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
                     <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem} />
                     <div className="page-content">
                         <section className="sectionItemList">

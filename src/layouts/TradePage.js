@@ -12,6 +12,7 @@ export default class TradePage extends Component {
             trade_list: [],
             default_trade_list: [],
             formDisplayed: false,
+            buttonText: "Add new Trade"
         }
         this.onToggleForm = this.onToggleForm.bind(this);
         this.handleSearch = this.handleSearch.bind(this);
@@ -78,13 +79,15 @@ export default class TradePage extends Component {
         return (
             <div>
                 <main className="mdl-layout__content">
-                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
+                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
                     <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} />              
                     <div className="page-content">
                         <section className="sectionItemList">
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
-                                    <input type="text" className="searcField" onChange={this.handleSearch} />
+                                    <div className="searcField">
+                                        <input type="text" className="searcField-input" onChange={this.handleSearch} placeholder="enter pokemon name" />
+                                    </div>
                                     <TradeList tradeList={this.state.trade_list} />
                                 </div>
                             </div>

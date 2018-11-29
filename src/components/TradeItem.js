@@ -13,12 +13,12 @@ export default class TradeItem extends Component {
         let spShinyVal = this.props.sp_trade_shiny;
         let spShinyText = '';
         if ( typeof spShinyVal !== 'undefined' && spShinyVal == 'true') {
-        	spShinyText = '(*shihy*)'
+        	spShinyText = ( <i className="shinyLabel"></i> );
         }
         let recShinyVal = this.props.rec_trade_shiny;
         let recShinyText = '';
         if ( typeof recShinyVal !== 'undefined' && recShinyVal == 'true') {
-        	recShinyText = '(*shihy*)'
+        	recShinyText = ( <i className="shinyLabel"></i> );
         }
         let timestamp = this.props.time_stamp;
 		var a = new Date(timestamp);
@@ -39,11 +39,11 @@ export default class TradeItem extends Component {
 					<div className="mdl-card__supporting-text">
 						<p>User - <strong>{this.props.user_name}</strong> trades "{this.props.sp_pokemon}{spShinyText}" for "{this.props.rec_pokemon}{recShinyText}"</p>
 						{/* <p>{this.props.adInfo}</p> */}
-						<p>{time}</p>
+						<p>{time} // Comments: {this.props.commentValue}</p>
 					</div>
 					<div className="mdl-card__actions mdl-card--border">
 						<Link 
-							className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" 
+							className="customLink" 
 							to={'/trades/' + this.props.id}>
 							View Deal
 						</Link>
