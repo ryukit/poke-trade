@@ -49,8 +49,8 @@ export default class TradeAddForm extends Component {
 
         var newItem = {
             user_name: this.refs.user_name.value,
-            sp_pokemon: this.refs.sp_pokemon.value,
-            rec_pokemon: this.refs.rec_pokemon.value,
+            sp_pokemon: this.refs.sp_pokemon.value.toLowerCase(),
+            rec_pokemon: this.refs.rec_pokemon.value.toLowerCase(),
             id: uid,
             status: 'active',
             type: 'get',
@@ -59,6 +59,7 @@ export default class TradeAddForm extends Component {
             sp_trade_shiny: this.refs.sp_trade_shiny.value,
             rec_trade_shiny: this.refs.rec_trade_shiny.value,
             time_stamp: date.getTime(),
+            sort_stamp: date.getTime() * -1,
             comment_list: ''
         };
 

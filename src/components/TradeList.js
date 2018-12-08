@@ -8,7 +8,7 @@ export default class TradeList extends Component {
 	}
 
 	render() {
-
+       
        var tradeItems = this.props.tradeList.map(function(item) {
             return <TradeItem
                 id={item.id}

@@ -38,7 +38,7 @@ export default class Layout extends Component {
                     {/* <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem}  /> */}
                     
                 </header>
-                <div className="mdl-layout__drawer">
+                <div className="mdl-layout__drawer pageSideMenu">
                     <span className="mdl-layout-title">Title</span>    
                     <div>
                         <nav className="mdl-navigation">
