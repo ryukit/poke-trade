@@ -37,9 +37,10 @@ export default class TradeItem extends Component {
 						
 					</div>
 					<div className="mdl-card__supporting-text">
-						<p>User - <strong>{this.props.user_name}</strong> trades "{this.props.sp_pokemon}{spShinyText}" for "{this.props.rec_pokemon}{recShinyText}"</p>
+						<p className="croppedText">User - <strong>{this.props.user_name}</strong></p>
+						<p className="croppedText">"{this.props.sp_pokemon}{spShinyText}" ==> "{this.props.rec_pokemon}{recShinyText}"</p>
 						{/* <p>{this.props.adInfo}</p> */}
-						<p>{time} // Comments: {this.props.commentValue}</p>
+						<p className="croppedText">{time} // Comments: {this.props.commentValue}</p>
 					</div>
 					<div className="mdl-card__actions mdl-card--border">
 						<Link 

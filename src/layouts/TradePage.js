@@ -15,6 +15,7 @@ export default class TradePage extends Component {
             trade_list_length: 0,
             loadMoreDisplayed: true,
             formDisplayed: false,
+            postLoadValue: 10,
             pageTitle: 'Available trades',
             buttonText: "Add new Trade"
         }
@@ -95,7 +96,7 @@ export default class TradePage extends Component {
     pagiClick(e){
         e.preventDefault();
         //let page = parseInt(e.target.dataset.page);
-        let items = this.state.page_viewed_trades + 2
+        let items = this.state.page_viewed_trades + this.state.postLoadValue
         if ( items >= this.state.trade_list_length ){
             this.toggleMoreState(false);
         }
@@ -104,7 +105,7 @@ export default class TradePage extends Component {
     }
 
     componentDidMount() {
-        this.loadTradeData(2);
+        this.loadTradeData(this.state.postLoadValue);
     }
 
     toggleMoreState(val){
@@ -117,6 +118,7 @@ export default class TradePage extends Component {
         //const defaultList = this.state.default_trade_list;
 
         let searchQuery = e.target.value.toLowerCase();
+        let targetValue = e.target.value;
         // let tradeList = this.state.trade_list;
         // tradeList = defaultList.filter(function(el){
         //     var searchValue = el.sp_pokemon.toLowerCase();
@@ -137,8 +139,8 @@ export default class TradePage extends Component {
             this.setState({
                 trade_list: trades,
             });
-            
-            if (e.target.value == ''){
+
+            if (targetValue === ''){
                 this.toggleMoreState(true);
             } else {
                 this.toggleMoreState(false);
@@ -150,22 +152,23 @@ export default class TradePage extends Component {
         //     trade_list: tradeList
         // });
 
-        if (e.target.value == ''){
-            this.loadTradeData(2);
+        if (targetValue === ''){
+            this.loadTradeData(this.state.postLoadValue);
             console.log(this.state.loadMoreDisplayed)
-            debugger;
+            this.toggleMoreState(true);
         }
     }
 
     onNewTrade(newItem){
         var ref = new firebase.database().ref('trade_ticket/');
         ref.child(newItem.id).set(newItem);
-        this.loadTradeData(2);
+        this.loadTradeData(10);
         this.toggleMoreState(true);
     }
 
 	render() {
         var trade_value = this.state.trade_list_length;
+        //debugger;
         // let rec_trade_list = this.state.paged_trade_list;
         // let num_page_list = [];
         // if ( typeof rec_trade_list !== 'undefined' ) {
