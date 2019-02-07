@@ -86,7 +86,7 @@ export default class TradePage extends Component {
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
                                     <TradeTicket item={this.state.item} />
-                                    <CommentList comments={this.state.comments} onNewComment={this.onNewComment} userName={this.props.userName}/>
+                                    <CommentList comments={this.state.comments} onNewComment={this.onNewComment} userName={this.props.userName} userRole={this.props.userRole}/>
                                 </div>
                             </div>
                         </section>

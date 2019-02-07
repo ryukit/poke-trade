@@ -53,7 +53,7 @@ export default class LoginUser extends Component {
             <div className="mdl-card mdl-shadow--2dp">
                 <div className="mdl-card__supporting-text">
                     <form ref="addNewUserForm" action="#" onSubmit={this.handleForm}>
-                    	<p>Login form</p>
+                    	<h4>Login form</h4>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input ref="loginId" type="text" className="mdl-textfield__input" id="loginId" />
                             <label className="mdl-textfield__label" htmlFor="loginId">userId...</label>

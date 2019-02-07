@@ -28,8 +28,8 @@ export default class Routes extends Component {
             <Switch>
                 <Route path="/" exact render={() => <HomePage userRole={this.state.userRole} userName={this.state.userName} updateGlobalState={this.updateGlobalState} /> } />
                 {/*<Route exact path='/' component={HomePage} />*/}
-                <Route path='/trades/:itemId' render={ ({ match }) => <TradeInnerPage { ...match.params } userName={this.state.userName}/> } />
-                <Route path="/trades" render={() => <TradePage userName={this.state.userName} /> } />
+                <Route path='/trades/:itemId' render={ ({ match }) => <TradeInnerPage { ...match.params } userName={this.state.userName} userRole={this.state.userRole} /> } />
+                <Route path="/trades" render={() => <TradePage userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path="/pokedex" render={() => <PokedexPage /> } />
                 <Route render={function () { return <p className="notFound">404</p> }} />
             </Switch>

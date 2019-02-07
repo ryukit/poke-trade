@@ -180,6 +180,16 @@ export default class TradePage extends Component {
         } else {
             styles = {'display': 'none'}
         }
+        let tradeForm;
+        let showBtn;
+        let role = this.props.userRole;
+        if (role == 'user' || role == 'admin') {
+            showBtn = <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
+            tradeForm = <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} userName={this.props.userName} userRole={this.props.userRole} />    
+        } else {
+            tradeForm = "";
+            showBtn = "";
+        }
 
     
         return (
@@ -189,8 +199,8 @@ export default class TradePage extends Component {
                         <h3 className="pageTopBar-title">{this.state.pageTitle}</h3>
                         <h4 className="pageTopBar-meta">{trade_value} items</h4>
                     </div>
-                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
-                    <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} userName={this.props.userName}/>              
+                    {showBtn}
+                    {tradeForm}
                     <div className="page-content">
                         <section className="sectionItemList">
                             <div className="mdl-grid">
@@ -199,8 +209,8 @@ export default class TradePage extends Component {
                                         <input type="text" className="searcField-input" onChange={this.handleSearch} placeholder="enter pokemon name" />
                                     </div>
                                     <TradeList tradeList={this.state.trade_list} />
-                                    <ul style={styles}>
-                                        <li><a href="#" onClick={this.pagiClick}>loadMore</a></li>
+                                    <ul style={styles} className="tradeList-loadMore">
+                                        <li><a href="#" onClick={this.pagiClick}>Load More</a></li>
                                     </ul>
                                 </div>
                             </div>

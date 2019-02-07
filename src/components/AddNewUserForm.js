@@ -36,7 +36,7 @@ export default class AddNewUserForm extends Component {
         return (
             <div className="mdl-card mdl-shadow--2dp">
                 <div className="mdl-card__supporting-text">
-                    <p>Add new user form</p>
+                    <h4>Add new user form</h4>
                     <form ref="addNewUserForm" action="#" onSubmit={this.handleForm}>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input ref="userName" type="text" className="mdl-textfield__input" id="userName" />

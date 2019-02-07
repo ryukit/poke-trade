@@ -27,7 +27,7 @@ export default class HomePage extends Component {
             if (role == "admin"){
                 addNewUser = <AddNewUserForm />
             } else {
-                addNewUser = 'Sorry you don not have any additional functionality';
+                addNewUser = '';
             }
         }
         return (
@@ -37,13 +37,28 @@ export default class HomePage extends Component {
                         <section className="sectionItemList">
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
-                                    <ul className="">
+                                    {/* <ul className="">
                                         <li><NavLink to='/trades'>Trades</NavLink></li>
                                         <li><NavLink to='/pokedex'>Pokedex</NavLink></li>
-                                    </ul>
-                                    {user}-{role}
-                                    {authForm}
-                                    {addNewUser}
+                                    </ul> */}
+                                
+                                    <div>
+                                        {(() => {
+                                            if (role == "admin" || role == "user"){
+                                                return (
+                                                    <h1 className="homePage-title" data-role={role}>Hello {user}</h1>
+                                                );
+                                            } else {
+                                                return (
+                                                    <h1 className="homePage-title" data-role="guest">Hello guest, please login or contact Admin</h1>
+                                                );
+                                            }
+                                        })()}
+                                    </div>
+                                    <div className="homePage-functional">
+                                        {authForm}
+                                        {addNewUser}
+                                    </div>
                                 </div>
                             </div>
                         </section>

@@ -75,6 +75,7 @@ export default class TradeAddForm extends Component {
         let userFieldData;
         let userFieldEditable;
         let user = this.props.userName;
+        let role = this.props.userRole;
         if (user !== undefined){
             userFieldData = user;
             userFieldEditable = "disabled";
@@ -87,11 +88,23 @@ export default class TradeAddForm extends Component {
             <div className="mdl-card mdl-shadow--2dp addForm" style={styles}>
                 <div className="mdl-card__supporting-text">
                     <form ref="addTradeForm" action="#" onSubmit={this.handleForm}>
-                        <div className="mdl-textfield mdl-js-textfield">
-
-                            <input ref="user_name" type="text" className="mdl-textfield__input" disabled={userFieldEditable} id="sample1" value={userFieldData}/>
-                            <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
-                        </div>
+                        {(() => {
+                            if (role == "user" || role == "admin"){
+                                return (
+                                    <div className="mdl-textfield mdl-js-textfield u-display--none">
+                                        <input ref="user_name" type="text" className="mdl-textfield__input" disabled={userFieldEditable || 'false'} id="sample1" value={userFieldData || ''}/>
+                                        <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
+                                    </div>
+                                );
+                            } else {
+                                return (
+                                    <div className="mdl-textfield mdl-js-textfield">
+                                        <input ref="user_name" type="text" className="mdl-textfield__input" id="sample1" />
+                                        <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
+                                    </div>
+                                );
+                            }
+                        })()}
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input ref="sp_pokemon" type="text" className="mdl-textfield__input" id="sample4" />
                             <label className="mdl-textfield__label" htmlFor="sample4">Enter Pokemon for trade</label>

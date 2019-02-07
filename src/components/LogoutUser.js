@@ -24,7 +24,7 @@ export default class LogoutUser extends Component {
             <div className="mdl-card mdl-shadow--2dp">
                 <div className="mdl-card__supporting-text">
                     <form ref="logOut" action="#" onSubmit={this.handleForm}>
-                    	<p>You are already logged</p>
+                    	<h4>You are already logged</h4>
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
                             Log Out
                         </button>
