@@ -5,11 +5,19 @@ export default class Links extends Component {
 	constructor(props) {
         super(props)
         this.onLinkClick = this.onLinkClick.bind(this)
+        this.loginMe = this.loginMe.bind(this)
     }
 
     onLinkClick(){
     	let button = document.getElementsByClassName('mdl-layout__drawer-button')[0];
     	button.click();
+    }
+
+    loginMe(){
+    	localStorage.setItem('loginID', "101");
+    	debugger;
+    	//localStorage.removeItem('loginID');
+    	debugger;
     }
 
     render() {

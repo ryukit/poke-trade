@@ -72,6 +72,16 @@ export default class TradeAddForm extends Component {
         var styles = {
             right: display
         };
+        let userFieldData;
+        let userFieldEditable;
+        let user = this.props.userName;
+        if (user !== undefined){
+            userFieldData = user;
+            userFieldEditable = "disabled";
+        }else {
+            userFieldData = "";
+            userFieldEditable = "false";
+        }
 
         return (
             <div className="mdl-card mdl-shadow--2dp addForm" style={styles}>
@@ -79,7 +89,7 @@ export default class TradeAddForm extends Component {
                     <form ref="addTradeForm" action="#" onSubmit={this.handleForm}>
                         <div className="mdl-textfield mdl-js-textfield">
 
-                            <input ref="user_name" type="text" className="mdl-textfield__input" id="sample1" />
+                            <input ref="user_name" type="text" className="mdl-textfield__input" disabled={userFieldEditable} id="sample1" value={userFieldData}/>
                             <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
                         </div>
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

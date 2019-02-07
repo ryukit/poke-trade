@@ -190,7 +190,7 @@ export default class TradePage extends Component {
                         <h4 className="pageTopBar-meta">{trade_value} items</h4>
                     </div>
                     <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
-                    <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} />              
+                    <TradeAddForm displayed={this.state.formDisplayed} onNewTrade={this.onNewTrade} userName={this.props.userName}/>              
                     <div className="page-content">
                         <section className="sectionItemList">
                             <div className="mdl-grid">

@@ -25,6 +25,16 @@ export default class Layout extends Component {
 			items: []
 		}
 	}
+    componentWillMount(){
+        // var user = localStorage.getItem('userName');
+        // var role = localStorage.getItem('userRole');
+        // if (user !== undefined) {
+        //     this.setState({
+        //         userName: user,
+        //         userRole: role
+        //     });
+        // }
+    }
 
 	render() {
         const tradeList=this.state.trade_list;

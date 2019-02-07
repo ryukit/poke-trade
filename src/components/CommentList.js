@@ -77,6 +77,17 @@ export default class CommentList extends Component {
                 timeStamp={item.timeStamp}
             />
         });
+
+        let userFieldData;
+        let userFieldEditable;
+        let user = this.props.userName;
+        if (user !== undefined){
+            userFieldData = user;
+            userFieldEditable = "disabled";
+        }else {
+            userFieldData = "";
+            userFieldEditable = "false";
+        }
     
         return (
             <div className="small-container mdl-shadow--2dp commentSection">
@@ -85,7 +96,7 @@ export default class CommentList extends Component {
                         <form ref="addNewCommentForm" action="#" onSubmit={this.handleForm}>
                             <h4>Leave a comment</h4>
                             <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input ref="comment_user_name" type="text" className="mdl-textfield__input" id="sample1" />
+                                <input ref="comment_user_name" type="text" className="mdl-textfield__input" id="sample1" disabled={userFieldEditable} value={userFieldData} />
                                 <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
                             </div>
                             <div className="mdl-textfield mdl-js-textfield">
