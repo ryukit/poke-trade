@@ -77,15 +77,14 @@ export default class TradePage extends Component {
     }
 
 	render() {
-    
         return (
             <div>
                 <main className="mdl-layout__content">            
                     <div className="page-content">
                         <section className="sectionItemList">
                             <div className="mdl-grid">
-                                <div className="mdl-cell mdl-cell--12-col">
-                                    <TradeTicket item={this.state.item} />
+                                <div className="mdl-cell mdl-cell--12-col">                       
+                                    <TradeTicket item={this.state.item} userName={this.props.userName} userRole={this.props.userRole}/>
                                     <CommentList comments={this.state.comments} onNewComment={this.onNewComment} userName={this.props.userName} userRole={this.props.userRole}/>
                                 </div>
                             </div>

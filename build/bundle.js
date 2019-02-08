@@ -1281,7 +1281,7 @@ var _prodInvariant = __webpack_require__(4),
 var CallbackQueue = __webpack_require__(75);
 var PooledClass = __webpack_require__(18);
 var ReactFeatureFlags = __webpack_require__(80);
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 var Transaction = __webpack_require__(37);
 
 var invariant = __webpack_require__(1);
@@ -2280,6 +2280,69 @@ module.exports = PooledClass;
 
 /***/ }),
 /* 19 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(216);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(217);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(96);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(218);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(219);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(220);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(221);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(97);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(59);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(222);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(223);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__generatePath__ = __webpack_require__(224);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return __WEBPACK_IMPORTED_MODULE_11__generatePath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__matchPath__ = __webpack_require__(225);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_12__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__withRouter__ = __webpack_require__(226);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_13__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2624,7 +2687,7 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2651,7 +2714,7 @@ module.exports = ReactElement;
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2772,7 +2835,7 @@ DOMLazyTree.queueText = queueText;
 module.exports = DOMLazyTree;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2942,69 +3005,6 @@ module.exports = ReactReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 23 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(216);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(217);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(96);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(219);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(220);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(221);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(97);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(59);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(222);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(223);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__generatePath__ = __webpack_require__(224);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return __WEBPACK_IMPORTED_MODULE_11__generatePath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__matchPath__ = __webpack_require__(225);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_12__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__withRouter__ = __webpack_require__(226);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_13__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3024,7 +3024,7 @@ var _assign = __webpack_require__(5);
 var ReactBaseClasses = __webpack_require__(101);
 var ReactChildren = __webpack_require__(236);
 var ReactDOMFactories = __webpack_require__(237);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 var ReactPropTypes = __webpack_require__(239);
 var ReactVersion = __webpack_require__(241);
 
@@ -5285,7 +5285,7 @@ module.exports = ReactPropTypesSecret;
 
 
 
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var Danger = __webpack_require__(151);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(10);
@@ -7322,6 +7322,8 @@ var CommentItem = function (_Component) {
 	}, {
 		key: "render",
 		value: function render() {
+			var _this2 = this;
+
 			var timestamp = this.props.timeStamp;
 			var a = new Date(timestamp);
 			var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -7358,11 +7360,15 @@ var CommentItem = function (_Component) {
 				_react2.default.createElement(
 					"div",
 					null,
-					_react2.default.createElement(
-						"a",
-						{ href: "#", onClick: this.openPopup },
-						"open attachment"
-					)
+					function () {
+						if (_this2.props.image !== '') {
+							return _react2.default.createElement(
+								"a",
+								{ href: "#", onClick: _this2.openPopup },
+								"open attachment"
+							);
+						}
+					}()
 				)
 			);
 		}
@@ -7507,33 +7513,18 @@ var PokemonAddForm = function (_Component) {
                         { ref: 'feedForm', action: '#', onSubmit: this.handleForm },
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'name', type: 'text', className: 'mdl-textfield__input', id: 'sample1' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample1' },
-                                'name...'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'name', type: 'text', className: 'custom-textfield__input', id: 'sample1', placeholder: 'name...' })
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'dex_number', type: 'text', className: 'mdl-textfield__input', id: 'sample4' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample4' },
-                                'dex number'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'dex_number', type: 'text', className: 'custom-textfield__input', id: 'sample4', placeholder: 'dex number' })
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'desc', type: 'text', className: 'mdl-textfield__input', id: 'sample2' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample2' },
-                                'Description'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'desc', type: 'text', className: 'custom-textfield__input', id: 'sample2', placeholder: 'Description' })
                         ),
                         _react2.default.createElement(
                             'p',
@@ -9837,7 +9828,7 @@ module.exports = ReactInputSelection;
 
 var _prodInvariant = __webpack_require__(4);
 
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var DOMProperty = __webpack_require__(16);
 var React = __webpack_require__(24);
 var ReactBrowserEventEmitter = __webpack_require__(35);
@@ -9849,7 +9840,7 @@ var ReactFeatureFlags = __webpack_require__(80);
 var ReactInstanceMap = __webpack_require__(29);
 var ReactInstrumentation = __webpack_require__(10);
 var ReactMarkupChecksum = __webpack_require__(183);
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 var ReactUpdateQueue = __webpack_require__(51);
 var ReactUpdates = __webpack_require__(12);
 
@@ -11178,7 +11169,7 @@ module.exports = traverseAllChildren;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -12120,7 +12111,7 @@ module.exports = REACT_ELEMENT_TYPE;
 
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactComponentTreeHook = __webpack_require__(8);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var checkReactTypeSpec = __webpack_require__(242);
 
@@ -12517,7 +12508,7 @@ var _Layout = __webpack_require__(120);
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13286,13 +13277,8 @@ var TradeAddForm = function (_Component) {
                         }(),
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'sp_pokemon', type: 'text', className: 'mdl-textfield__input', id: 'sample4' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample4' },
-                                'Enter Pokemon for trade'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'sp_pokemon', type: 'text', className: 'custom-textfield__input', id: 'sample4', placeholder: 'Enter Pokemon for trade' })
                         ),
                         _react2.default.createElement(
                             'a',
@@ -13302,13 +13288,8 @@ var TradeAddForm = function (_Component) {
                         _react2.default.createElement('input', { ref: 'sp_trade_shiny', type: 'hidden', id: 'sp_trade_shiny', className: 'is-hidden', value: 'false' }),
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'rec_pokemon', type: 'text', className: 'mdl-textfield__input', id: 'sample5' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample5' },
-                                'Enter required Pokemon'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'rec_pokemon', type: 'text', className: 'custom-textfield__input', id: 'sample5', placeholder: 'Enter required Pokemon' })
                         ),
                         _react2.default.createElement(
                             'a',
@@ -13318,13 +13299,8 @@ var TradeAddForm = function (_Component) {
                         _react2.default.createElement('input', { ref: 'rec_trade_shiny', type: 'hidden', id: 'rec_trade_shiny', className: 'is-hidden', value: 'false' }),
                         _react2.default.createElement(
                             'div',
-                            { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                            _react2.default.createElement('input', { ref: 'ad_info', type: 'text', className: 'mdl-textfield__input', id: 'sample2' }),
-                            _react2.default.createElement(
-                                'label',
-                                { className: 'mdl-textfield__label', htmlFor: 'sample2' },
-                                'More info here...'
-                            )
+                            { className: 'custom-textfield' },
+                            _react2.default.createElement('input', { ref: 'ad_info', type: 'text', className: 'custom-textfield__input', id: 'sample2', placeholder: 'More info here...' })
                         ),
                         _react2.default.createElement(
                             'div',
@@ -13375,7 +13351,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13522,6 +13498,8 @@ var TradeTicket = function (_Component) {
         key: 'render',
         value: function render() {
             var onNewComment = this.props.onNewComment;
+            var userName = this.props.userName;
+            var userRole = this.props.userRole;
             var tradeTicketInfo = this.props.item.map(function (item) {
                 return _react2.default.createElement(_TradeTicketInfo2.default, {
                     id: item.id,
@@ -13533,7 +13511,9 @@ var TradeTicket = function (_Component) {
                     attachment_image: item.attachment_image,
                     sp_trade_shiny: item.sp_trade_shiny,
                     rec_trade_shiny: item.rec_trade_shiny,
-                    onNewComment: onNewComment
+                    onNewComment: onNewComment,
+                    userName: userName,
+                    userRole: userRole
                 });
             });
 
@@ -13567,6 +13547,8 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(19);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -13581,15 +13563,28 @@ var TradeTicketInfo = function (_Component) {
     function TradeTicketInfo(props) {
         _classCallCheck(this, TradeTicketInfo);
 
-        return _possibleConstructorReturn(this, (TradeTicketInfo.__proto__ || Object.getPrototypeOf(TradeTicketInfo)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (TradeTicketInfo.__proto__ || Object.getPrototypeOf(TradeTicketInfo)).call(this, props));
+
+        _this.deleteTradeItem = _this.deleteTradeItem.bind(_this);
+        return _this;
     }
 
     _createClass(TradeTicketInfo, [{
         key: 'componentDidMount',
         value: function componentDidMount() {}
     }, {
+        key: 'deleteTradeItem',
+        value: function deleteTradeItem() {
+            var requiredId = void 0;
+            requiredId = this.props.id;
+            var ref = new firebase.database().ref('trade_ticket/');
+            ref.child(requiredId).remove();
+        }
+    }, {
         key: 'render',
         value: function render() {
+            var _this2 = this;
+
             var styles = {
                 'background': 'url(' + this.props.attachment_image + ') top center no-repeat #46B6AC'
             };
@@ -13605,9 +13600,29 @@ var TradeTicketInfo = function (_Component) {
             }
             var commentListArray = this.props.comment_list;
 
+            var user = this.props.userName;
+            var role = this.props.userRole;
+
             return _react2.default.createElement(
                 'div',
                 { className: 'mdl-grid mdl-grid--no-spacing ticketInfo' },
+                function () {
+                    if (role == "admin" || user == _this2.props.user_name) {
+                        return _react2.default.createElement(
+                            _reactRouterDom.NavLink,
+                            { to: '/trades',
+                                onClick: _this2.deleteTradeItem,
+                                className: 'mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored addItem success removeBtn' },
+                            _react2.default.createElement(
+                                'i',
+                                { className: 'material-icons' },
+                                'add'
+                            )
+                        );
+                    } else {
+                        return "";
+                    }
+                }(),
                 _react2.default.createElement('header', { className: 'ticketImage mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone', style: styles }),
                 _react2.default.createElement(
                     'div',
@@ -13762,37 +13777,22 @@ var CommentForm = function (_Component) {
                         if (role == "user" || role == "admin") {
                             return _react2.default.createElement(
                                 'div',
-                                { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label u-display--none' },
-                                _react2.default.createElement('input', { ref: 'comment_user_name', type: 'text', className: 'mdl-textfield__input', id: 'sample1', disabled: userFieldEditable, value: userFieldData }),
-                                _react2.default.createElement(
-                                    'label',
-                                    { className: 'mdl-textfield__label', htmlFor: 'sample1' },
-                                    'Enter your game nickname'
-                                ),
+                                { className: 'custom-textfield u-display--none' },
+                                _react2.default.createElement('input', { ref: 'comment_user_name', type: 'text', className: 'custom-textfield__input', id: 'sample1', placeholder: 'Enter your game nickname', disabled: userFieldEditable, value: userFieldData }),
                                 user
                             );
                         } else {
                             return _react2.default.createElement(
                                 'div',
-                                { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                                _react2.default.createElement('input', { ref: 'comment_user_name', type: 'text', className: 'mdl-textfield__input', id: 'sample1' }),
-                                _react2.default.createElement(
-                                    'label',
-                                    { className: 'mdl-textfield__label', htmlFor: 'sample1' },
-                                    'Enter your game nickname'
-                                )
+                                { className: 'custom-textfield' },
+                                _react2.default.createElement('input', { ref: 'comment_user_name', type: 'text', className: 'custom-textfield__input', id: 'sample1', placeholder: 'Enter your game nickname' })
                             );
                         }
                     }(),
                     _react2.default.createElement(
                         'div',
-                        { className: 'mdl-textfield mdl-js-textfield' },
-                        _react2.default.createElement('textarea', { ref: 'comment_textarea', className: 'mdl-textfield__input', type: 'text', rows: '3', id: 'comment_textarea' }),
-                        _react2.default.createElement(
-                            'label',
-                            { className: 'mdl-textfield__label', htmlFor: 'comment_textarea' },
-                            'Enter your message'
-                        )
+                        { className: 'custom-textfield' },
+                        _react2.default.createElement('textarea', { ref: 'comment_textarea', className: 'custom-textfield__input', type: 'text', rows: '3', id: 'comment_textarea', placeholder: 'Enter your message' })
                     ),
                     _react2.default.createElement(
                         'div',
@@ -13842,7 +13842,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13944,7 +13944,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 var _TradePage = __webpack_require__(123);
 
@@ -14052,7 +14052,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 var _AddNewUserForm = __webpack_require__(107);
 
@@ -14188,7 +14188,7 @@ var _PokemonAddForm = __webpack_require__(64);
 
 var _PokemonAddForm2 = _interopRequireDefault(_PokemonAddForm);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 var _routes = __webpack_require__(118);
 
@@ -14559,7 +14559,6 @@ var TradePage = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
-
             return _react2.default.createElement(
                 'div',
                 null,
@@ -14578,7 +14577,7 @@ var TradePage = function (_Component) {
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'mdl-cell mdl-cell--12-col' },
-                                    _react2.default.createElement(_TradeTicket2.default, { item: this.state.item }),
+                                    _react2.default.createElement(_TradeTicket2.default, { item: this.state.item, userName: this.props.userName, userRole: this.props.userRole }),
                                     _react2.default.createElement(_CommentList2.default, { comments: this.state.comments, onNewComment: this.onNewComment, userName: this.props.userName, userRole: this.props.userRole })
                                 )
                             )
@@ -18629,7 +18628,7 @@ module.exports = ChangeEventPlugin;
 
 var _prodInvariant = __webpack_require__(4);
 
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var ExecutionEnvironment = __webpack_require__(7);
 
 var createNodesFromMarkup = __webpack_require__(129);
@@ -19145,7 +19144,7 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 
 var instantiateReactComponent = __webpack_require__(92);
 var KeyEscapeUtils = __webpack_require__(47);
@@ -19343,7 +19342,7 @@ var ReactErrorUtils = __webpack_require__(50);
 var ReactInstanceMap = __webpack_require__(29);
 var ReactInstrumentation = __webpack_require__(10);
 var ReactNodeTypes = __webpack_require__(84);
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 
 if (process.env.NODE_ENV !== 'production') {
   var checkReactTypeSpec = __webpack_require__(206);
@@ -20242,7 +20241,7 @@ module.exports = ReactCompositeComponent;
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactDefaultInjection = __webpack_require__(176);
 var ReactMount = __webpack_require__(83);
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 var ReactUpdates = __webpack_require__(12);
 var ReactVersion = __webpack_require__(191);
 
@@ -20359,7 +20358,7 @@ var _prodInvariant = __webpack_require__(4),
 
 var AutoFocusUtils = __webpack_require__(147);
 var CSSPropertyOperations = __webpack_require__(149);
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var DOMNamespaces = __webpack_require__(45);
 var DOMProperty = __webpack_require__(16);
 var DOMPropertyOperations = __webpack_require__(76);
@@ -21409,7 +21408,7 @@ module.exports = ReactDOMContainerInfo;
 
 var _assign = __webpack_require__(5);
 
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(6);
 
 var ReactDOMEmptyComponent = function (instantiate) {
@@ -22308,7 +22307,7 @@ var _prodInvariant = __webpack_require__(4),
     _assign = __webpack_require__(5);
 
 var DOMChildrenOperations = __webpack_require__(44);
-var DOMLazyTree = __webpack_require__(21);
+var DOMLazyTree = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(6);
 
 var escapeTextContentForBrowser = __webpack_require__(38);
@@ -23806,7 +23805,7 @@ var ReactInstanceMap = __webpack_require__(29);
 var ReactInstrumentation = __webpack_require__(10);
 
 var ReactCurrentOwner = __webpack_require__(13);
-var ReactReconciler = __webpack_require__(22);
+var ReactReconciler = __webpack_require__(23);
 var ReactChildReconciler = __webpack_require__(156);
 
 var emptyFunction = __webpack_require__(11);
@@ -26849,7 +26848,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(59);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -26915,7 +26914,7 @@ BrowserRouter.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(59);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -27154,7 +27153,7 @@ NavLink.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(60);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -27313,7 +27312,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__generatePath__ = __webpack_require__(99);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -27442,7 +27441,7 @@ Redirect.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(60);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -27939,7 +27938,7 @@ module.exports = PooledClass;
 
 
 var PooledClass = __webpack_require__(235);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var emptyFunction = __webpack_require__(11);
 var traverseAllChildren = __webpack_require__(246);
@@ -28132,7 +28131,7 @@ module.exports = ReactChildren;
 
 
 
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -28334,7 +28333,7 @@ module.exports = ReactPropTypeLocationNames;
 
 
 
-var _require = __webpack_require__(19),
+var _require = __webpack_require__(20),
     isValidElement = _require.isValidElement;
 
 var factory = __webpack_require__(72);
@@ -28487,7 +28486,7 @@ module.exports = checkReactTypeSpec;
 var _require = __webpack_require__(101),
     Component = _require.Component;
 
-var _require2 = __webpack_require__(19),
+var _require2 = __webpack_require__(20),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(104);
@@ -28535,7 +28534,7 @@ module.exports = getNextDebugID;
 
 var _prodInvariant = __webpack_require__(25);
 
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var invariant = __webpack_require__(1);
 

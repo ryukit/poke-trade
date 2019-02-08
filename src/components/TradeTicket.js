@@ -9,6 +9,8 @@ export default class TradeTicket extends Component {
 
 	render() {
         let onNewComment = this.props.onNewComment;
+        let userName = this.props.userName;
+        let userRole = this.props.userRole;
         const tradeTicketInfo = this.props.item.map(function (item) {
             return <TradeTicketInfo
                 id={item.id}
@@ -21,6 +23,8 @@ export default class TradeTicket extends Component {
                 sp_trade_shiny={item.sp_trade_shiny}
                 rec_trade_shiny={item.rec_trade_shiny}
                 onNewComment={onNewComment}
+                userName={userName} 
+                userRole={userRole}
             />
         });
     

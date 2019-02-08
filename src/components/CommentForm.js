@@ -64,25 +64,22 @@ export default class CommentForm extends Component {
                     {(() => {
                         if (role == "user" || role == "admin"){
                             return (
-                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label u-display--none">
-			                        <input ref="comment_user_name" type="text" className="mdl-textfield__input" id="sample1" disabled={userFieldEditable} value={userFieldData} />
-			                        <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
+                                <div className="custom-textfield u-display--none">
+			                        <input ref="comment_user_name" type="text" className="custom-textfield__input" id="sample1" placeholder="Enter your game nickname" disabled={userFieldEditable} value={userFieldData} />
 			                    	{user}
 			                    </div>
                             );
                         } else {
                         	return (
-                        		<div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-			                        <input ref="comment_user_name" type="text" className="mdl-textfield__input" id="sample1" />
-			                        <label className="mdl-textfield__label" htmlFor="sample1">Enter your game nickname</label>
+                        		<div className="custom-textfield">
+			                        <input ref="comment_user_name" type="text" className="custom-textfield__input" id="sample1" placeholder="Enter your game nickname"/>
 			                    </div>
                         	);
                         }
                     })()}
 
-                    <div className="mdl-textfield mdl-js-textfield">
-                        <textarea ref="comment_textarea" className="mdl-textfield__input" type="text" rows= "3" id="comment_textarea"></textarea>
-                        <label className="mdl-textfield__label" htmlFor="comment_textarea">Enter your message</label>
+                    <div className="custom-textfield">
+                        <textarea ref="comment_textarea" className="custom-textfield__input" type="text" rows= "3" id="comment_textarea" placeholder="Enter your message"></textarea>
                     </div>
                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
                         <input className="mdl-textfield__input" placeholder="File" type="text" id="comment_image_field_status" readOnly />

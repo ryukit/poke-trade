@@ -105,25 +105,22 @@ export default class TradeAddForm extends Component {
                                 );
                             }
                         })()}
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="sp_pokemon" type="text" className="mdl-textfield__input" id="sample4" />
-                            <label className="mdl-textfield__label" htmlFor="sample4">Enter Pokemon for trade</label>
+                        <div className="custom-textfield">
+                            <input ref="sp_pokemon" type="text" className="custom-textfield__input" id="sample4" placeholder="Enter Pokemon for trade" />
                         </div>
                         <a href="#" className="shinyCheck" data-shiny="false" data-self="sp_trade_shiny" onClick={this.shinyToggle}>
                             Shiny
                         </a>
                         <input ref="sp_trade_shiny" type="hidden" id="sp_trade_shiny" className="is-hidden" value="false"/>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="rec_pokemon" type="text" className="mdl-textfield__input" id="sample5" />
-                            <label className="mdl-textfield__label" htmlFor="sample5">Enter required Pokemon</label>
+                        <div className="custom-textfield">
+                            <input ref="rec_pokemon" type="text" className="custom-textfield__input" id="sample5" placeholder="Enter required Pokemon"/>
                         </div>
                         <a href="#" className="shinyCheck" data-shiny="false" data-self="rec_trade_shiny" onClick={this.shinyToggle}>
                             Shiny
                         </a>
                         <input ref="rec_trade_shiny" type="hidden" id="rec_trade_shiny" className="is-hidden" value="false"/>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="ad_info" type="text" className="mdl-textfield__input" id="sample2" />
-                            <label className="mdl-textfield__label" htmlFor="sample2">More info here...</label>
+                        <div className="custom-textfield">
+                            <input ref="ad_info" type="text" className="custom-textfield__input" id="sample2" placeholder="More info here..."/>
                         </div> 
                         <div className="mdl-textfield mdl-js-textfield mdl-textfield--file">
                             <input className="mdl-textfield__input" placeholder="File" type="text" id="trade_attachment_status" readOnly />

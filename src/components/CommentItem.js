@@ -47,7 +47,13 @@ export default class CommentItem extends Component {
 	        	<div>{this.props.comment_text}</div>
 	        	<div>{time}</div>
 	        	<div>
-	        		<a href="#" onClick={this.openPopup}>open attachment</a>
+		        	{(() => {
+	                    if (this.props.image !== ''){
+	                        return (
+	                            <a href="#" onClick={this.openPopup}>open attachment</a>
+	                        );
+	                    }
+	                })()}
         		</div>
 			</div>
         );

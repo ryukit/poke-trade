@@ -1,15 +1,21 @@
 import React, {Component} from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export default class TradeTicketInfo extends Component {
 	constructor(props) {
         super(props)
-    	
+    	this.deleteTradeItem = this.deleteTradeItem.bind(this)
     }
-
-    
 
     componentDidMount() {
         
+    }
+
+    deleteTradeItem(){
+        let requiredId;
+        requiredId = this.props.id;
+        var ref = new firebase.database().ref('trade_ticket/');
+        ref.child(requiredId).remove();
     }
 
 	render() {
@@ -27,9 +33,27 @@ export default class TradeTicketInfo extends Component {
         	recShinyText = ( <i className="shinyLabel"></i> );
         }
         let commentListArray = this.props.comment_list;
-      
+        
+        let user = this.props.userName;
+        let role = this.props.userRole;
+
         return (
             <div className="mdl-grid mdl-grid--no-spacing ticketInfo">
+                {(() => {
+                    if (role == "admin" || user == this.props.user_name ){
+                        return (
+                            <NavLink to="/trades" 
+                                     onClick={this.deleteTradeItem} 
+                                     className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored addItem success removeBtn">
+                                    <i className="material-icons">add</i>
+                            </NavLink>
+                        );
+                    } else {
+                        return (
+                            ""
+                        );
+                    }
+                })()}
                 <header className="ticketImage mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone"  style={styles}>
                     
                 </header>

@@ -90,17 +90,14 @@ export default class PokemonAddForm extends Component {
             <div className="mdl-card mdl-shadow--2dp addForm" style={styles}>
                 <div className="mdl-card__supporting-text">
                     <form ref="feedForm" action="#" onSubmit={this.handleForm}>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="name" type="text" className="mdl-textfield__input" id="sample1" />
-                            <label className="mdl-textfield__label" htmlFor="sample1">name...</label>
+                        <div className="custom-textfield">
+                            <input ref="name" type="text" className="custom-textfield__input" id="sample1" placeholder="name..." />
                         </div>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="dex_number" type="text" className="mdl-textfield__input" id="sample4" />
-                            <label className="mdl-textfield__label" htmlFor="sample4">dex number</label>
+                        <div className="custom-textfield">
+                            <input ref="dex_number" type="text" className="custom-textfield__input" id="sample4" placeholder="dex number" />
                         </div>
-                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input ref="desc" type="text" className="mdl-textfield__input" id="sample2" />
-                            <label className="mdl-textfield__label" htmlFor="sample2">Description</label>
+                        <div className="custom-textfield">
+                            <input ref="desc" type="text" className="custom-textfield__input" id="sample2" placeholder="Description" />
                         </div>
                         <p>Select type:</p>
                         <ul className="TypeOptions js-typeToggle">
