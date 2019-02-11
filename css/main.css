@@ -552,7 +552,7 @@ body {
     outline: none;
 }
 .custom-textfield__input:placeholder {
-    color: rgba(0,0,0,.12);;
+    color: rgba(0,0,0,.12);
 }
 .custom-textfield__input:focus {
     border-bottom-color: #f00;

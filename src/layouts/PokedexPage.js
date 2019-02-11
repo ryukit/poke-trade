@@ -24,8 +24,9 @@ export default class PokedexPage extends Component {
     }
 
     onRemoveItem(itemId) {
-        var ref = new firebase.database().ref('pokedex/');
-        ref.child(itemId).remove();
+        // var ref = new firebase.database().ref('pokedex/');
+        // ref.child(itemId).remove();
+        debugger;
     }
 
     onToggleForm() {
@@ -60,12 +61,43 @@ export default class PokedexPage extends Component {
 
     }
 
+    renderList(data) {
+        console.log(data.length);
+    }
+
     componentDidMount() {
+        let $this = this;
         this.loadPokedexData();
+
+        var getJSON = function(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.responseType = 'json';
+            xhr.onload = function() {
+                var status = xhr.status;
+                if (status === 200) {
+                    callback(null, xhr.response);
+                } else {
+                    callback(status, xhr.response);
+                }
+            };
+            xhr.send();
+        };
+
+        getJSON('../src/poke-data/pokedex.json',
+        function(err, data) {
+            if (err !== null) {
+                
+            } else {
+                $this.renderList(data);
+                $this.setState({
+                    items_list: JSON.stringify(data)
+                });
+            }
+        });
     }
 
 	render() {
-    
         return (
             <div>
                 <main className="mdl-layout__content">
@@ -75,7 +107,7 @@ export default class PokedexPage extends Component {
                         <section className="sectionItemList">
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
-                                    <PokemonList items={this.state.items} onRemoveItem={this.onRemoveItem} />
+                                    <PokemonList items={this.state.items_list} onRemoveItem={this.onRemoveItem} />
                                 </div>
                             </div>
                         </section>

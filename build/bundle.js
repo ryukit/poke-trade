@@ -7808,33 +7808,55 @@ var PokemonList = function (_Component) {
     }
 
     _createClass(PokemonList, [{
-        key: "render",
+        key: 'render',
         value: function render() {
+            var pokemonItems = '';
+            //console.log('this.props.items', this.props.items)
+            var data = this.props.items;
+            //debugger;
+            if (data !== undefined) {
+                data = JSON.parse(this.props.items);
+                var pokemonItems = data.map(function (item) {
+                    return _react2.default.createElement(_PokemonItem2.default, {
+                        id: item.id,
+                        key: item.id,
+                        dex_number: item.id,
+                        name: item.name,
+                        image: item.id,
+                        description: item.base,
+                        pokeType: item.type,
+                        isShiny: item.id,
+                        onRemoveItem: this.props.onRemoveItem
+                    });
+                }.bind(this));
+            }
+            // if ( data !== undefined ){
+            //     let $block = document.getElementById('wow');
+            //     debugger;
+            //     // for ( let i=0; i < 100; i++ ) {
+            //     //     var item = document.createElement("div");
+            //     //         item.append(data[i].dex + data[i].name);
+            //     //         $block.append(item);
+            //     // }
 
-            var pokemonItems = this.props.items.map(function (item) {
-                return _react2.default.createElement(_PokemonItem2.default, {
-                    id: item.id,
-                    key: item.id,
-                    dex_number: item.dex_number,
-                    name: item.name,
-                    image: item.image,
-                    description: item.description,
-                    pokeType: item.poke_type,
-                    isShiny: item.is_shiny,
-                    onRemoveItem: this.props.onRemoveItem
-                });
-            }.bind(this));
+            //     var result = data.reduce(function(map, obj) {
+            //         map[obj.key] = obj.val;
+            //         return map;
+            //     }, {});
+
+            //     console.log(result);
+            // }
 
             return _react2.default.createElement(
-                "div",
-                { className: "itemList small-container" },
-                _react2.default.createElement("div", { className: "mdl-spinner mdl-js-spinner is-active itemList-spinner" }),
+                'div',
+                { className: 'itemList small-container' },
+                _react2.default.createElement('div', { className: 'mdl-spinner mdl-js-spinner is-active itemList-spinner' }),
                 _react2.default.createElement(
-                    "table",
-                    { className: "mdl-data-table mdl-shadow--2dp" },
+                    'table',
+                    { className: 'mdl-data-table mdl-shadow--2dp' },
                     _react2.default.createElement(
-                        "tbody",
-                        null,
+                        'tbody',
+                        { id: 'wow' },
                         pokemonItems
                     )
                 )
@@ -13037,12 +13059,12 @@ var PokemonItem = function (_Component) {
 			var typeStr = this.props.pokeType;
 			var currId = this.props.id;
 			if (typeof typeStr !== 'undefined') {
-				var typeArr = typeStr.split(',');
+				//let typeArr = typeStr.split(',');
 
 				var tempVar = '';
 
-				for (var i = 0; i < typeArr.length; i++) {
-					tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' + typeArr[i] + '-type-img positionTypeOption">&nbsp;</span></li>';
+				for (var i = 0; i < typeStr.length; i++) {
+					tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' + typeStr[i].toLowerCase() + '-type-img positionTypeOption">&nbsp;</span></li>';
 				}
 				var currTypeBlock = document.getElementById(currId).getElementsByClassName('js-pokeType')[0];
 				currTypeBlock.insertAdjacentHTML('beforeend', tempVar);
@@ -13052,10 +13074,18 @@ var PokemonItem = function (_Component) {
 		key: 'render',
 		value: function render() {
 			var shinyText = '';
-			var shinyVal = this.props.isShiny;
-			if (shinyVal == 'true') {
-				shinyText = '*Has shiny version';
-			}
+			var shinyVal = '';
+			var val = this.props.id;
+
+			while ((val + "").length < 3) {
+				val = "0" + val;
+			}var name = this.props.name.english;
+			var formatedName = name.replace(/[^0-9a-z]/gi, '');
+			var imgSrc = 'src/thumbnails/' + val + formatedName + '.png';
+			// let shinyVal = this.props.isShiny;
+			// if ( shinyVal == 'true' ){
+			// 	shinyText = '*Has shiny version'
+			// }
 
 			return _react2.default.createElement(
 				'tr',
@@ -13068,7 +13098,7 @@ var PokemonItem = function (_Component) {
 				_react2.default.createElement(
 					'td',
 					{ width: '80', className: 'mdl-data-table__cell--non-numeric' },
-					_react2.default.createElement('img', { src: this.props.image, alt: '', className: 'mdl-list__item-avatar' })
+					_react2.default.createElement('img', { src: imgSrc, alt: '', className: 'mdl-list__item-avatar' })
 				),
 				_react2.default.createElement(
 					'td',
@@ -13079,7 +13109,7 @@ var PokemonItem = function (_Component) {
 						_react2.default.createElement(
 							'strong',
 							null,
-							this.props.name
+							this.props.name.english
 						),
 						' - ',
 						_react2.default.createElement(
@@ -13092,11 +13122,7 @@ var PokemonItem = function (_Component) {
 					_react2.default.createElement(
 						'p',
 						{ className: 'mdl-list__item-primary-content js-desc is-hidden' },
-						_react2.default.createElement(
-							'span',
-							{ className: 'mdl-list__item-text-body' },
-							this.props.description
-						)
+						'currently no info'
 					),
 					_react2.default.createElement('ul', { className: 'TypeOptions js-pokeType' })
 				),
@@ -14360,8 +14386,9 @@ var PokedexPage = function (_Component) {
     }, {
         key: 'onRemoveItem',
         value: function onRemoveItem(itemId) {
-            var ref = new firebase.database().ref('pokedex/');
-            ref.child(itemId).remove();
+            // var ref = new firebase.database().ref('pokedex/');
+            // ref.child(itemId).remove();
+            debugger;
         }
     }, {
         key: 'onToggleForm',
@@ -14396,14 +14423,43 @@ var PokedexPage = function (_Component) {
             }.bind(this));
         }
     }, {
+        key: 'renderList',
+        value: function renderList(data) {
+            console.log(data.length);
+        }
+    }, {
         key: 'componentDidMount',
         value: function componentDidMount() {
+            var $this = this;
             this.loadPokedexData();
+
+            var getJSON = function getJSON(url, callback) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                xhr.responseType = 'json';
+                xhr.onload = function () {
+                    var status = xhr.status;
+                    if (status === 200) {
+                        callback(null, xhr.response);
+                    } else {
+                        callback(status, xhr.response);
+                    }
+                };
+                xhr.send();
+            };
+
+            getJSON('../src/poke-data/pokedex.json', function (err, data) {
+                if (err !== null) {} else {
+                    $this.renderList(data);
+                    $this.setState({
+                        items_list: JSON.stringify(data)
+                    });
+                }
+            });
         }
     }, {
         key: 'render',
         value: function render() {
-
             return _react2.default.createElement(
                 'div',
                 null,
@@ -14424,7 +14480,7 @@ var PokedexPage = function (_Component) {
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'mdl-cell mdl-cell--12-col' },
-                                    _react2.default.createElement(_PokemonList2.default, { items: this.state.items, onRemoveItem: this.onRemoveItem })
+                                    _react2.default.createElement(_PokemonList2.default, { items: this.state.items_list, onRemoveItem: this.onRemoveItem })
                                 )
                             )
                         )
