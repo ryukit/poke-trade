@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
-import PokemonList from '../components/PokemonList'
-import ShowAddButton from '../components/ShowAddButton'
-import PokemonAddForm from '../components/PokemonAddForm'
+import {Link} from 'react-router-dom'
 
 export default class PokedexPage extends Component {
 	constructor(props) {
@@ -15,6 +13,7 @@ export default class PokedexPage extends Component {
         this.onToggleForm = this.onToggleForm.bind(this);
         this.onNewItem = this.onNewItem.bind(this);
         this.onRemoveItem = this.onRemoveItem.bind(this);
+        this.sendSomeItems = this.sendSomeItems.bind(this);
   
     }
 
@@ -35,8 +34,23 @@ export default class PokedexPage extends Component {
         });
     }
 
+    sendSomeItems() {
+        var ref = new firebase.database().ref('poke-dex/other');
+        console.log(this.state.items_list);
+        // for (let i=0; i < 10; i++){
+        //     console.log(this.state.items_list.[]);
+        // }
+        //ref.child(newItem.id).set(newItem);
+
+        let data = JSON.parse(this.state.items_list);
+        var pokemonItems = data.map(function(item) {
+            var newItem = {name: item.name, dex: item.dex, id: item.id, type: item.types, region: 'other', isShiny: false, isAvailable: false}; 
+            ref.child(newItem.id).set(newItem);
+        }.bind(this));
+    }
+
     loadPokedexData () {
-        var ref = new firebase.database().ref('pokedex/');
+        var ref = new firebase.database().ref('poke-dex/other');
 
         ref.on('value', function(snapshot) {
             const items = [];
@@ -50,7 +64,7 @@ export default class PokedexPage extends Component {
             });
 
             sorted = _.sortBy(items, function(item) {
-                return item.dex_number;
+                return item.dex;
             });
 
             this.setState({
@@ -84,7 +98,7 @@ export default class PokedexPage extends Component {
             xhr.send();
         };
 
-        getJSON('../src/poke-data/pokedex.json',
+        getJSON('../src/poke-data/pokedex-other.json',
         function(err, data) {
             if (err !== null) {
                 
@@ -98,16 +112,41 @@ export default class PokedexPage extends Component {
     }
 
 	render() {
+        console.log(this.state.items)
         return (
             <div>
                 <main className="mdl-layout__content">
-                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} buttonText={this.state.buttonText} />
-                    <PokemonAddForm displayed={this.state.formDisplayed} onNewItem={this.onNewItem} />
                     <div className="page-content">
                         <section className="sectionItemList">
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
-                                    <PokemonList items={this.state.items_list} onRemoveItem={this.onRemoveItem} />
+                                    {/* <a href="#" onClick={this.sendSomeItems}>Click</a> /part of the admin functionality/ */}
+                                    
+                                    <Link 
+                                        className="customLink" 
+                                        to={'/region/kanto'}>
+                                        Kanto region
+                                    </Link>
+                                    <Link 
+                                        className="customLink" 
+                                        to={'/region/johto'}>
+                                        Johto region
+                                    </Link>
+                                    <Link 
+                                        className="customLink" 
+                                        to={'/region/hoenn'}>
+                                        Hoenn region
+                                    </Link>
+                                    <Link 
+                                        className="customLink" 
+                                        to={'/region/sinnoh'}>
+                                        Sinnoh region
+                                    </Link>
+                                    <Link 
+                                        className="customLink" 
+                                        to={'/region/other'}>
+                                        Other region
+                                    </Link>
                                 </div>
                             </div>
                         </section>

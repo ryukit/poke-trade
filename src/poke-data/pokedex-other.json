@@ -1,0 +1,3725 @@
+[
+    {
+        "dex": 489,
+        "name": "Phione",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.36,
+        "kmBuddyDistance": 20,
+        "weight": 3.1,
+        "modelScale": 1.26,
+        "maxCP": 2105,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PHIONE",
+            "name": "Phione"
+        },
+        "stats": {
+            "baseAttack": 162,
+            "baseDefense": 162,
+            "baseStamina": 190
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.06,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.15,
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "PHIONE",
+        "forms": []
+    },
+    {
+        "dex": 490,
+        "name": "Manaphy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.35,
+        "kmBuddyDistance": 20,
+        "weight": 1.4,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MANAPHY",
+            "name": "Manaphy"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "MANAPHY",
+        "forms": []
+    },
+    {
+        "dex": 491,
+        "name": "Darkrai",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.5,
+        "modelHeight": 1.66,
+        "kmBuddyDistance": 20,
+        "weight": 50.5,
+        "modelScale": 1.26,
+        "maxCP": 3739,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Focus Blast",
+                "id": "FOCUS_BLAST"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            },
+            {
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Snarl Fast",
+                "id": "SNARL_FAST"
+            },
+            {
+                "name": "Feint Attack Fast",
+                "id": "FEINT_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DARKRAI",
+            "name": "Darkrai"
+        },
+        "stats": {
+            "baseAttack": 285,
+            "baseDefense": 198,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "DARKRAI",
+        "forms": []
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.39,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.08,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.12,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin Land",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN_LAND",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin Sky",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.39,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3592,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 261,
+            "baseDefense": 166,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN_SKY",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Bug",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_BUG",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Dark",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_DARK",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Dragon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_DRAGON",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Electric",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ELECTRIC",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fairy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FAIRY",
+                "name": "Fairy"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FAIRY",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fighting",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FIGHTING",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fire",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FIRE",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Flying",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FLYING",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ghost",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GHOST",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Grass",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GRASS",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ground",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GROUND",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ice",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ICE",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Poison",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_POISON",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Psychic",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_PSYCHIC",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Rock",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ROCK",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Steel",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_STEEL",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Water",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_WATER",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 808,
+        "name": "Meltan",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.95,
+        "kmBuddyDistance": 20,
+        "weight": 8,
+        "modelScale": 1.02,
+        "maxCP": 1068,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MELTAN",
+            "name": "Meltan"
+        },
+        "stats": {
+            "baseAttack": 118,
+            "baseDefense": 99,
+            "baseStamina": 130
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 1.89,
+            "collisionRadius": 0.25,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 1.1,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.125,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Melmetal",
+                    "id": "MELMETAL",
+                    "costToEvolve": {
+                        "candyCost": 400
+                    }
+                }
+            ]
+        },
+        "id": "MELTAN",
+        "forms": []
+    },
+    {
+        "dex": 809,
+        "name": "Melmetal",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.5,
+        "modelHeight": 3.82,
+        "kmBuddyDistance": 20,
+        "weight": 800,
+        "modelScale": 1.26,
+        "maxCP": 3599,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MELTAN",
+            "name": "Meltan"
+        },
+        "stats": {
+            "baseAttack": 226,
+            "baseDefense": 190,
+            "baseStamina": 264
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 3.2,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Meltan",
+                "id": "MELTAN"
+            },
+            "costToEvolve": {
+                "candyCost": 400
+            }
+        },
+        "id": "MELMETAL",
+        "forms": []
+    }
+]

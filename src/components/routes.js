@@ -4,6 +4,7 @@ import TradePage from '../layouts/TradePage'
 import TradeInnerPage from '../layouts/TradeInnerPage'
 import PokedexPage from '../layouts/PokedexPage'
 import HomePage from '../layouts/HomePage'
+import PokedexRegionPage from '../layouts/PokedexRegionPage'
 
 //const Routes = () => {
 export default class Routes extends Component {
@@ -12,14 +13,16 @@ export default class Routes extends Component {
 
         this.state = {
             userName: localStorage.getItem('userName'),
-            userRole: localStorage.getItem('userRole')
+            userRole: localStorage.getItem('userRole'),
+            userId: localStorage.getItem('userId')
         }
         this.updateGlobalState = this.updateGlobalState.bind(this);
     }
-    updateGlobalState(userName, userRole) {
+    updateGlobalState(userName, userRole, userId) {
         this.setState({
             userName: userName,
-            userRole: userRole
+            userRole: userRole,
+            userId: userId
         });
     }
 
@@ -31,6 +34,7 @@ export default class Routes extends Component {
                 <Route path='/trades/:itemId' render={ ({ match }) => <TradeInnerPage { ...match.params } userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path="/trades" render={() => <TradePage userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path="/pokedex" render={() => <PokedexPage /> } />
+                <Route path='/region/:regionName' render={ ({ match }) => <PokedexRegionPage { ...match.params } userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route render={function () { return <p className="notFound">404</p> }} />
             </Switch>
         )

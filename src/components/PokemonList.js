@@ -9,26 +9,29 @@ export default class PokemonList extends Component {
 
 
 	render() {
+        let user = this.props.userName;
+        let role = this.props.userRole;
         var pokemonItems = '';
         //console.log('this.props.items', this.props.items)
         let data = this.props.items;
+        let shinyList = this.props.shinyItems;
         //debugger;
-        if ( data !== undefined ){
-            data = JSON.parse(this.props.items);
-            var pokemonItems = data.map(function(item) {
-                return <PokemonItem
-                    id={item.id}
-                    key={item.id}
-                    dex_number={item.id}
-                    name={item.name}
-                    image={item.id}
-                    description={item.base}
-                    pokeType={item.type}
-                    isShiny={item.id}
-                    onRemoveItem={this.props.onRemoveItem}
-                />
-            }.bind(this));
-        }
+        // if ( data !== undefined ){
+        //     data = JSON.parse(this.props.items);
+        //     var pokemonItems = data.map(function(item) {
+        //         return <PokemonItem
+        //             id={item.id}
+        //             key={item.id}
+        //             dex_number={item.id}
+        //             name={item.name}
+        //             image={item.id}
+        //             description={item.base}
+        //             pokeType={item.type}
+        //             isShiny={item.id}
+        //             onRemoveItem={this.props.onRemoveItem}
+        //         />
+        //     }.bind(this));
+        // }
         // if ( data !== undefined ){
         //     let $block = document.getElementById('wow');
         //     debugger;
@@ -45,6 +48,31 @@ export default class PokemonList extends Component {
 
         //     console.log(result);
         // }
+
+        var pokemonItems = data.map(function(item) {
+            if ( role !== 'admin' && item.isAvailable == false ){
+                return;
+            } else {
+                return <PokemonItem
+                    id={item.id}
+                    key={item.id}
+                    dex_number={item.dex}
+                    name={item.name}
+                    image={item.id}
+                    region={item.region}
+                    description={item.id}
+                    pokeType={item.type}
+                    isShiny={item.isShiny}
+                    isAvailable={item.isAvailable}
+                    onRemoveItem={this.props.onRemoveItem}
+                    userName={this.props.userName}
+                    userRole={this.props.userRole}
+                    userId={this.props.userId}
+                    userShinyData={this.props.shinyItems}
+                    luckyItems={this.props.luckyItems}
+                />
+            }
+        }.bind(this));
 
         return (
             <div className="itemList small-container">

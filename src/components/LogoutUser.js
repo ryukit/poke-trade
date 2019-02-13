@@ -10,11 +10,13 @@ export default class LogoutUser extends Component {
         e.preventDefault();
         localStorage.removeItem('userName');
      	localStorage.removeItem('userRole');
+        localStorage.removeItem('userId');
 		this.setState({
             userName: undefined,
-            userRole: undefined
+            userRole: undefined,
+            userId: undefined
         });
-        this.props.updateGlobalState(undefined, undefined);
+        this.props.updateGlobalState(undefined, undefined, undefined);
     }
 
     render() {

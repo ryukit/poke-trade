@@ -31,11 +31,13 @@ export default class LoginUser extends Component {
             if (userInfo[0].password == loginInfo.loginPass){
 	         	localStorage.setItem('userName', userInfo[0].name);
 	         	localStorage.setItem('userRole', userInfo[0].role);
+                localStorage.setItem('userId', userInfo[0].id);
         		this.setState({
 	                userName: userInfo[0].name,
-	                userRole: userInfo[0].role
+	                userRole: userInfo[0].role,
+                    userId: userInfo[0].id
 	            });
-	            this.props.updateGlobalState(userInfo[0].name, userInfo[0].role);
+	            this.props.updateGlobalState(userInfo[0].name, userInfo[0].role, userInfo[0].id);
             }else {
             	alert('wrong credentials');
             }

@@ -565,3 +565,13 @@ body {
     -webkit-transform: translate(-12px,-12px) rotate(45deg);
     transform: translate(-12px,-12px) rotate(45deg);
 }
+.mdl-list__item-holder {
+    position: relative;
+}
+.mdl-list__item-holder i {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
