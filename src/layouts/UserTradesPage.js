@@ -1,10 +1,9 @@
 import React, {Component} from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import TradeList from "../components/TradeList"
 import TradeAddForm from '../components/TradeAddForm'
 import ShowAddButton from '../components/ShowAddButton'
 
-export default class TradePage extends Component {
+export default class UserTradesPage extends Component {
 	constructor(props) {
         super(props)
 
@@ -17,7 +16,7 @@ export default class TradePage extends Component {
             loadMoreDisplayed: true,
             formDisplayed: false,
             postLoadValue: 12,
-            pageTitle: 'Available trades',
+            pageTitle: 'Your trades',
             buttonText: "Add new Trade"
         }
         this.onToggleForm = this.onToggleForm.bind(this);
@@ -34,23 +33,8 @@ export default class TradePage extends Component {
     }
 
     loadTradeData(val) {
-        var mainRef = new firebase.database().ref('trade_ticket/');
-        var ref = new firebase.database().ref('trade_ticket/').orderByChild("sort_stamp").limitToFirst(val);
-
-        mainRef.once('value', function(snapshot) {
-            let trades = [];
-            snapshot.forEach(function(itemSnap) {
-                const item = itemSnap.val();
-                //item.key = itemSnap.getKey();
-                //item.id = itemSnap.getKey();
-                trades.push(item);
-            });
-
-            this.setState({
-                trade_list_length: trades.length
-            });
-
-        }.bind(this));
+        let $this = this;
+        var ref = new firebase.database().ref('trade_ticket/').orderByChild("user_name").startAt(this.props.userName).endAt(this.props.userName+'\uf8ff');
 
         ref.once('value', function(snapshot) {
             const trades = [];
@@ -62,9 +46,10 @@ export default class TradePage extends Component {
                 trades.push(item);
             });
 
-            // sorted = _.sortBy(trades, function(item) {
-            //     return item.time_stamp * -1;
-            // });
+            sorted = _.sortBy(trades, function(sortedItem) {
+                return sortedItem.time_stamp * -1;
+            });
+            
 
             // console.log(sorted.length)
 
@@ -85,15 +70,47 @@ export default class TradePage extends Component {
 
             // debugger;
 
+
+            //let pagedList = $this.chunk(sorted, 2);
+            let prePage = sorted.slice(0, val);
+
+            debugger;
+
             this.setState({
-                trade_list: trades,
-                default_trade_list: trades,
+                trade_list: prePage,
+                default_trade_list: sorted,
+                trade_list_length: trades.length,
                 page_viewed_trades: val
                 //paged_trade_list: pagedList
             });
 
         }.bind(this));
     }
+
+    showMoreTrades(val) {
+        let shownTrades;
+        let defaultList = this.state.default_trade_list;
+        if (defaultList.length > val){
+            shownTrades = defaultList.slice(0, val);
+        } else {
+            shownTrades = defaultList.slice(0, defaultList.length);
+        }
+     
+        this.setState({
+            trade_list: shownTrades,
+            page_viewed_trades: val
+        });
+    }
+
+    // chunk(arr, chunkSize) {
+    //     debugger
+    //   var R = [];
+    //   for (var i=0,len=arr.length; i<len; i+=chunkSize)
+    //     R.push(arr.slice(i,i+chunkSize));
+    //   console.log(R);
+    //   return R;
+    // }
+
     pagiClick(e){
         e.preventDefault();
         //let page = parseInt(e.target.dataset.page);
@@ -102,7 +119,7 @@ export default class TradePage extends Component {
             this.toggleMoreState(false);
         }
         
-        this.loadTradeData(items);
+        this.showMoreTrades(items);
     }
 
     componentDidMount() {
@@ -127,7 +144,7 @@ export default class TradePage extends Component {
         // });
         
         var mainRef = new firebase.database().ref('trade_ticket/').orderByChild("sp_pokemon").startAt(searchQuery).endAt(searchQuery+'\uf8ff');
-//debugger;
+        //debugger;
         mainRef.on('value', function(snapshot) {
             let trades = [];
             snapshot.forEach(function(itemSnap) {
@@ -204,17 +221,6 @@ export default class TradePage extends Component {
                     <div className="pageTopBar">
                         <h3 className="pageTopBar-title">{this.state.pageTitle}</h3>
                         <h4 className="pageTopBar-meta">{trade_value} items</h4>
-                        {(() => {
-                            if (role == "user" || role == "admin"){
-                                return (
-                                    <NavLink className="myTrades-link" to='/my-trades'>My Trades</NavLink>
-                                );
-                            } else {
-                                return (
-                                    ""
-                                );
-                            }
-                        })()}
                     </div>
                     {showBtn}
                     {tradeForm}
@@ -222,9 +228,9 @@ export default class TradePage extends Component {
                         <section className="sectionItemList">
                             <div className="mdl-grid">
                                 <div className="mdl-cell mdl-cell--12-col">
-                                    <div className="searcField">
+                                    {/* }div className="searcField">
                                         <input type="text" className="searcField-input" onChange={this.handleSearch} placeholder="enter pokemon name" />
-                                    </div>
+                                    </div> */}
                                     <TradeList tradeList={this.state.trade_list} />
                                     <ul style={styles} className="tradeList-loadMore">
                                         <li><a href="#" onClick={this.pagiClick}>Load More</a></li>

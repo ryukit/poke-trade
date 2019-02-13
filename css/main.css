@@ -231,7 +231,7 @@ body {
     /*padding: 50px 0;*/
 }
 .small-container {
-    max-width: 630px;
+    max-width: 950px;
     margin: 0 auto 30px;
 }
 .mdl-layout__content {
@@ -331,15 +331,6 @@ body {
 .demo-card-square.mdl-card {
   width: 100%;
   height: 300px;
-}
-.demo-card-square > .mdl-card__title {
-    height: 150px;
-    max-height: 150px;
-    min-height: 150px;
-  color: #fff;
-  background:
-    url('http://placehold.it/320px320') top center no-repeat #46B6AC;
-  background-size: cover !important;
 }
 .tradeList {
     margin: 0 -5px;
@@ -574,4 +565,71 @@ body {
     position: absolute;
     right: -5px;
     top: 0;
+}
+.tradeList-item-inner {
+    position: relative;
+    width: 100%;
+    /*height: 470px;*/
+    background: url('http://placehold.it/320px320') top center no-repeat #46B6AC;
+    background-size: cover !important;
+    background-position: top -30px center !important;
+}
+.tradeList-item-inner::after {
+    display: block;
+    width: 100%;
+    height: 0;
+    content: "";
+    padding-bottom: 150%;
+    background: transparent;
+    transition: all .3s;
+}
+.tradeList-item-inner:hover::after {
+    background: rgba(27, 36, 49, 0.42);
+}
+.tradeList-item-topInfo {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.3) 85%, rgba(0, 0, 0, 0.2) 100%);
+    display: flex;
+    align-items: center;
+}
+.tradeList-item-topInfo > div {
+    flex-grow: 1;
+    margin-left: 16px;
+    margin-right: 0px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: left;
+}
+.tradeList-item-topInfo h3 {
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 0 3px;
+}
+.tradeList-item-topInfo p {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0;
+}
+.tradeList-item-bottomInfo {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    /*height: 90px;*/
+    padding: 5px 0;
+    background-color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.tradeList-item-bottomInfo p {
+    margin: 0;
+}
+.myTrades-link {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
 }

@@ -32,24 +32,23 @@ export default class TradeItem extends Component {
 		var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
         return (
         	<div className="tradeList-item">
-	            <div className="demo-card-square mdl-card mdl-shadow--2dp" key={this.props.id} id={this.props.id}>
-					<div className="mdl-card__title mdl-card--expand" style={styles}>
-						
-					</div>
-					<div className="mdl-card__supporting-text">
-						<p className="croppedText">User - <strong>{this.props.user_name}</strong></p>
-						<p className="croppedText">"{this.props.sp_pokemon}{spShinyText}" ==> "{this.props.rec_pokemon}{recShinyText}"</p>
+	            <Link 
+					className="" 
+					to={'/trades/' + this.props.id}>
+	            	<div className="tradeList-item-inner mdl-shadow--2dp" key={this.props.id} id={this.props.id} style={styles}>
+						<div className="tradeList-item-topInfo">
+							<div>
+								<h3 className="croppedText">{this.props.user_name}</h3>
+								<p className="croppedText">&#8595; {spShinyText}{this.props.sp_pokemon}</p>
+								<p className="croppedText">&#8593; {recShinyText}{this.props.rec_pokemon}</p>
+							</div>
+						</div>
 						{/* <p>{this.props.adInfo}</p> */}
-						<p className="croppedText">{time} // Comments: {this.props.commentValue}</p>
+						<div className="tradeList-item-bottomInfo">
+							<p className="croppedText">{time} // Comments: {this.props.commentValue}</p>
+						</div>
 					</div>
-					<div className="mdl-card__actions mdl-card--border">
-						<Link 
-							className="customLink" 
-							to={'/trades/' + this.props.id}>
-							View Deal
-						</Link>
-					</div>
-				</div>
+				</Link>
 			</div>
         );
     }

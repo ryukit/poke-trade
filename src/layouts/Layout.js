@@ -52,7 +52,7 @@ export default class Layout extends Component {
                     <span className="mdl-layout-title">Title</span>    
                     <div>
                         <nav className="mdl-navigation">
-                            <Links />
+                            <Links userName={this.state.userName} userRole={this.state.userRole}/>
                         </nav>
                     </div>
                 </div>
