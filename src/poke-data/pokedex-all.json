@@ -1,0 +1,7481 @@
+{
+  "ABSOL" : {
+    "dex" : 359,
+    "id" : "ABSOL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Absol",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "AGGRON" : {
+    "dex" : 306,
+    "id" : "AGGRON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Aggron",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "ALTARIA" : {
+    "dex" : 334,
+    "id" : "ALTARIA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Altaria",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ANORITH" : {
+    "dex" : 347,
+    "id" : "ANORITH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Anorith",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "ARMALDO" : {
+    "dex" : 348,
+    "id" : "ARMALDO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Armaldo",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "ARON" : {
+    "dex" : 304,
+    "id" : "ARON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Aron",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "AZURILL" : {
+    "dex" : 298,
+    "id" : "AZURILL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Azurill",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "BAGON" : {
+    "dex" : 371,
+    "id" : "BAGON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bagon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "BALTOY" : {
+    "dex" : 343,
+    "id" : "BALTOY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Baltoy",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "BANETTE" : {
+    "dex" : 354,
+    "id" : "BANETTE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Banette",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "BARBOACH" : {
+    "dex" : 339,
+    "id" : "BARBOACH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Barboach",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "BEAUTIFLY" : {
+    "dex" : 267,
+    "id" : "BEAUTIFLY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Beautifly",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "BELDUM" : {
+    "dex" : 374,
+    "id" : "BELDUM",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Beldum",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "BLAZIKEN" : {
+    "dex" : 257,
+    "id" : "BLAZIKEN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Blaziken",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "BRELOOM" : {
+    "dex" : 286,
+    "id" : "BRELOOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Breloom",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "CACNEA" : {
+    "dex" : 331,
+    "id" : "CACNEA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cacnea",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CACTURNE" : {
+    "dex" : 332,
+    "id" : "CACTURNE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cacturne",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "CAMERUPT" : {
+    "dex" : 323,
+    "id" : "CAMERUPT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Camerupt",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "CARVANHA" : {
+    "dex" : 318,
+    "id" : "CARVANHA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Carvanha",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "CASCOON" : {
+    "dex" : 268,
+    "id" : "CASCOON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cascoon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "CASTFORM" : {
+    "dex" : 351,
+    "id" : "CASTFORM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Castform",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "CASTFORM_RAINY" : {
+    "dex" : 351,
+    "id" : "CASTFORM_RAINY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Castform Rainy",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "CASTFORM_SNOWY" : {
+    "dex" : 351,
+    "id" : "CASTFORM_SNOWY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Castform Snowy",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "CASTFORM_SUNNY" : {
+    "dex" : 351,
+    "id" : "CASTFORM_SUNNY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Castform Sunny",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "CHIMECHO" : {
+    "dex" : 358,
+    "id" : "CHIMECHO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chimecho",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "CLAMPERL" : {
+    "dex" : 366,
+    "id" : "CLAMPERL",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Clamperl",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "CLAYDOL" : {
+    "dex" : 344,
+    "id" : "CLAYDOL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Claydol",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "COMBUSKEN" : {
+    "dex" : 256,
+    "id" : "COMBUSKEN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Combusken",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "CORPHISH" : {
+    "dex" : 341,
+    "id" : "CORPHISH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Corphish",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "CRADILY" : {
+    "dex" : 346,
+    "id" : "CRADILY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cradily",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CRAWDAUNT" : {
+    "dex" : 342,
+    "id" : "CRAWDAUNT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Crawdaunt",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "DELCATTY" : {
+    "dex" : 301,
+    "id" : "DELCATTY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Delcatty",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "DEOXYS" : {
+    "dex" : 386,
+    "id" : "DEOXYS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Deoxys",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "DEOXYS_ATTACK" : {
+    "dex" : 386,
+    "id" : "DEOXYS_ATTACK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Deoxys Attack",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "DEOXYS_DEFENSE" : {
+    "dex" : 386,
+    "id" : "DEOXYS_DEFENSE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Deoxys Defense",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "DEOXYS_SPEED" : {
+    "dex" : 386,
+    "id" : "DEOXYS_SPEED",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Deoxys Speed",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "DUSCLOPS" : {
+    "dex" : 356,
+    "id" : "DUSCLOPS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Dusclops",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "DUSKULL" : {
+    "dex" : 355,
+    "id" : "DUSKULL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Duskull",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "DUSTOX" : {
+    "dex" : 269,
+    "id" : "DUSTOX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dustox",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "ELECTRIKE" : {
+    "dex" : 309,
+    "id" : "ELECTRIKE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Electrike",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "EXPLOUD" : {
+    "dex" : 295,
+    "id" : "EXPLOUD",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Exploud",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "FEEBAS" : {
+    "dex" : 349,
+    "id" : "FEEBAS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Feebas",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "FLYGON" : {
+    "dex" : 330,
+    "id" : "FLYGON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Flygon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "GARDEVOIR" : {
+    "dex" : 282,
+    "id" : "GARDEVOIR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gardevoir",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "GLALIE" : {
+    "dex" : 362,
+    "id" : "GLALIE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Glalie",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "GOREBYSS" : {
+    "dex" : 368,
+    "id" : "GOREBYSS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gorebyss",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "GROUDON" : {
+    "dex" : 383,
+    "id" : "GROUDON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Groudon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GROVYLE" : {
+    "dex" : 253,
+    "id" : "GROVYLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Grovyle",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "GRUMPIG" : {
+    "dex" : 326,
+    "id" : "GRUMPIG",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Grumpig",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "GULPIN" : {
+    "dex" : 316,
+    "id" : "GULPIN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gulpin",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "HARIYAMA" : {
+    "dex" : 297,
+    "id" : "HARIYAMA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Hariyama",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "HUNTAIL" : {
+    "dex" : 367,
+    "id" : "HUNTAIL",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Huntail",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "ILLUMISE" : {
+    "dex" : 314,
+    "id" : "ILLUMISE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Illumise",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "JIRACHI" : {
+    "dex" : 385,
+    "id" : "JIRACHI",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Jirachi",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "KECLEON" : {
+    "dex" : 352,
+    "id" : "KECLEON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Kecleon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "KIRLIA" : {
+    "dex" : 281,
+    "id" : "KIRLIA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kirlia",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "KYOGRE" : {
+    "dex" : 382,
+    "id" : "KYOGRE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Kyogre",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "LAIRON" : {
+    "dex" : 305,
+    "id" : "LAIRON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Lairon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "LATIAS" : {
+    "dex" : 380,
+    "id" : "LATIAS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Latias",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "LATIOS" : {
+    "dex" : 381,
+    "id" : "LATIOS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Latios",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "LILEEP" : {
+    "dex" : 345,
+    "id" : "LILEEP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lileep",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "LINOONE" : {
+    "dex" : 264,
+    "id" : "LINOONE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Linoone",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "LOMBRE" : {
+    "dex" : 271,
+    "id" : "LOMBRE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lombre",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "LOTAD" : {
+    "dex" : 270,
+    "id" : "LOTAD",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lotad",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "LOUDRED" : {
+    "dex" : 294,
+    "id" : "LOUDRED",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Loudred",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "LUDICOLO" : {
+    "dex" : 272,
+    "id" : "LUDICOLO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ludicolo",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "LUNATONE" : {
+    "dex" : 337,
+    "id" : "LUNATONE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lunatone",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "LUVDISC" : {
+    "dex" : 370,
+    "id" : "LUVDISC",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Luvdisc",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "MAKUHITA" : {
+    "dex" : 296,
+    "id" : "MAKUHITA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Makuhita",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MANECTRIC" : {
+    "dex" : 310,
+    "id" : "MANECTRIC",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Manectric",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "MARSHTOMP" : {
+    "dex" : 259,
+    "id" : "MARSHTOMP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Marshtomp",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "MASQUERAIN" : {
+    "dex" : 284,
+    "id" : "MASQUERAIN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Masquerain",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MAWILE" : {
+    "dex" : 303,
+    "id" : "MAWILE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Mawile",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "MEDICHAM" : {
+    "dex" : 308,
+    "id" : "MEDICHAM",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Medicham",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "MEDITITE" : {
+    "dex" : 307,
+    "id" : "MEDITITE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Meditite",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "METAGROSS" : {
+    "dex" : 376,
+    "id" : "METAGROSS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Metagross",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "METANG" : {
+    "dex" : 375,
+    "id" : "METANG",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Metang",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "MIGHTYENA" : {
+    "dex" : 262,
+    "id" : "MIGHTYENA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Mightyena",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "MILOTIC" : {
+    "dex" : 350,
+    "id" : "MILOTIC",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Milotic",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "MINUN" : {
+    "dex" : 312,
+    "id" : "MINUN",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Minun",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "MUDKIP" : {
+    "dex" : 258,
+    "id" : "MUDKIP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mudkip",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "NINCADA" : {
+    "dex" : 290,
+    "id" : "NINCADA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nincada",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "NINJASK" : {
+    "dex" : 291,
+    "id" : "NINJASK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ninjask",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "NOSEPASS" : {
+    "dex" : 299,
+    "id" : "NOSEPASS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nosepass",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "NUMEL" : {
+    "dex" : 322,
+    "id" : "NUMEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Numel",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "NUZLEAF" : {
+    "dex" : 274,
+    "id" : "NUZLEAF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nuzleaf",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "PELIPPER" : {
+    "dex" : 279,
+    "id" : "PELIPPER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pelipper",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "PLUSLE" : {
+    "dex" : 311,
+    "id" : "PLUSLE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Plusle",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "POOCHYENA" : {
+    "dex" : 261,
+    "id" : "POOCHYENA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Poochyena",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "RALTS" : {
+    "dex" : 280,
+    "id" : "RALTS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ralts",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "RAYQUAZA" : {
+    "dex" : 384,
+    "id" : "RAYQUAZA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rayquaza",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "REGICE" : {
+    "dex" : 378,
+    "id" : "REGICE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Regice",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "REGIROCK" : {
+    "dex" : 377,
+    "id" : "REGIROCK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Regirock",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "REGISTEEL" : {
+    "dex" : 379,
+    "id" : "REGISTEEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Registeel",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "RELICANTH" : {
+    "dex" : 369,
+    "id" : "RELICANTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Relicanth",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "ROSELIA" : {
+    "dex" : 315,
+    "id" : "ROSELIA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Roselia",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "SABLEYE" : {
+    "dex" : 302,
+    "id" : "SABLEYE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Sableye",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "SALAMENCE" : {
+    "dex" : 373,
+    "id" : "SALAMENCE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Salamence",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SCEPTILE" : {
+    "dex" : 254,
+    "id" : "SCEPTILE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sceptile",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SEALEO" : {
+    "dex" : 364,
+    "id" : "SEALEO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sealeo",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SEEDOT" : {
+    "dex" : 273,
+    "id" : "SEEDOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Seedot",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SEVIPER" : {
+    "dex" : 336,
+    "id" : "SEVIPER",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Seviper",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "SHARPEDO" : {
+    "dex" : 319,
+    "id" : "SHARPEDO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sharpedo",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "SHEDINJA" : {
+    "dex" : 292,
+    "id" : "SHEDINJA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shedinja",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "SHELGON" : {
+    "dex" : 372,
+    "id" : "SHELGON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shelgon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "SHIFTRY" : {
+    "dex" : 275,
+    "id" : "SHIFTRY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shiftry",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "SHROOMISH" : {
+    "dex" : 285,
+    "id" : "SHROOMISH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shroomish",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SHUPPET" : {
+    "dex" : 353,
+    "id" : "SHUPPET",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Shuppet",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "SILCOON" : {
+    "dex" : 266,
+    "id" : "SILCOON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Silcoon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "SKITTY" : {
+    "dex" : 300,
+    "id" : "SKITTY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Skitty",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SLAKING" : {
+    "dex" : 289,
+    "id" : "SLAKING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slaking",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SLAKOTH" : {
+    "dex" : 287,
+    "id" : "SLAKOTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slakoth",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SNORUNT" : {
+    "dex" : 361,
+    "id" : "SNORUNT",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Snorunt",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "SOLROCK" : {
+    "dex" : 338,
+    "id" : "SOLROCK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Solrock",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SPHEAL" : {
+    "dex" : 363,
+    "id" : "SPHEAL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Spheal",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SPINDA" : {
+    "dex" : 327,
+    "id" : "SPINDA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Spinda",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SPOINK" : {
+    "dex" : 325,
+    "id" : "SPOINK",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Spoink",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SURSKIT" : {
+    "dex" : 283,
+    "id" : "SURSKIT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Surskit",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SWABLU" : {
+    "dex" : 333,
+    "id" : "SWABLU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Swablu",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SWALOT" : {
+    "dex" : 317,
+    "id" : "SWALOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Swalot",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "SWAMPERT" : {
+    "dex" : 260,
+    "id" : "SWAMPERT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Swampert",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "SWELLOW" : {
+    "dex" : 277,
+    "id" : "SWELLOW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Swellow",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "TAILLOW" : {
+    "dex" : 276,
+    "id" : "TAILLOW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Taillow",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "TORCHIC" : {
+    "dex" : 255,
+    "id" : "TORCHIC",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Torchic",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "TORKOAL" : {
+    "dex" : 324,
+    "id" : "TORKOAL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Torkoal",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "TRAPINCH" : {
+    "dex" : 328,
+    "id" : "TRAPINCH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Trapinch",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "TREECKO" : {
+    "dex" : 252,
+    "id" : "TREECKO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Treecko",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "TROPIUS" : {
+    "dex" : 357,
+    "id" : "TROPIUS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tropius",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "VIBRAVA" : {
+    "dex" : 329,
+    "id" : "VIBRAVA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vibrava",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "VIGOROTH" : {
+    "dex" : 288,
+    "id" : "VIGOROTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vigoroth",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "VOLBEAT" : {
+    "dex" : 313,
+    "id" : "VOLBEAT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Volbeat",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "WAILMER" : {
+    "dex" : 320,
+    "id" : "WAILMER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wailmer",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "WAILORD" : {
+    "dex" : 321,
+    "id" : "WAILORD",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wailord",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "WALREIN" : {
+    "dex" : 365,
+    "id" : "WALREIN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Walrein",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "WHISCASH" : {
+    "dex" : 340,
+    "id" : "WHISCASH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Whiscash",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "WHISMUR" : {
+    "dex" : 293,
+    "id" : "WHISMUR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Whismur",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "WINGULL" : {
+    "dex" : 278,
+    "id" : "WINGULL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wingull",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "WURMPLE" : {
+    "dex" : 265,
+    "id" : "WURMPLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Wurmple",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "WYNAUT" : {
+    "dex" : 360,
+    "id" : "WYNAUT",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wynaut",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "ZANGOOSE" : {
+    "dex" : 335,
+    "id" : "ZANGOOSE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Zangoose",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "ZIGZAGOON" : {
+    "dex" : 263,
+    "id" : "ZIGZAGOON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Zigzagoon",
+    "region" : "hoenn",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "AIPOM" : {
+    "dex" : 190,
+    "id" : "AIPOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Aipom",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "AMPHAROS" : {
+    "dex" : 181,
+    "id" : "AMPHAROS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Ampharos",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "ARIADOS" : {
+    "dex" : 168,
+    "id" : "ARIADOS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ariados",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "AZUMARILL" : {
+    "dex" : 184,
+    "id" : "AZUMARILL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Azumarill",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "BAYLEEF" : {
+    "dex" : 153,
+    "id" : "BAYLEEF",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Bayleef",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "BELLOSSOM" : {
+    "dex" : 182,
+    "id" : "BELLOSSOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bellossom",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "BLISSEY" : {
+    "dex" : 242,
+    "id" : "BLISSEY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Blissey",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "CELEBI" : {
+    "dex" : 251,
+    "id" : "CELEBI",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Celebi",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHIKORITA" : {
+    "dex" : 152,
+    "id" : "CHIKORITA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Chikorita",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHINCHOU" : {
+    "dex" : 170,
+    "id" : "CHINCHOU",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chinchou",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "CLEFFA" : {
+    "dex" : 173,
+    "id" : "CLEFFA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cleffa",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "CORSOLA" : {
+    "dex" : 222,
+    "id" : "CORSOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Corsola",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "CROBAT" : {
+    "dex" : 169,
+    "id" : "CROBAT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Crobat",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "CROCONAW" : {
+    "dex" : 159,
+    "id" : "CROCONAW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Croconaw",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "CYNDAQUIL" : {
+    "dex" : 155,
+    "id" : "CYNDAQUIL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Cyndaquil",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "DELIBIRD" : {
+    "dex" : 225,
+    "id" : "DELIBIRD",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Delibird",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DONPHAN" : {
+    "dex" : 232,
+    "id" : "DONPHAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Donphan",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "DUNSPARCE" : {
+    "dex" : 206,
+    "id" : "DUNSPARCE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dunsparce",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "ELEKID" : {
+    "dex" : 239,
+    "id" : "ELEKID",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Elekid",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "ENTEI" : {
+    "dex" : 244,
+    "id" : "ENTEI",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Entei",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "ESPEON" : {
+    "dex" : 196,
+    "id" : "ESPEON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Espeon",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "FERALIGATR" : {
+    "dex" : 160,
+    "id" : "FERALIGATR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Feraligatr",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "FLAAFFY" : {
+    "dex" : 180,
+    "id" : "FLAAFFY",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Flaaffy",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "FORRETRESS" : {
+    "dex" : 205,
+    "id" : "FORRETRESS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Forretress",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "FURRET" : {
+    "dex" : 162,
+    "id" : "FURRET",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Furret",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "GIRAFARIG" : {
+    "dex" : 203,
+    "id" : "GIRAFARIG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Girafarig",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "GLIGAR" : {
+    "dex" : 207,
+    "id" : "GLIGAR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gligar",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "GRANBULL" : {
+    "dex" : 210,
+    "id" : "GRANBULL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Granbull",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "HERACROSS" : {
+    "dex" : 214,
+    "id" : "HERACROSS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Heracross",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "HITMONTOP" : {
+    "dex" : 237,
+    "id" : "HITMONTOP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Hitmontop",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "HOOTHOOT" : {
+    "dex" : 163,
+    "id" : "HOOTHOOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Hoothoot",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "HOPPIP" : {
+    "dex" : 187,
+    "id" : "HOPPIP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Hoppip",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "HOUNDOOM" : {
+    "dex" : 229,
+    "id" : "HOUNDOOM",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Houndoom",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "HOUNDOUR" : {
+    "dex" : 228,
+    "id" : "HOUNDOUR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Houndour",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "HO_OH" : {
+    "dex" : 250,
+    "id" : "HO_OH",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Ho-Oh",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "IGGLYBUFF" : {
+    "dex" : 174,
+    "id" : "IGGLYBUFF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Igglybuff",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "JUMPLUFF" : {
+    "dex" : 189,
+    "id" : "JUMPLUFF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Jumpluff",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "KINGDRA" : {
+    "dex" : 230,
+    "id" : "KINGDRA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kingdra",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "LANTURN" : {
+    "dex" : 171,
+    "id" : "LANTURN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lanturn",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "LARVITAR" : {
+    "dex" : 246,
+    "id" : "LARVITAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Larvitar",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "LEDIAN" : {
+    "dex" : 166,
+    "id" : "LEDIAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ledian",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "LEDYBA" : {
+    "dex" : 165,
+    "id" : "LEDYBA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ledyba",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "LUGIA" : {
+    "dex" : 249,
+    "id" : "LUGIA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Lugia",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MAGBY" : {
+    "dex" : 240,
+    "id" : "MAGBY",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Magby",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "MAGCARGO" : {
+    "dex" : 219,
+    "id" : "MAGCARGO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Magcargo",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "MANTINE" : {
+    "dex" : 226,
+    "id" : "MANTINE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mantine",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MAREEP" : {
+    "dex" : 179,
+    "id" : "MAREEP",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Mareep",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "MARILL" : {
+    "dex" : 183,
+    "id" : "MARILL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Marill",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "MEGANIUM" : {
+    "dex" : 154,
+    "id" : "MEGANIUM",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Meganium",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "MILTANK" : {
+    "dex" : 241,
+    "id" : "MILTANK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Miltank",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "MISDREAVUS" : {
+    "dex" : 200,
+    "id" : "MISDREAVUS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Misdreavus",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "MURKROW" : {
+    "dex" : 198,
+    "id" : "MURKROW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Murkrow",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "NATU" : {
+    "dex" : 177,
+    "id" : "NATU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Natu",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "NOCTOWL" : {
+    "dex" : 164,
+    "id" : "NOCTOWL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Noctowl",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "OCTILLERY" : {
+    "dex" : 224,
+    "id" : "OCTILLERY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Octillery",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "PHANPY" : {
+    "dex" : 231,
+    "id" : "PHANPY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Phanpy",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "PICHU" : {
+    "dex" : 172,
+    "id" : "PICHU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pichu",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "PILOSWINE" : {
+    "dex" : 221,
+    "id" : "PILOSWINE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Piloswine",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "PINECO" : {
+    "dex" : 204,
+    "id" : "PINECO",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pineco",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "POLITOED" : {
+    "dex" : 186,
+    "id" : "POLITOED",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Politoed",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "PORYGON2" : {
+    "dex" : 233,
+    "id" : "PORYGON2",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Porygon2",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "PUPITAR" : {
+    "dex" : 247,
+    "id" : "PUPITAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pupitar",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "QUAGSIRE" : {
+    "dex" : 195,
+    "id" : "QUAGSIRE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Quagsire",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "QUILAVA" : {
+    "dex" : 156,
+    "id" : "QUILAVA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Quilava",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "QWILFISH" : {
+    "dex" : 211,
+    "id" : "QWILFISH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Qwilfish",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "RAIKOU" : {
+    "dex" : 243,
+    "id" : "RAIKOU",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Raikou",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "REMORAID" : {
+    "dex" : 223,
+    "id" : "REMORAID",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Remoraid",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SCIZOR" : {
+    "dex" : 212,
+    "id" : "SCIZOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Scizor",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "SENTRET" : {
+    "dex" : 161,
+    "id" : "SENTRET",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sentret",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SHUCKLE" : {
+    "dex" : 213,
+    "id" : "SHUCKLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shuckle",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "SKARMORY" : {
+    "dex" : 227,
+    "id" : "SKARMORY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Skarmory",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SKIPLOOM" : {
+    "dex" : 188,
+    "id" : "SKIPLOOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Skiploom",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SLOWKING" : {
+    "dex" : 199,
+    "id" : "SLOWKING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slowking",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SLUGMA" : {
+    "dex" : 218,
+    "id" : "SLUGMA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slugma",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "SMEARGLE" : {
+    "dex" : 235,
+    "id" : "SMEARGLE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Smeargle",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SMOOCHUM" : {
+    "dex" : 238,
+    "id" : "SMOOCHUM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Smoochum",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SNEASEL" : {
+    "dex" : 215,
+    "id" : "SNEASEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sneasel",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "SNUBBULL" : {
+    "dex" : 209,
+    "id" : "SNUBBULL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Snubbull",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "SPINARAK" : {
+    "dex" : 167,
+    "id" : "SPINARAK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Spinarak",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "STANTLER" : {
+    "dex" : 234,
+    "id" : "STANTLER",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Stantler",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "STEELIX" : {
+    "dex" : 208,
+    "id" : "STEELIX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Steelix",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "SUDOWOODO" : {
+    "dex" : 185,
+    "id" : "SUDOWOODO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sudowoodo",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "SUICUNE" : {
+    "dex" : 245,
+    "id" : "SUICUNE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Suicune",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SUNFLORA" : {
+    "dex" : 192,
+    "id" : "SUNFLORA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Sunflora",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SUNKERN" : {
+    "dex" : 191,
+    "id" : "SUNKERN",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Sunkern",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SWINUB" : {
+    "dex" : 220,
+    "id" : "SWINUB",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Swinub",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "TEDDIURSA" : {
+    "dex" : 216,
+    "id" : "TEDDIURSA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Teddiursa",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "TOGEPI" : {
+    "dex" : 175,
+    "id" : "TOGEPI",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Togepi",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "TOGETIC" : {
+    "dex" : 176,
+    "id" : "TOGETIC",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Togetic",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "TOTODILE" : {
+    "dex" : 158,
+    "id" : "TOTODILE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Totodile",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "TYPHLOSION" : {
+    "dex" : 157,
+    "id" : "TYPHLOSION",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Typhlosion",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "TYRANITAR" : {
+    "dex" : 248,
+    "id" : "TYRANITAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Tyranitar",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "TYROGUE" : {
+    "dex" : 236,
+    "id" : "TYROGUE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tyrogue",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "UMBREON" : {
+    "dex" : 197,
+    "id" : "UMBREON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Umbreon",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "UNOWN" : {
+    "dex" : 201,
+    "id" : "UNOWN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Unown",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "URSARING" : {
+    "dex" : 217,
+    "id" : "URSARING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ursaring",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "WOBBUFFET" : {
+    "dex" : 202,
+    "id" : "WOBBUFFET",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wobbuffet",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "WOOPER" : {
+    "dex" : 194,
+    "id" : "WOOPER",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Wooper",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "XATU" : {
+    "dex" : 178,
+    "id" : "XATU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Xatu",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "YANMA" : {
+    "dex" : 193,
+    "id" : "YANMA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Yanma",
+    "region" : "johto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ABRA" : {
+    "dex" : 63,
+    "id" : "ABRA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Abra",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "AERODACTYL" : {
+    "dex" : 142,
+    "id" : "AERODACTYL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Aerodactyl",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ALAKAZAM" : {
+    "dex" : 65,
+    "id" : "ALAKAZAM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Alakazam",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "ARBOK" : {
+    "dex" : 24,
+    "id" : "ARBOK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Arbok",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "ARCANINE" : {
+    "dex" : 59,
+    "id" : "ARCANINE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Arcanine",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "ARTICUNO" : {
+    "dex" : 144,
+    "id" : "ARTICUNO",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Articuno",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "BEEDRILL" : {
+    "dex" : 15,
+    "id" : "BEEDRILL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Beedrill",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "BELLSPROUT" : {
+    "dex" : 69,
+    "id" : "BELLSPROUT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bellsprout",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "BLASTOISE" : {
+    "dex" : 9,
+    "id" : "BLASTOISE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Blastoise",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "BULBASAUR" : {
+    "dex" : 1,
+    "id" : "BULBASAUR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Bulbasaur",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "BUTTERFREE" : {
+    "dex" : 12,
+    "id" : "BUTTERFREE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Butterfree",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "CATERPIE" : {
+    "dex" : 10,
+    "id" : "CATERPIE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Caterpie",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "CHANSEY" : {
+    "dex" : 113,
+    "id" : "CHANSEY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chansey",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "CHARIZARD" : {
+    "dex" : 6,
+    "id" : "CHARIZARD",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Charizard",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "CHARMANDER" : {
+    "dex" : 4,
+    "id" : "CHARMANDER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Charmander",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "CHARMELEON" : {
+    "dex" : 5,
+    "id" : "CHARMELEON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Charmeleon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "CLEFABLE" : {
+    "dex" : 36,
+    "id" : "CLEFABLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Clefable",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "CLEFAIRY" : {
+    "dex" : 35,
+    "id" : "CLEFAIRY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Clefairy",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "CLOYSTER" : {
+    "dex" : 91,
+    "id" : "CLOYSTER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Cloyster",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "CUBONE" : {
+    "dex" : 104,
+    "id" : "CUBONE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Cubone",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "DEWGONG" : {
+    "dex" : 87,
+    "id" : "DEWGONG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dewgong",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "DIGLETT" : {
+    "dex" : 50,
+    "id" : "DIGLETT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Diglett",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "DIGLETT_ALOLA" : {
+    "dex" : 50,
+    "id" : "DIGLETT_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Diglett Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "DITTO" : {
+    "dex" : 132,
+    "id" : "DITTO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ditto",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "DODRIO" : {
+    "dex" : 85,
+    "id" : "DODRIO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dodrio",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DODUO" : {
+    "dex" : 84,
+    "id" : "DODUO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Doduo",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DRAGONAIR" : {
+    "dex" : 148,
+    "id" : "DRAGONAIR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Dragonair",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "DRAGONITE" : {
+    "dex" : 149,
+    "id" : "DRAGONITE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Dragonite",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DRATINI" : {
+    "dex" : 147,
+    "id" : "DRATINI",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Dratini",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "DROWZEE" : {
+    "dex" : 96,
+    "id" : "DROWZEE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Drowzee",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "DUGTRIO" : {
+    "dex" : 51,
+    "id" : "DUGTRIO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dugtrio",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "DUGTRIO_ALOLA" : {
+    "dex" : 51,
+    "id" : "DUGTRIO_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Dugtrio Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "EEVEE" : {
+    "dex" : 133,
+    "id" : "EEVEE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Eevee",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "EKANS" : {
+    "dex" : 23,
+    "id" : "EKANS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ekans",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "ELECTABUZZ" : {
+    "dex" : 125,
+    "id" : "ELECTABUZZ",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Electabuzz",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "ELECTRODE" : {
+    "dex" : 101,
+    "id" : "ELECTRODE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Electrode",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "EXEGGCUTE" : {
+    "dex" : 102,
+    "id" : "EXEGGCUTE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Exeggcute",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "EXEGGUTOR" : {
+    "dex" : 103,
+    "id" : "EXEGGUTOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Exeggutor",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "EXEGGUTOR_ALOLA" : {
+    "dex" : 103,
+    "id" : "EXEGGUTOR_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Exeggutor Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "FARFETCHD" : {
+    "dex" : 83,
+    "id" : "FARFETCHD",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Farfetch'd",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "FEAROW" : {
+    "dex" : 22,
+    "id" : "FEAROW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Fearow",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "FLAREON" : {
+    "dex" : 136,
+    "id" : "FLAREON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Flareon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "GASTLY" : {
+    "dex" : 92,
+    "id" : "GASTLY",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Gastly",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "GENGAR" : {
+    "dex" : 94,
+    "id" : "GENGAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Gengar",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "GEODUDE" : {
+    "dex" : 74,
+    "id" : "GEODUDE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Geodude",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GEODUDE_ALOLA" : {
+    "dex" : 74,
+    "id" : "GEODUDE_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Geodude Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "GLOOM" : {
+    "dex" : 44,
+    "id" : "GLOOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gloom",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "GOLBAT" : {
+    "dex" : 42,
+    "id" : "GOLBAT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Golbat",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "GOLDEEN" : {
+    "dex" : 118,
+    "id" : "GOLDEEN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Goldeen",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "GOLDUCK" : {
+    "dex" : 55,
+    "id" : "GOLDUCK",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Golduck",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "GOLEM" : {
+    "dex" : 76,
+    "id" : "GOLEM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Golem",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GOLEM_ALOLA" : {
+    "dex" : 76,
+    "id" : "GOLEM_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Golem Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "GRAVELER" : {
+    "dex" : 75,
+    "id" : "GRAVELER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Graveler",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GRAVELER_ALOLA" : {
+    "dex" : 75,
+    "id" : "GRAVELER_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Graveler Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "GRIMER" : {
+    "dex" : 88,
+    "id" : "GRIMER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Grimer",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "GRIMER_ALOLA" : {
+    "dex" : 88,
+    "id" : "GRIMER_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Grimer Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "GROWLITHE" : {
+    "dex" : 58,
+    "id" : "GROWLITHE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Growlithe",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "GYARADOS" : {
+    "dex" : 130,
+    "id" : "GYARADOS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Gyarados",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "HAUNTER" : {
+    "dex" : 93,
+    "id" : "HAUNTER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Haunter",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "HITMONCHAN" : {
+    "dex" : 107,
+    "id" : "HITMONCHAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Hitmonchan",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "HITMONLEE" : {
+    "dex" : 106,
+    "id" : "HITMONLEE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Hitmonlee",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "HORSEA" : {
+    "dex" : 116,
+    "id" : "HORSEA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Horsea",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "HYPNO" : {
+    "dex" : 97,
+    "id" : "HYPNO",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Hypno",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "IVYSAUR" : {
+    "dex" : 2,
+    "id" : "IVYSAUR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Ivysaur",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "JIGGLYPUFF" : {
+    "dex" : 39,
+    "id" : "JIGGLYPUFF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Jigglypuff",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "JOLTEON" : {
+    "dex" : 135,
+    "id" : "JOLTEON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Jolteon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "JYNX" : {
+    "dex" : 124,
+    "id" : "JYNX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Jynx",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "KABUTO" : {
+    "dex" : 140,
+    "id" : "KABUTO",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Kabuto",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "KABUTOPS" : {
+    "dex" : 141,
+    "id" : "KABUTOPS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Kabutops",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "KADABRA" : {
+    "dex" : 64,
+    "id" : "KADABRA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kadabra",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "KAKUNA" : {
+    "dex" : 14,
+    "id" : "KAKUNA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kakuna",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "KANGASKHAN" : {
+    "dex" : 115,
+    "id" : "KANGASKHAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kangaskhan",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "KINGLER" : {
+    "dex" : 99,
+    "id" : "KINGLER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Kingler",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "KOFFING" : {
+    "dex" : 109,
+    "id" : "KOFFING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Koffing",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "KRABBY" : {
+    "dex" : 98,
+    "id" : "KRABBY",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Krabby",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "LAPRAS" : {
+    "dex" : 131,
+    "id" : "LAPRAS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lapras",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "LICKITUNG" : {
+    "dex" : 108,
+    "id" : "LICKITUNG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lickitung",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "MACHAMP" : {
+    "dex" : 68,
+    "id" : "MACHAMP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Machamp",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MACHOKE" : {
+    "dex" : 67,
+    "id" : "MACHOKE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Machoke",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MACHOP" : {
+    "dex" : 66,
+    "id" : "MACHOP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Machop",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MAGIKARP" : {
+    "dex" : 129,
+    "id" : "MAGIKARP",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Magikarp",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "MAGMAR" : {
+    "dex" : 126,
+    "id" : "MAGMAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Magmar",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "MAGNEMITE" : {
+    "dex" : 81,
+    "id" : "MAGNEMITE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Magnemite",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "MAGNETON" : {
+    "dex" : 82,
+    "id" : "MAGNETON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Magneton",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "MANKEY" : {
+    "dex" : 56,
+    "id" : "MANKEY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mankey",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MAROWAK" : {
+    "dex" : 105,
+    "id" : "MAROWAK",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Marowak",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "MAROWAK_ALOLA" : {
+    "dex" : 105,
+    "id" : "MAROWAK_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Marowak Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "MEOWTH" : {
+    "dex" : 52,
+    "id" : "MEOWTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Meowth",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "MEOWTH_ALOLA" : {
+    "dex" : 52,
+    "id" : "MEOWTH_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Meowth Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "METAPOD" : {
+    "dex" : 11,
+    "id" : "METAPOD",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Metapod",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "MEW" : {
+    "dex" : 151,
+    "id" : "MEW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mew",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "MEWTWO" : {
+    "dex" : 150,
+    "id" : "MEWTWO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mewtwo",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "MOLTRES" : {
+    "dex" : 146,
+    "id" : "MOLTRES",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Moltres",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MR_MIME" : {
+    "dex" : 122,
+    "id" : "MR_MIME",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mr. Mime",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "MUK" : {
+    "dex" : 89,
+    "id" : "MUK",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Muk",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "MUK_ALOLA" : {
+    "dex" : 89,
+    "id" : "MUK_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Muk Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "NIDOKING" : {
+    "dex" : 34,
+    "id" : "NIDOKING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nidoking",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "NIDOQUEEN" : {
+    "dex" : 31,
+    "id" : "NIDOQUEEN",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Nidoqueen",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "NIDORAN_FEMALE" : {
+    "dex" : 29,
+    "id" : "NIDORAN_FEMALE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Nidoran",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "NIDORAN_MALE" : {
+    "dex" : 32,
+    "id" : "NIDORAN_MALE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nidoran",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "NIDORINA" : {
+    "dex" : 30,
+    "id" : "NIDORINA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Nidorina",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "NIDORINO" : {
+    "dex" : 33,
+    "id" : "NIDORINO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Nidorino",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "NINETALES" : {
+    "dex" : 38,
+    "id" : "NINETALES",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ninetales",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "NINETALES_ALOLA" : {
+    "dex" : 38,
+    "id" : "NINETALES_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ninetales Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "ODDISH" : {
+    "dex" : 43,
+    "id" : "ODDISH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Oddish",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "OMANYTE" : {
+    "dex" : 138,
+    "id" : "OMANYTE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Omanyte",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "OMASTAR" : {
+    "dex" : 139,
+    "id" : "OMASTAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Omastar",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "ONIX" : {
+    "dex" : 95,
+    "id" : "ONIX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Onix",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "PARAS" : {
+    "dex" : 46,
+    "id" : "PARAS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Paras",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "PARASECT" : {
+    "dex" : 47,
+    "id" : "PARASECT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Parasect",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "PERSIAN" : {
+    "dex" : 53,
+    "id" : "PERSIAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Persian",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "PERSIAN_ALOLA" : {
+    "dex" : 53,
+    "id" : "PERSIAN_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Persian Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "PIDGEOT" : {
+    "dex" : 18,
+    "id" : "PIDGEOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Pidgeot",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "PIDGEOTTO" : {
+    "dex" : 17,
+    "id" : "PIDGEOTTO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Pidgeotto",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "PIDGEY" : {
+    "dex" : 16,
+    "id" : "PIDGEY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Pidgey",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "PIKACHU" : {
+    "dex" : 25,
+    "id" : "PIKACHU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pikachu",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "PINSIR" : {
+    "dex" : 127,
+    "id" : "PINSIR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Pinsir",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "POLIWAG" : {
+    "dex" : 60,
+    "id" : "POLIWAG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Poliwag",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "POLIWHIRL" : {
+    "dex" : 61,
+    "id" : "POLIWHIRL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Poliwhirl",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "POLIWRATH" : {
+    "dex" : 62,
+    "id" : "POLIWRATH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Poliwrath",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "PONYTA" : {
+    "dex" : 77,
+    "id" : "PONYTA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Ponyta",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "PORYGON" : {
+    "dex" : 137,
+    "id" : "PORYGON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Porygon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "PRIMEAPE" : {
+    "dex" : 57,
+    "id" : "PRIMEAPE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Primeape",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "PSYDUCK" : {
+    "dex" : 54,
+    "id" : "PSYDUCK",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Psyduck",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "RAICHU" : {
+    "dex" : 26,
+    "id" : "RAICHU",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Raichu",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "RAICHU_ALOLA" : {
+    "dex" : 26,
+    "id" : "RAICHU_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Raichu Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "RAPIDASH" : {
+    "dex" : 78,
+    "id" : "RAPIDASH",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Rapidash",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "RATICATE" : {
+    "dex" : 20,
+    "id" : "RATICATE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Raticate",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RATICATE_ALOLA" : {
+    "dex" : 20,
+    "id" : "RATICATE_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Raticate Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RATTATA" : {
+    "dex" : 19,
+    "id" : "RATTATA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rattata",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RATTATA_ALOLA" : {
+    "dex" : 19,
+    "id" : "RATTATA_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rattata Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RHYDON" : {
+    "dex" : 112,
+    "id" : "RHYDON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rhydon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "RHYHORN" : {
+    "dex" : 111,
+    "id" : "RHYHORN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rhyhorn",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "SANDSHREW" : {
+    "dex" : 27,
+    "id" : "SANDSHREW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Sandshrew",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "SANDSHREW_ALOLA" : {
+    "dex" : 27,
+    "id" : "SANDSHREW_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sandshrew Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "SANDSLASH" : {
+    "dex" : 28,
+    "id" : "SANDSLASH",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Sandslash",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "SANDSLASH_ALOLA" : {
+    "dex" : 28,
+    "id" : "SANDSLASH_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Sandslash Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "SCYTHER" : {
+    "dex" : 123,
+    "id" : "SCYTHER",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Scyther",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SEADRA" : {
+    "dex" : 117,
+    "id" : "SEADRA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Seadra",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SEAKING" : {
+    "dex" : 119,
+    "id" : "SEAKING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Seaking",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SEEL" : {
+    "dex" : 86,
+    "id" : "SEEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Seel",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHELLDER" : {
+    "dex" : 90,
+    "id" : "SHELLDER",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Shellder",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SLOWBRO" : {
+    "dex" : 80,
+    "id" : "SLOWBRO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slowbro",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SLOWPOKE" : {
+    "dex" : 79,
+    "id" : "SLOWPOKE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Slowpoke",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "SNORLAX" : {
+    "dex" : 143,
+    "id" : "SNORLAX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Snorlax",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "SPEAROW" : {
+    "dex" : 21,
+    "id" : "SPEAROW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Spearow",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "SQUIRTLE" : {
+    "dex" : 7,
+    "id" : "SQUIRTLE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Squirtle",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "STARMIE" : {
+    "dex" : 121,
+    "id" : "STARMIE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Starmie",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "STARYU" : {
+    "dex" : 120,
+    "id" : "STARYU",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Staryu",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "TANGELA" : {
+    "dex" : 114,
+    "id" : "TANGELA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tangela",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "TAUROS" : {
+    "dex" : 128,
+    "id" : "TAUROS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tauros",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "TENTACOOL" : {
+    "dex" : 72,
+    "id" : "TENTACOOL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tentacool",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "TENTACRUEL" : {
+    "dex" : 73,
+    "id" : "TENTACRUEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tentacruel",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VAPOREON" : {
+    "dex" : 134,
+    "id" : "VAPOREON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Vaporeon",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "VENOMOTH" : {
+    "dex" : 49,
+    "id" : "VENOMOTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Venomoth",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VENONAT" : {
+    "dex" : 48,
+    "id" : "VENONAT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Venonat",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VENUSAUR" : {
+    "dex" : 3,
+    "id" : "VENUSAUR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Venusaur",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VICTREEBEL" : {
+    "dex" : 71,
+    "id" : "VICTREEBEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Victreebel",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VILEPLUME" : {
+    "dex" : 45,
+    "id" : "VILEPLUME",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vileplume",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "VOLTORB" : {
+    "dex" : 100,
+    "id" : "VOLTORB",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Voltorb",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "VULPIX" : {
+    "dex" : 37,
+    "id" : "VULPIX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vulpix",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "VULPIX_ALOLA" : {
+    "dex" : 37,
+    "id" : "VULPIX_ALOLA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vulpix Alola",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "WARTORTLE" : {
+    "dex" : 8,
+    "id" : "WARTORTLE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Wartortle",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "WEEDLE" : {
+    "dex" : 13,
+    "id" : "WEEDLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Weedle",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "WEEPINBELL" : {
+    "dex" : 70,
+    "id" : "WEEPINBELL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Weepinbell",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "WEEZING" : {
+    "dex" : 110,
+    "id" : "WEEZING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Weezing",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "WIGGLYTUFF" : {
+    "dex" : 40,
+    "id" : "WIGGLYTUFF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Wigglytuff",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "ZAPDOS" : {
+    "dex" : 145,
+    "id" : "ZAPDOS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Zapdos",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ZUBAT" : {
+    "dex" : 41,
+    "id" : "ZUBAT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Zubat",
+    "region" : "kanto",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ABOMASNOW" : {
+    "dex" : 460,
+    "id" : "ABOMASNOW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Abomasnow",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "AMBIPOM" : {
+    "dex" : 424,
+    "id" : "AMBIPOM",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Ambipom",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "AZELF" : {
+    "dex" : 482,
+    "id" : "AZELF",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Azelf",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "BASTIODON" : {
+    "dex" : 411,
+    "id" : "BASTIODON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bastiodon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "BIBAREL" : {
+    "dex" : 400,
+    "id" : "BIBAREL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bibarel",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "BIDOOF" : {
+    "dex" : 399,
+    "id" : "BIDOOF",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bidoof",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "BONSLY" : {
+    "dex" : 438,
+    "id" : "BONSLY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bonsly",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "BRONZONG" : {
+    "dex" : 437,
+    "id" : "BRONZONG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bronzong",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "BRONZOR" : {
+    "dex" : 436,
+    "id" : "BRONZOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Bronzor",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "BUDEW" : {
+    "dex" : 406,
+    "id" : "BUDEW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Budew",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "BUIZEL" : {
+    "dex" : 418,
+    "id" : "BUIZEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Buizel",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "BUNEARY" : {
+    "dex" : 427,
+    "id" : "BUNEARY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Buneary",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "BURMY" : {
+    "dex" : 412,
+    "id" : "BURMY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Burmy",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "BURMY_PLANT" : {
+    "dex" : 412,
+    "id" : "BURMY_PLANT",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Burmy Plant",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "BURMY_SANDY" : {
+    "dex" : 412,
+    "id" : "BURMY_SANDY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Burmy Sandy",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "BURMY_TRASH" : {
+    "dex" : 412,
+    "id" : "BURMY_TRASH",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Burmy Trash",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "CARNIVINE" : {
+    "dex" : 455,
+    "id" : "CARNIVINE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Carnivine",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHATOT" : {
+    "dex" : 441,
+    "id" : "CHATOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chatot",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "CHERRIM" : {
+    "dex" : 421,
+    "id" : "CHERRIM",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Cherrim",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHERRIM_OVERCAST" : {
+    "dex" : 421,
+    "id" : "CHERRIM_OVERCAST",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Cherrim Overcast",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHERRIM_SUNNY" : {
+    "dex" : 421,
+    "id" : "CHERRIM_SUNNY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Cherrim Sunny",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHERUBI" : {
+    "dex" : 420,
+    "id" : "CHERUBI",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Cherubi",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "CHIMCHAR" : {
+    "dex" : 390,
+    "id" : "CHIMCHAR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chimchar",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "CHINGLING" : {
+    "dex" : 433,
+    "id" : "CHINGLING",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Chingling",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "COMBEE" : {
+    "dex" : 415,
+    "id" : "COMBEE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Combee",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "CRANIDOS" : {
+    "dex" : 408,
+    "id" : "CRANIDOS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cranidos",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "CRESSELIA" : {
+    "dex" : 488,
+    "id" : "CRESSELIA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Cresselia",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "CROAGUNK" : {
+    "dex" : 453,
+    "id" : "CROAGUNK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Croagunk",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "DIALGA" : {
+    "dex" : 483,
+    "id" : "DIALGA",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Dialga",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "DRAPION" : {
+    "dex" : 452,
+    "id" : "DRAPION",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Drapion",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "DRIFBLIM" : {
+    "dex" : 426,
+    "id" : "DRIFBLIM",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Drifblim",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DRIFLOON" : {
+    "dex" : 425,
+    "id" : "DRIFLOON",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Drifloon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "DUSKNOIR" : {
+    "dex" : 477,
+    "id" : "DUSKNOIR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Dusknoir",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "ELECTIVIRE" : {
+    "dex" : 466,
+    "id" : "ELECTIVIRE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Electivire",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "EMPOLEON" : {
+    "dex" : 395,
+    "id" : "EMPOLEON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Empoleon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "FINNEON" : {
+    "dex" : 456,
+    "id" : "FINNEON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Finneon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "FLOATZEL" : {
+    "dex" : 419,
+    "id" : "FLOATZEL",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Floatzel",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "FROSLASS" : {
+    "dex" : 478,
+    "id" : "FROSLASS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Froslass",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "GABITE" : {
+    "dex" : 444,
+    "id" : "GABITE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gabite",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GALLADE" : {
+    "dex" : 475,
+    "id" : "GALLADE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gallade",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "GARCHOMP" : {
+    "dex" : 445,
+    "id" : "GARCHOMP",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Garchomp",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GASTRODON" : {
+    "dex" : 423,
+    "id" : "GASTRODON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gastrodon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GASTRODON_EAST_SEA" : {
+    "dex" : 423,
+    "id" : "GASTRODON_EAST_SEA",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gastrodon East Sea",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GASTRODON_WEST_SEA" : {
+    "dex" : 423,
+    "id" : "GASTRODON_WEST_SEA",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gastrodon West Sea",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GIBLE" : {
+    "dex" : 443,
+    "id" : "GIBLE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Gible",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "GIRATINA" : {
+    "dex" : 487,
+    "id" : "GIRATINA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Giratina",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "GIRATINA_ALTERED" : {
+    "dex" : 487,
+    "id" : "GIRATINA_ALTERED",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Giratina Altered",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "GIRATINA_ORIGIN" : {
+    "dex" : 487,
+    "id" : "GIRATINA_ORIGIN",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Giratina Origin",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "GLACEON" : {
+    "dex" : 471,
+    "id" : "GLACEON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Glaceon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "GLAMEOW" : {
+    "dex" : 431,
+    "id" : "GLAMEOW",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Glameow",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "GLISCOR" : {
+    "dex" : 472,
+    "id" : "GLISCOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Gliscor",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "GROTLE" : {
+    "dex" : 388,
+    "id" : "GROTLE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Grotle",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "HAPPINY" : {
+    "dex" : 440,
+    "id" : "HAPPINY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Happiny",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "HEATRAN" : {
+    "dex" : 485,
+    "id" : "HEATRAN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Heatran",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "HIPPOPOTAS" : {
+    "dex" : 449,
+    "id" : "HIPPOPOTAS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Hippopotas",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "HIPPOWDON" : {
+    "dex" : 450,
+    "id" : "HIPPOWDON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Hippowdon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "HONCHKROW" : {
+    "dex" : 430,
+    "id" : "HONCHKROW",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Honchkrow",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "INFERNAPE" : {
+    "dex" : 392,
+    "id" : "INFERNAPE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Infernape",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "KRICKETOT" : {
+    "dex" : 401,
+    "id" : "KRICKETOT",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kricketot",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "KRICKETUNE" : {
+    "dex" : 402,
+    "id" : "KRICKETUNE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Kricketune",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "LEAFEON" : {
+    "dex" : 470,
+    "id" : "LEAFEON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Leafeon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "LICKILICKY" : {
+    "dex" : 463,
+    "id" : "LICKILICKY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lickilicky",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "LOPUNNY" : {
+    "dex" : 428,
+    "id" : "LOPUNNY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lopunny",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "LUCARIO" : {
+    "dex" : 448,
+    "id" : "LUCARIO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lucario",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "LUMINEON" : {
+    "dex" : 457,
+    "id" : "LUMINEON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Lumineon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "LUXIO" : {
+    "dex" : 404,
+    "id" : "LUXIO",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Luxio",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "LUXRAY" : {
+    "dex" : 405,
+    "id" : "LUXRAY",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Luxray",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "MAGMORTAR" : {
+    "dex" : 467,
+    "id" : "MAGMORTAR",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Magmortar",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "MAGNEZONE" : {
+    "dex" : 462,
+    "id" : "MAGNEZONE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Magnezone",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "MAMOSWINE" : {
+    "dex" : 473,
+    "id" : "MAMOSWINE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mamoswine",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "MANTYKE" : {
+    "dex" : 458,
+    "id" : "MANTYKE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mantyke",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MESPRIT" : {
+    "dex" : 481,
+    "id" : "MESPRIT",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Mesprit",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "MIME_JR" : {
+    "dex" : 439,
+    "id" : "MIME_JR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Mime Jr",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    }, {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "MISMAGIUS" : {
+    "dex" : 429,
+    "id" : "MISMAGIUS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Mismagius",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "MONFERNO" : {
+    "dex" : 391,
+    "id" : "MONFERNO",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Monferno",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "MOTHIM" : {
+    "dex" : 414,
+    "id" : "MOTHIM",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Mothim",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "MUNCHLAX" : {
+    "dex" : 446,
+    "id" : "MUNCHLAX",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Munchlax",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "PACHIRISU" : {
+    "dex" : 417,
+    "id" : "PACHIRISU",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Pachirisu",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "PALKIA" : {
+    "dex" : 484,
+    "id" : "PALKIA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Palkia",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    }, {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "PIPLUP" : {
+    "dex" : 393,
+    "id" : "PIPLUP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Piplup",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "PORYGON_Z" : {
+    "dex" : 474,
+    "id" : "PORYGON_Z",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Porygon Z",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "PRINPLUP" : {
+    "dex" : 394,
+    "id" : "PRINPLUP",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Prinplup",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "PROBOPASS" : {
+    "dex" : 476,
+    "id" : "PROBOPASS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Probopass",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "PURUGLY" : {
+    "dex" : 432,
+    "id" : "PURUGLY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Purugly",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RAMPARDOS" : {
+    "dex" : 409,
+    "id" : "RAMPARDOS",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rampardos",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "REGIGIGAS" : {
+    "dex" : 486,
+    "id" : "REGIGIGAS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Regigigas",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "RHYPERIOR" : {
+    "dex" : 464,
+    "id" : "RHYPERIOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Rhyperior",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    }, {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "RIOLU" : {
+    "dex" : 447,
+    "id" : "RIOLU",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Riolu",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "ROSERADE" : {
+    "dex" : 407,
+    "id" : "ROSERADE",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Roserade",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "ROTOM" : {
+    "dex" : 479,
+    "id" : "ROTOM",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "ROTOM_FAN" : {
+    "dex" : 479,
+    "id" : "ROTOM_FAN",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom Fan",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ROTOM_FROST" : {
+    "dex" : 479,
+    "id" : "ROTOM_FROST",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom Frost",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "ROTOM_HEAT" : {
+    "dex" : 479,
+    "id" : "ROTOM_HEAT",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom Heat",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "ROTOM_MOW" : {
+    "dex" : 479,
+    "id" : "ROTOM_MOW",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom Mow",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "ROTOM_WASH" : {
+    "dex" : 479,
+    "id" : "ROTOM_WASH",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Rotom Wash",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    }, {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHELLOS" : {
+    "dex" : 422,
+    "id" : "SHELLOS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shellos",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHELLOS_EAST_SEA" : {
+    "dex" : 422,
+    "id" : "SHELLOS_EAST_SEA",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shellos East Sea",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHELLOS_WEST_SEA" : {
+    "dex" : 422,
+    "id" : "SHELLOS_WEST_SEA",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shellos West Sea",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHIELDON" : {
+    "dex" : 410,
+    "id" : "SHIELDON",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Shieldon",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "SHINX" : {
+    "dex" : 403,
+    "id" : "SHINX",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Shinx",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "SKORUPI" : {
+    "dex" : 451,
+    "id" : "SKORUPI",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Skorupi",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "SKUNTANK" : {
+    "dex" : 435,
+    "id" : "SKUNTANK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Skuntank",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "SNOVER" : {
+    "dex" : 459,
+    "id" : "SNOVER",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Snover",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "SPIRITOMB" : {
+    "dex" : 442,
+    "id" : "SPIRITOMB",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Spiritomb",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "STARAPTOR" : {
+    "dex" : 398,
+    "id" : "STARAPTOR",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Staraptor",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "STARAVIA" : {
+    "dex" : 397,
+    "id" : "STARAVIA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Staravia",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "STARLY" : {
+    "dex" : 396,
+    "id" : "STARLY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Starly",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "STUNKY" : {
+    "dex" : 434,
+    "id" : "STUNKY",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Stunky",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "TANGROWTH" : {
+    "dex" : 465,
+    "id" : "TANGROWTH",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Tangrowth",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "TOGEKISS" : {
+    "dex" : 468,
+    "id" : "TOGEKISS",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Togekiss",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "TORTERRA" : {
+    "dex" : 389,
+    "id" : "TORTERRA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Torterra",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "TOXICROAK" : {
+    "dex" : 454,
+    "id" : "TOXICROAK",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Toxicroak",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    }, {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "TURTWIG" : {
+    "dex" : 387,
+    "id" : "TURTWIG",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Turtwig",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "UXIE" : {
+    "dex" : 480,
+    "id" : "UXIE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Uxie",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "VESPIQUEN" : {
+    "dex" : 416,
+    "id" : "VESPIQUEN",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Vespiquen",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "WEAVILE" : {
+    "dex" : 461,
+    "id" : "WEAVILE",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Weavile",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    }, {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "WORMADAM" : {
+    "dex" : 413,
+    "id" : "WORMADAM",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Wormadam",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "WORMADAM_PLANT" : {
+    "dex" : 413,
+    "id" : "WORMADAM_PLANT",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Wormadam Plant",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "WORMADAM_SANDY" : {
+    "dex" : 413,
+    "id" : "WORMADAM_SANDY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Wormadam Sandy",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "WORMADAM_TRASH" : {
+    "dex" : 413,
+    "id" : "WORMADAM_TRASH",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Wormadam Trash",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "YANMEGA" : {
+    "dex" : 469,
+    "id" : "YANMEGA",
+    "isAvailable" : true,
+    "isShiny" : false,
+    "name" : "Yanmega",
+    "region" : "sinnoh",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ARCEUS" : {
+    "dex" : 493,
+    "id" : "ARCEUS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_NORMAL",
+      "name" : "Normal"
+    } ]
+  },
+  "ARCEUS_BUG" : {
+    "dex" : 493,
+    "id" : "ARCEUS_BUG",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Bug",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_BUG",
+      "name" : "Bug"
+    } ]
+  },
+  "ARCEUS_DARK" : {
+    "dex" : 493,
+    "id" : "ARCEUS_DARK",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Dark",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "ARCEUS_DRAGON" : {
+    "dex" : 493,
+    "id" : "ARCEUS_DRAGON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Dragon",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DRAGON",
+      "name" : "Dragon"
+    } ]
+  },
+  "ARCEUS_ELECTRIC" : {
+    "dex" : 493,
+    "id" : "ARCEUS_ELECTRIC",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Electric",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ELECTRIC",
+      "name" : "Electric"
+    } ]
+  },
+  "ARCEUS_FAIRY" : {
+    "dex" : 493,
+    "id" : "ARCEUS_FAIRY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Fairy",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FAIRY",
+      "name" : "Fairy"
+    } ]
+  },
+  "ARCEUS_FIGHTING" : {
+    "dex" : 493,
+    "id" : "ARCEUS_FIGHTING",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Fighting",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIGHTING",
+      "name" : "Fighting"
+    } ]
+  },
+  "ARCEUS_FIRE" : {
+    "dex" : 493,
+    "id" : "ARCEUS_FIRE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Fire",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FIRE",
+      "name" : "Fire"
+    } ]
+  },
+  "ARCEUS_FLYING" : {
+    "dex" : 493,
+    "id" : "ARCEUS_FLYING",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Flying",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  },
+  "ARCEUS_GHOST" : {
+    "dex" : 493,
+    "id" : "ARCEUS_GHOST",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Ghost",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GHOST",
+      "name" : "Ghost"
+    } ]
+  },
+  "ARCEUS_GRASS" : {
+    "dex" : 493,
+    "id" : "ARCEUS_GRASS",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Grass",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "ARCEUS_GROUND" : {
+    "dex" : 493,
+    "id" : "ARCEUS_GROUND",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Ground",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GROUND",
+      "name" : "Ground"
+    } ]
+  },
+  "ARCEUS_ICE" : {
+    "dex" : 493,
+    "id" : "ARCEUS_ICE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Ice",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ICE",
+      "name" : "Ice"
+    } ]
+  },
+  "ARCEUS_POISON" : {
+    "dex" : 493,
+    "id" : "ARCEUS_POISON",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Poison",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_POISON",
+      "name" : "Poison"
+    } ]
+  },
+  "ARCEUS_PSYCHIC" : {
+    "dex" : 493,
+    "id" : "ARCEUS_PSYCHIC",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Psychic",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_PSYCHIC",
+      "name" : "Psychic"
+    } ]
+  },
+  "ARCEUS_ROCK" : {
+    "dex" : 493,
+    "id" : "ARCEUS_ROCK",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Rock",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_ROCK",
+      "name" : "Rock"
+    } ]
+  },
+  "ARCEUS_STEEL" : {
+    "dex" : 493,
+    "id" : "ARCEUS_STEEL",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Steel",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "ARCEUS_WATER" : {
+    "dex" : 493,
+    "id" : "ARCEUS_WATER",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Arceus Water",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "DARKRAI" : {
+    "dex" : 491,
+    "id" : "DARKRAI",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Darkrai",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_DARK",
+      "name" : "Dark"
+    } ]
+  },
+  "MANAPHY" : {
+    "dex" : 490,
+    "id" : "MANAPHY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Manaphy",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "MELMETAL" : {
+    "dex" : 809,
+    "id" : "MELMETAL",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Melmetal",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "MELTAN" : {
+    "dex" : 808,
+    "id" : "MELTAN",
+    "isAvailable" : true,
+    "isShiny" : true,
+    "name" : "Meltan",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_STEEL",
+      "name" : "Steel"
+    } ]
+  },
+  "PHIONE" : {
+    "dex" : 489,
+    "id" : "PHIONE",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Phione",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_WATER",
+      "name" : "Water"
+    } ]
+  },
+  "SHAYMIN" : {
+    "dex" : 492,
+    "id" : "SHAYMIN",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shaymin",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SHAYMIN_LAND" : {
+    "dex" : 492,
+    "id" : "SHAYMIN_LAND",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shaymin Land",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    } ]
+  },
+  "SHAYMIN_SKY" : {
+    "dex" : 492,
+    "id" : "SHAYMIN_SKY",
+    "isAvailable" : false,
+    "isShiny" : false,
+    "name" : "Shaymin Sky",
+    "region" : "other",
+    "type" : [ {
+      "id" : "POKEMON_TYPE_GRASS",
+      "name" : "Grass"
+    }, {
+      "id" : "POKEMON_TYPE_FLYING",
+      "name" : "Flying"
+    } ]
+  }
+}

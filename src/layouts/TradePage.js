@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import TradeList from "../components/TradeList"
 import TradeAddForm from '../components/TradeAddForm'
 import ShowAddButton from '../components/ShowAddButton'
+import TopAnchor from '../components/TopAnchor'
 
 export default class TradePage extends Component {
 	constructor(props) {
@@ -165,11 +166,11 @@ export default class TradePage extends Component {
         let tradeRef = {
             tradeId: newItem.id
         }
-        debugger;
         ref.ref('trade_ticket/').child(newItem.id).set(newItem);
         ref.ref('user_list/'+this.props.userId+'/created_trades/').child(newItem.id).set(tradeRef);
         this.loadTradeData(12);
         this.toggleMoreState(true);
+        this.onToggleForm();
     }
 
 	render() {
@@ -234,6 +235,7 @@ export default class TradePage extends Component {
                         </section>
                     </div>
                 </main>
+                <TopAnchor />
             </div>
         );
     }

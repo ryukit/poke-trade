@@ -69,7 +69,7 @@ export default class PokemonList extends Component {
                     userRole={this.props.userRole}
                     userId={this.props.userId}
                     userShinyData={this.props.shinyItems}
-                    luckyItems={this.props.luckyItems}
+                    userLuckyData={this.props.luckyItems}
                 />
             }
         }.bind(this));

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import PokemonList from '../components/PokemonList'
+import TopAnchor from '../components/TopAnchor'
 
 export default class PokedexRegionPage extends Component {
 	constructor(props) {
@@ -130,6 +131,7 @@ export default class PokedexRegionPage extends Component {
                         </section>
                     </div>
                 </main>
+                <TopAnchor />
             </div>
         );
     }

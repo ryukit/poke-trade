@@ -74,8 +74,6 @@ export default class UserTradesPage extends Component {
             //let pagedList = $this.chunk(sorted, 2);
             let prePage = sorted.slice(0, val);
 
-            debugger;
-
             this.setState({
                 trade_list: prePage,
                 default_trade_list: sorted,
@@ -182,11 +180,11 @@ export default class UserTradesPage extends Component {
         let tradeRef = {
             tradeId: newItem.id
         }
-        debugger;
         ref.ref('trade_ticket/').child(newItem.id).set(newItem);
         ref.ref('user_list/'+this.props.userId+'/created_trades/').child(newItem.id).set(tradeRef);
         this.loadTradeData(12);
         this.toggleMoreState(true);
+        this.onToggleForm();
     }
 
 	render() {

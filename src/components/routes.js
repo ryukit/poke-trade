@@ -35,7 +35,7 @@ export default class Routes extends Component {
                 <Route path='/trades/:itemId' render={ ({ match }) => <TradeInnerPage { ...match.params } userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path="/trades" render={() => <TradePage userName={this.state.userName} userRole={this.state.userRole} userId={this.state.userId}/> } />
                 <Route path="/my-trades" render={() => <UserTradesPage userName={this.state.userName} userRole={this.state.userRole} userId={this.state.userId}/> } />
-                <Route path="/pokedex" render={() => <PokedexPage /> } />
+                <Route path="/pokedex" render={() => <PokedexPage userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path='/region/:regionName' render={ ({ match }) => <PokedexRegionPage { ...match.params } userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route render={function () { return <p className="notFound">404</p> }} />
             </Switch>
