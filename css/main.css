@@ -729,7 +729,7 @@ body {
 }
 .pokeBox-line-preference span {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 3px;
     line-height: 1;
 }
 .pokeBox-line-num {
@@ -737,7 +737,7 @@ body {
 }
 
 .mdl-data-table td {
-    padding: 0 5px !important;
+    padding: 0 3px !important;
 }
 .pokeBox-line-image {
 
@@ -749,6 +749,7 @@ body {
 }
 .pokeBox-line-mainInfo {
     width: 100%;
+    font-size: 12px !important;
 }
 .anchorLink {
     position: fixed;
@@ -855,4 +856,16 @@ body {
     max-height: 200px;
     overflow: auto;
     margin-right: -20px;
+}
+.paginationButtons {
+    background: #fff;
+    width: 100%;
+    display: flex;
+}
+.paginationButtons > div {
+    width: 50%;
+}
+.paginationButtons a {
+    display: block;
+    padding: 15px 20px;
 }
