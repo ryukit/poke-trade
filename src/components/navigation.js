@@ -13,12 +13,25 @@ export default class Links extends Component {
     }
 
     render() {
+    	let role = this.props.userRole;
+
 	    return (
 	        <div className="nav-wrapper">
 	            <ul id="nav-mobile" className="right hide-on-med-and-down">
 	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" exact to='/'>Home</NavLink></li>
 	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" to='/trades'>Trades</NavLink></li>
 	                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" to='/pokedex'>Pokedex</NavLink></li>
+	                {(() => {
+                        if (role == "user" || role == "admin"){
+                            return (
+                                <li onClick={this.onLinkClick}><NavLink className="mdl-navigation__link" to='/account'>My account</NavLink></li>
+                            );
+                        } else {
+                            return (
+                                ""
+                            );
+                        }
+                    })()}
 	            </ul>
 	        </div>
 	    )

@@ -6,6 +6,7 @@ import TradeInnerPage from '../layouts/TradeInnerPage'
 import PokedexPage from '../layouts/PokedexPage'
 import HomePage from '../layouts/HomePage'
 import PokedexRegionPage from '../layouts/PokedexRegionPage'
+import UserAccountPage from '../layouts/UserAccountPage'
 
 //const Routes = () => {
 export default class Routes extends Component {
@@ -37,6 +38,7 @@ export default class Routes extends Component {
                 <Route path="/my-trades" render={() => <UserTradesPage userName={this.state.userName} userRole={this.state.userRole} userId={this.state.userId}/> } />
                 <Route path="/pokedex" render={() => <PokedexPage userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route path='/region/:regionName' render={ ({ match }) => <PokedexRegionPage { ...match.params } userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
+                <Route path='/account' render={ ({match}) => <UserAccountPage userId={this.state.userId} userName={this.state.userName} userRole={this.state.userRole} /> } />
                 <Route render={function () { return <p className="notFound">404</p> }} />
             </Switch>
         )

@@ -33,6 +33,7 @@ export default class PokemonItem extends Component {
 		var ref = new firebase.database().ref('user_list/'+userId+'/shiny_list/'+this.props.id);
 		//debugger;
 		ref.child('dex').set(this.props.dex_number);
+		ref.child('name').set(this.props.name);
 		ref.child('isShiny').set(targerVal);
 	}
 
@@ -42,6 +43,7 @@ export default class PokemonItem extends Component {
 		var ref = new firebase.database().ref('user_list/'+userId+'/lucky_list/'+this.props.id);
 		//debugger;
 		ref.child('dex').set(this.props.dex_number);
+		ref.child('name').set(this.props.name);
 		ref.child('isLucky').set(targerVal);
 	}
 

@@ -533,7 +533,7 @@ body {
 .tradeList-loadMore {
     text-align: center;
     padding: 0;
-    margin: 0
+    margin: 0;
     list-style: none;
 }
 .tradeList-loadMore li {
@@ -868,4 +868,202 @@ body {
 .paginationButtons a {
     display: block;
     padding: 15px 20px;
+}
+.personalPage {
+    padding-top: 100px;
+    display: flex;
+}
+.personalPage-card {
+    display: flex;
+    flex-direction: row !important;
+    overflow: visible;
+}
+.personalPage-left {
+    width: 230px;
+    padding: 0 15px;
+}
+.personalPage-right {
+    width: 100%;
+    padding: 20px 15px;
+    position: relative;
+}
+.personalPage-image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: -100px;
+}
+.personalPage-image-imageWrapp {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.personalPage-image-imageWrapp img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.personalPage-title {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    transform: translateY(-100%);
+    color: #fff;
+    margin: 0;
+}
+.userShinyList {
+    display: block;
+}
+.userShinyList-item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+.userShinyList-item img {
+    width: 100%;
+}
+.personalPage-image-fileLoad {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,.4);
+    overflow: hidden;
+    border-radius: 100%; 
+    opacity: 0;
+    transition: all .3s;
+}
+.personalPage-image-fileLoad:hover {
+    opacity: 1;
+}
+.personalPage-image-fileLoad-label {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background: blue;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+}
+.personalPage-image-fileLoad input[type="file"] {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.personalPage-image-fileLoad-link {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    margin-left: 25px;
+    background: green;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}   
+
+.personalPage-image-fileLoad.canSave .personalPage-image-fileLoad-link {
+    display: block;
+}
+.personalPage-image-fileLoad.canSave .personalPage-image-fileLoad-label {
+    margin-left: -25px;
+}
+.personalPage-infoLine {
+    margin-top: -1px;
+    /*border-bottom: 1px solid #ccc;*/
+}
+.personalPage-infoLine-title {
+    padding: 3px 0;
+    font-size: 14px;
+    line-height: 24px;
+    border-top: 1px solid #b7c0cd;
+    border-bottom: 1px solid #b7c0cd;
+    cursor: pointer;
+    transition: all .3s;
+    color: #b7c0cd;
+}
+.personalPage-infoLine-title:hover {
+    background: #222c3c;
+    margin: 0 -10px;
+    padding: 3px 10px
+}
+.personalPage-infoLine-content {
+    display: none;
+    padding: 10px 0;
+}
+.personalPage-infoLine.is-opened .personalPage-infoLine-title {
+    background: #222c3c;
+    margin: 0 -10px;
+    padding: 3px 10px
+}
+.personalPage-infoLine.is-opened .personalPage-infoLine-content {
+    display: block;
+}
+.personalPage-image-level {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #f00;
+    line-height: 40px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+.personalPage-image-level span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    z-index: 100;
+}
+.personalPage-image-level input[type="text"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    z-index: 99;
+    background: transparent;
+    border: none;
+    display: none;
+}
+.personalPage-image-level.is-opened span {
+    z-index: 99;
+    display: none;
+}
+.personalPage-image-level.is-opened input[type="text"]{
+    z-index: 100;
+    display: block
 }

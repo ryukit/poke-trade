@@ -19,12 +19,22 @@ firebase.initializeApp(config);
 
 export default class Layout extends Component {
 	constructor(props) {
-		super(props)
+        super(props)
 
-		this.state = {
-			items: []
-		}
-	}
+        this.state = {
+            userName: localStorage.getItem('userName'),
+            userRole: localStorage.getItem('userRole'),
+            userId: localStorage.getItem('userId')
+        }
+        this.updateGlobalState = this.updateGlobalState.bind(this);
+    }
+    updateGlobalState(userName, userRole, userId) {
+        this.setState({
+            userName: userName,
+            userRole: userRole,
+            userId: userId
+        });
+    }
     componentWillMount(){
         // var user = localStorage.getItem('userName');
         // var role = localStorage.getItem('userRole');
