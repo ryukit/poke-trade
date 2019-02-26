@@ -17,6 +17,7 @@ export default class LogoutUser extends Component {
             userId: undefined
         });
         this.props.updateGlobalState(undefined, undefined, undefined);
+        location.reload();
     }
 
     render() {

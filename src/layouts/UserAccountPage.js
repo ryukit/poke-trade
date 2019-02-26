@@ -140,7 +140,7 @@ export default class UserAccountPage extends Component {
         var target = e.target,
             value = target.value,
             loggedUser = e.target.dataset.userid;
-            debugger;
+            //debugger;
         var ref = new firebase.database().ref('user_list/'+loggedUser);
         ref.child('user_lvl').set(value);
     }

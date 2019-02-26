@@ -61,13 +61,12 @@ export default class PokemonItem extends Component {
 	componentDidMount(){
 	 	let typeStr = this.props.pokeType;
 		let currId = this.props.id;
-		if( typeof typeStr !== 'undefined' && false ){
+		if( typeof typeStr !== 'undefined' ){
 			//let typeArr = typeStr.split(',');
-			
 			var tempVar = '';
 		
 			for (var i = 0; i < typeStr.length; i++) {
-		        tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' +typeStr[i].toLowerCase()+'-type-img positionTypeOption">&nbsp;</span></li>';
+		        tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' +typeStr[i].name.toLowerCase()+'-type-img positionTypeOption">&nbsp;</span></li>';
 		       
 		    }
 		    let currTypeBlock = document.getElementById(currId).getElementsByClassName('js-pokeType')[0];
@@ -149,7 +148,7 @@ export default class PokemonItem extends Component {
         			<p className="mdl-list__item-primary-content js-desc is-hidden">
 		            	currently no info
 		        	</p>
-		        	{/*<ul className="TypeOptions js-pokeType"></ul>*/}
+		        	<ul className="TypeOptions js-pokeType" data-tyle={this.props.pokeType}></ul>
         		</td>
         		<td>
 	        		<div className="pokeBox-line-preference">

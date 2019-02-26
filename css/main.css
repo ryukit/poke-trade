@@ -294,7 +294,7 @@ body {
 .TypeOptions {
     font-size: 12px;
     line-height: 1;
-    margin: 10px 0;
+    margin: 0;
     padding: 0;
 }
 .TypeOptions li {

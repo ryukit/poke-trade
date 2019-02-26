@@ -44,6 +44,7 @@ export default class LoginUser extends Component {
             // this.setState({
             //     userInfo: userInfo
             // });
+            location.reload();
 
         }.bind(this));
     }
