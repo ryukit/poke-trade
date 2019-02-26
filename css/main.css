@@ -874,13 +874,24 @@ body {
     display: flex;
 }
 .personalPage-card {
-    display: flex;
-    flex-direction: row !important;
     overflow: visible;
+}
+@media (min-width: 768px){
+    .personalPage-card {
+        display: flex;
+        flex-direction: row !important;
+        overflow: visible;
+    }
 }
 .personalPage-left {
     width: 230px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    .personalPage-left {
+        margin: 0;
+    }
 }
 .personalPage-right {
     width: 100%;
@@ -907,12 +918,17 @@ body {
     transform: translate(-50%, -50%);
 }
 .personalPage-title {
-    position: absolute;
-    top: 0;
-    left: 15px;
-    transform: translateY(-100%);
-    color: #fff;
+    color: #b7c0cd;
     margin: 0;
+}
+@media (min-width: 768px){
+    .personalPage-title {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        transform: translateY(-100%);
+        color: #fff;
+    }
 }
 .userShinyList {
     display: block;
