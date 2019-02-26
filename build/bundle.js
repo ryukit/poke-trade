@@ -12985,6 +12985,7 @@ var LoginUser = function (_Component) {
                 // this.setState({
                 //     userInfo: userInfo
                 // });
+                location.reload();
             }.bind(this));
         }
     }, {
@@ -13091,6 +13092,7 @@ var LogoutUser = function (_Component) {
                 userId: undefined
             });
             this.props.updateGlobalState(undefined, undefined, undefined);
+            location.reload();
         }
     }, {
         key: 'render',
@@ -13618,13 +13620,12 @@ var PokemonItem = function (_Component) {
 		value: function componentDidMount() {
 			var typeStr = this.props.pokeType;
 			var currId = this.props.id;
-			if (typeof typeStr !== 'undefined' && false) {
+			if (typeof typeStr !== 'undefined') {
 				//let typeArr = typeStr.split(',');
-
 				var tempVar = '';
 
 				for (var i = 0; i < typeStr.length; i++) {
-					tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' + typeStr[i].toLowerCase() + '-type-img positionTypeOption">&nbsp;</span></li>';
+					tempVar += '<li class="TypeOptionItem"><span class="pokemontypes ' + typeStr[i].name.toLowerCase() + '-type-img positionTypeOption">&nbsp;</span></li>';
 				}
 				var currTypeBlock = document.getElementById(currId).getElementsByClassName('js-pokeType')[0];
 				currTypeBlock.insertAdjacentHTML('beforeend', tempVar);
@@ -13728,7 +13729,8 @@ var PokemonItem = function (_Component) {
 						'p',
 						{ className: 'mdl-list__item-primary-content js-desc is-hidden' },
 						'currently no info'
-					)
+					),
+					_react2.default.createElement('ul', { className: 'TypeOptions js-pokeType', 'data-tyle': this.props.pokeType })
 				),
 				_react2.default.createElement(
 					'td',
@@ -16041,6 +16043,36 @@ var UserAccountPage = function (_Component) {
             personal_image.classList.remove('canSave');
         }
     }, {
+        key: 'toggleDropDown',
+        value: function toggleDropDown(e) {
+            var target = e.target,
+                parentEl = target.parentNode,
+                bodyEl = parentEl.querySelector('[data-body]');
+
+            parentEl.classList.toggle('is-opened');
+            if (bodyEl.classList.contains('js-input')) {
+                bodyEl.focus();
+            }
+        }
+    }, {
+        key: 'levelInput',
+        value: function levelInput(e) {
+            var target = e.target,
+                value = target.value;
+
+            target.value = value.replace(/\D/g, '').substring(0, 2);
+        }
+    }, {
+        key: 'levelFields',
+        value: function levelFields(e) {
+            var target = e.target,
+                value = target.value,
+                loggedUser = e.target.dataset.userid;
+            //debugger;
+            var ref = new firebase.database().ref('user_list/' + loggedUser);
+            ref.child('user_lvl').set(value);
+        }
+    }, {
         key: 'componentDidMount',
         value: function componentDidMount() {
             var $this = this;
@@ -16077,7 +16109,7 @@ var UserAccountPage = function (_Component) {
 
                     this.setState({
                         //lucky_items: lucky_list,
-                        //lucky_items_value: luckyCount,
+                        user_lvl: personal_data[0].user_lvl,
                         personal_image_data: personal_data[0].personal_image
                     });
                 }
@@ -16086,6 +16118,7 @@ var UserAccountPage = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
+            var loggedUser = this.props.userId;
             var luckyCount = void 0;
             var shinyCount = void 0;
             var userShinyData = this.state.shiny_items;
@@ -16105,13 +16138,14 @@ var UserAccountPage = function (_Component) {
                     if (item.isShiny) {
                         return _react2.default.createElement(
                             'div',
-                            { className: 'userShinyList-item', key: item.dex },
+                            { className: 'userShinyList-item', key: val + formatedName },
                             _react2.default.createElement('img', { src: imgSrc, alt: '' }),
                             item.dex
                         );
                     }
                 });
             }
+            var actualLvl = this.state.user_lvl || '0';
 
             return _react2.default.createElement(
                 'div',
@@ -16145,6 +16179,16 @@ var UserAccountPage = function (_Component) {
                                                     { className: 'personalPage-image' },
                                                     _react2.default.createElement(
                                                         'div',
+                                                        { className: 'personalPage-image-level' },
+                                                        _react2.default.createElement(
+                                                            'span',
+                                                            { onClick: this.toggleDropDown },
+                                                            actualLvl
+                                                        ),
+                                                        _react2.default.createElement('input', { type: 'text', className: 'js-input', 'data-body': true, 'data-userid': loggedUser, onChange: this.levelInput, onBlur: this.levelFields })
+                                                    ),
+                                                    _react2.default.createElement(
+                                                        'div',
                                                         { className: 'personalPage-image-imageWrapp' },
                                                         _react2.default.createElement('img', { src: this.state.personal_image_data, alt: 'image', id: 'imageForPersonal' })
                                                     ),
@@ -16175,21 +16219,29 @@ var UserAccountPage = function (_Component) {
                                                     this.props.userName
                                                 ),
                                                 _react2.default.createElement(
-                                                    'p',
-                                                    null,
-                                                    'Your Lucky: ',
-                                                    luckyCount
-                                                ),
-                                                _react2.default.createElement(
-                                                    'p',
-                                                    null,
-                                                    'Your Shiny: ',
-                                                    shinyCount
+                                                    'div',
+                                                    { className: 'personalPage-infoLine' },
+                                                    _react2.default.createElement(
+                                                        'div',
+                                                        { className: 'personalPage-infoLine-title', onClick: this.toggleDropDown },
+                                                        'Your Lucky: ',
+                                                        luckyCount
+                                                    )
                                                 ),
                                                 _react2.default.createElement(
                                                     'div',
-                                                    { className: 'userShinyList' },
-                                                    shinyList
+                                                    { className: 'personalPage-infoLine' },
+                                                    _react2.default.createElement(
+                                                        'div',
+                                                        { className: 'personalPage-infoLine-title', onClick: this.toggleDropDown },
+                                                        'Your Shiny: ',
+                                                        shinyCount
+                                                    ),
+                                                    _react2.default.createElement(
+                                                        'div',
+                                                        { className: 'personalPage-infoLine-content userShinyList', 'data-body': true },
+                                                        shinyList
+                                                    )
                                                 )
                                             )
                                         )
