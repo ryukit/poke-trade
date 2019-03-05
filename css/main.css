@@ -101,7 +101,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 20px 30px;
+    padding: 10px;
     margin-bottom: 1.875rem!important;
     background-color: #273142;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.07);
@@ -117,7 +117,7 @@ body {
     align-items: center;
     margin: 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
 }
 .pageTopBar-title:after {
     display: block;
@@ -130,7 +130,27 @@ body {
 .pageTopBar-meta {
     margin: 0;
     color: #7f8fa4;
+    font-size: 12px;
+}
+.myTrades-link {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
     font-size: 14px;
+}
+@media (min-width: 768px){
+    .pageTopBar-title {
+        font-size: 18px;
+    }
+    .pageTopBar-meta {
+        font-size: 14px;
+    }
+    .myTrades-link {
+        font-size: 18px;
+    }
+    .pageTopBar {
+        padding: 20px 30px;
+    }
 }
 .mdl-button--file input {
     cursor: pointer;
@@ -206,8 +226,8 @@ body {
 }
 .addItem {
     position: fixed;
-    right: 40px;
-    top: 90px;
+    right: 15px;
+    top: 70px;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -215,6 +235,7 @@ body {
     transform: translateY(-50%);
     z-index: 999;
 }
+
 .addForm {
     width: 300px;
     position: fixed;
@@ -227,6 +248,12 @@ body {
     -o-transition: right .3s;
     transition: right .3s;
     z-index: 1010;
+}
+@media (min-width: 768px){
+    .addItem {
+        right: 40px;
+        top: 90px;
+    }
 }
 .itemList-spinner {
     position: fixed;
@@ -437,11 +464,29 @@ body {
     height: 15px;
 }
 .ticketImage {
-    min-height: 300px;
+    /*min-height: 300px;*/
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 2px;
     background-size: cover !important
 }
+@media (min-width: 768px){
+    .ticketImage {
+        max-width: none;
+        margin: 0;
+    }
+}
+.ticketImage::after {
+    display: block;
+    width: 100%;
+    height: 0;
+    content: "";
+    padding-bottom: 150%;
+    background: transparent;
+    transition: all .3s;
+}
 .ticketInfo {
-
+    align-items: flex-start;
 }
 .commentSection .mdl-card,
 .ticketInfo .mdl-card {
@@ -475,13 +520,18 @@ body {
 }
 .commentSection-form .mdl-textfield {
     width: 100%;
+    padding: 10px 0;
+}
+.commentSection-form h4 {
+    font-size: 24px;
+    margin: 0;
 }
 .commentSection-list {
-    padding-top: 30px;
+    padding-top: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 .commentSection-list-item {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .attachmentPopup {
     display: none;
@@ -510,9 +560,24 @@ body {
 }
 .attachmentPopup a {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 15px;
     z-index: 101;
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+}
+.attachmentPopup a i {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    color: #000;
+    transition: all .3s;
+}
+.attachmentPopup a:hover i {
+    color: #ccc;
 }
 .attachmentPopup img {
     max-width: 320px;
@@ -552,7 +617,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     margin: 0;
-    padding: 20px 0;
+    padding: 0 0 10px 0;
     width: 100%;
 }
 .custom-textfield__input {
@@ -653,11 +718,6 @@ body {
 }
 .tradeList-item-bottomInfo p {
     margin: 0;
-}
-.myTrades-link {
-    color: #fff;
-    margin-left: 15px;
-    text-decoration: none;
 }
 .statTable {
     display: flex;
@@ -1082,4 +1142,53 @@ body {
 .personalPage-image-level.is-opened input[type="text"]{
     z-index: 100;
     display: block
+}
+.ticketInfo-image {
+    position: relative;
+    border-radius: 2px;
+    background: #000;
+}
+.sectionItemList {
+    padding: 40px 0;
+}
+.ticketInfo-info {
+    margin-top: -20px !important;
+    min-height: auto;
+}
+.tradeCardItem {
+    padding: 0 10px;
+}
+.tradeCardItem-left {
+    margin-bottom: 30px;
+}
+
+.tradeCardItem-right {
+}
+.ticketInfo-image-fullscreen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+.ticketInfo-image-fullscreen i {
+    font-size: 40px;
+}
+
+@media (min-width: 768px){
+    .tradeCardItem {
+        display: flex;
+    }
+    .tradeCardItem-left {
+        width: 300px;
+        flex-shrink: 0;
+    }
+    .ticketInfo-image {
+        background: transparent;
+    }
+    .tradeCardItem-right {
+        width: 100%;
+        padding-left: 10px;
+    }
+
 }

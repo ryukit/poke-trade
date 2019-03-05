@@ -12,6 +12,28 @@ export default class TradePage extends Component {
             comments: [],
         }
         this.onNewComment = this.onNewComment.bind(this)
+        this.closePopup = this.closePopup.bind(this);
+    }
+
+    closePopup(e) {
+        let $this = e.target,
+            $fadeTarget = document.querySelector(".js-imagePopup"),
+            $image = $fadeTarget.querySelector(".js-imagePopup-image");
+    
+        let opacity = 1;
+        var fadeOutEffect = setInterval(function () {
+            if (!$fadeTarget.style.opacity) {
+                $fadeTarget.style.opacity = opacity;
+            }
+            if (opacity > 0) {
+                opacity = opacity - 0.1;
+                $fadeTarget.style.opacity = opacity;
+            } else {
+                clearInterval(fadeOutEffect);
+                $fadeTarget.style.display="none";
+                $image.src = '';
+            }
+        }, 50);
     }
 
     loadTradeData() {
@@ -81,16 +103,24 @@ export default class TradePage extends Component {
             <div>
                 <main className="mdl-layout__content">            
                     <div className="page-content">
-                        <section className="sectionItemList">
-                            <div className="mdl-grid">
-                                <div className="mdl-cell mdl-cell--12-col">                       
+                        <section className="sectionItemList small-container">
+                            <div className="tradeCardItem">
+                                <div className="tradeCardItem-left">
                                     <TradeTicket item={this.state.item} userName={this.props.userName} userRole={this.props.userRole}/>
+                                </div>                     
+                                <div className="tradeCardItem-right">        
                                     <CommentList comments={this.state.comments} onNewComment={this.onNewComment} userName={this.props.userName} userRole={this.props.userRole}/>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </main>
+                <div className="attachmentPopup js-imagePopup">
+                    <a href="#" onClick={this.closePopup}><i className="material-icons">add</i></a>
+                    <div className="attachmentPopup-inner">
+                        <img src="noimage" className="js-imagePopup-image" />
+                    </div>
+                </div>
             </div>
         );
     }

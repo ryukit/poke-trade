@@ -29,7 +29,7 @@ export default class TradeTicket extends Component {
         });
     
         return (
-            <div className="small-container mdl-shadow--2dp">
+            <div>
                 {tradeTicketInfo} 
             </div>
         );

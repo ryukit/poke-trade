@@ -4,7 +4,30 @@ import { Link, NavLink } from 'react-router-dom'
 export default class TradeTicketInfo extends Component {
 	constructor(props) {
         super(props)
-    	this.deleteTradeItem = this.deleteTradeItem.bind(this)
+    	this.deleteTradeItem = this.deleteTradeItem.bind(this);
+        this.openPopup = this.openPopup.bind(this);
+    }
+
+    openPopup(e) {
+        let $this = e.target,
+            $fadeTarget = document.querySelector(".js-imagePopup"),
+            $image = $fadeTarget.querySelector(".js-imagePopup-image");
+
+        $image.src = this.props.attachment_image;
+    
+        let opacity = 0;
+        $fadeTarget.style.display="block";
+        var fadeInEffect = setInterval(function () {
+            if (!$fadeTarget.style.opacity) {
+                $fadeTarget.style.opacity = opacity;
+            }
+            if (opacity <= 1) {
+                opacity = opacity + 0.1;
+                $fadeTarget.style.opacity = opacity;
+            } else {
+                clearInterval(fadeInEffect);
+            }
+        }, 50);
     }
 
     componentDidMount() {
@@ -38,7 +61,7 @@ export default class TradeTicketInfo extends Component {
         let role = this.props.userRole;
 
         return (
-            <div className="mdl-grid mdl-grid--no-spacing ticketInfo">
+            <div className="ticketInfo">
                 {(() => {
                     if (role == "admin" || user == this.props.user_name ){
                         return (
@@ -54,12 +77,23 @@ export default class TradeTicketInfo extends Component {
                         );
                     }
                 })()}
-                <header className="ticketImage mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone"  style={styles}>
-                    
-                </header>
-                <div className="mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <div className="ticketInfo-image">
+                    {(() => {
+                        if (this.props.attachment_image !== ''){
+                            return (
+                                <a className="ticketInfo-image-fullscreen" onClick={this.openPopup}>
+                                    <i className="material-icons">
+                                        fullscreen
+                                    </i>
+                                </a>
+                            );
+                        }
+                    })()}
+                
+                    <div className="ticketImage" style={styles}></div>
+                </div>
+                <div className="mdl-card ticketInfo-info">
                     <div className="mdl-card__supporting-text">
-                        <h4>Title</h4>
                         <p>User - <strong>{this.props.user_name}</strong> trades "{this.props.sp_pokemon}{spShinyText}" for "{this.props.rec_pokemon}{recShinyText}"</p>
     				    <p>{this.props.adInfo}</p>
                     </div>

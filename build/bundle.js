@@ -12817,35 +12817,10 @@ var CommentList = function (_Component) {
     function CommentList(props) {
         _classCallCheck(this, CommentList);
 
-        var _this = _possibleConstructorReturn(this, (CommentList.__proto__ || Object.getPrototypeOf(CommentList)).call(this, props));
-
-        _this.closePopup = _this.closePopup.bind(_this);
-        return _this;
+        return _possibleConstructorReturn(this, (CommentList.__proto__ || Object.getPrototypeOf(CommentList)).call(this, props));
     }
 
     _createClass(CommentList, [{
-        key: 'closePopup',
-        value: function closePopup(e) {
-            var $this = e.target,
-                $fadeTarget = document.querySelector(".js-imagePopup"),
-                $image = $fadeTarget.querySelector(".js-imagePopup-image");
-
-            var opacity = 1;
-            var fadeOutEffect = setInterval(function () {
-                if (!$fadeTarget.style.opacity) {
-                    $fadeTarget.style.opacity = opacity;
-                }
-                if (opacity > 0) {
-                    opacity = opacity - 0.1;
-                    $fadeTarget.style.opacity = opacity;
-                } else {
-                    clearInterval(fadeOutEffect);
-                    $fadeTarget.style.display = "none";
-                    $image.src = '';
-                }
-            }, 50);
-        }
-    }, {
         key: 'render',
         value: function render() {
             // let onNewComment = this.props.onNewComment;
@@ -12870,7 +12845,7 @@ var CommentList = function (_Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'small-container mdl-shadow--2dp commentSection' },
+                { className: 'mdl-shadow--2dp commentSection' },
                 _react2.default.createElement(
                     'div',
                     { className: 'mdl-card mdl-cell mdl-cell--12-col' },
@@ -12883,20 +12858,6 @@ var CommentList = function (_Component) {
                             { className: 'mdl-card__supporting-text' },
                             commentItem
                         )
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'attachmentPopup js-imagePopup' },
-                    _react2.default.createElement(
-                        'a',
-                        { href: '#', onClick: this.closePopup },
-                        'close attachment'
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'attachmentPopup-inner' },
-                        _react2.default.createElement('img', { src: 'noimage', className: 'js-imagePopup-image' })
                     )
                 )
             );
@@ -13970,7 +13931,7 @@ var TradeTicket = function (_Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'small-container mdl-shadow--2dp' },
+                null,
                 tradeTicketInfo
             );
         }
@@ -14017,10 +13978,34 @@ var TradeTicketInfo = function (_Component) {
         var _this = _possibleConstructorReturn(this, (TradeTicketInfo.__proto__ || Object.getPrototypeOf(TradeTicketInfo)).call(this, props));
 
         _this.deleteTradeItem = _this.deleteTradeItem.bind(_this);
+        _this.openPopup = _this.openPopup.bind(_this);
         return _this;
     }
 
     _createClass(TradeTicketInfo, [{
+        key: 'openPopup',
+        value: function openPopup(e) {
+            var $this = e.target,
+                $fadeTarget = document.querySelector(".js-imagePopup"),
+                $image = $fadeTarget.querySelector(".js-imagePopup-image");
+
+            $image.src = this.props.attachment_image;
+
+            var opacity = 0;
+            $fadeTarget.style.display = "block";
+            var fadeInEffect = setInterval(function () {
+                if (!$fadeTarget.style.opacity) {
+                    $fadeTarget.style.opacity = opacity;
+                }
+                if (opacity <= 1) {
+                    opacity = opacity + 0.1;
+                    $fadeTarget.style.opacity = opacity;
+                } else {
+                    clearInterval(fadeInEffect);
+                }
+            }, 50);
+        }
+    }, {
         key: 'componentDidMount',
         value: function componentDidMount() {}
     }, {
@@ -14056,7 +14041,7 @@ var TradeTicketInfo = function (_Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'mdl-grid mdl-grid--no-spacing ticketInfo' },
+                { className: 'ticketInfo' },
                 function () {
                     if (role == "admin" || user == _this2.props.user_name) {
                         return _react2.default.createElement(
@@ -14074,18 +14059,30 @@ var TradeTicketInfo = function (_Component) {
                         return "";
                     }
                 }(),
-                _react2.default.createElement('header', { className: 'ticketImage mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone', style: styles }),
                 _react2.default.createElement(
                     'div',
-                    { className: 'mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone' },
+                    { className: 'ticketInfo-image' },
+                    function () {
+                        if (_this2.props.attachment_image !== '') {
+                            return _react2.default.createElement(
+                                'a',
+                                { className: 'ticketInfo-image-fullscreen', onClick: _this2.openPopup },
+                                _react2.default.createElement(
+                                    'i',
+                                    { className: 'material-icons' },
+                                    'fullscreen'
+                                )
+                            );
+                        }
+                    }(),
+                    _react2.default.createElement('div', { className: 'ticketImage', style: styles })
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'mdl-card ticketInfo-info' },
                     _react2.default.createElement(
                         'div',
                         { className: 'mdl-card__supporting-text' },
-                        _react2.default.createElement(
-                            'h4',
-                            null,
-                            'Title'
-                        ),
                         _react2.default.createElement(
                             'p',
                             null,
@@ -15460,10 +15457,33 @@ var TradePage = function (_Component) {
             comments: []
         };
         _this.onNewComment = _this.onNewComment.bind(_this);
+        _this.closePopup = _this.closePopup.bind(_this);
         return _this;
     }
 
     _createClass(TradePage, [{
+        key: 'closePopup',
+        value: function closePopup(e) {
+            var $this = e.target,
+                $fadeTarget = document.querySelector(".js-imagePopup"),
+                $image = $fadeTarget.querySelector(".js-imagePopup-image");
+
+            var opacity = 1;
+            var fadeOutEffect = setInterval(function () {
+                if (!$fadeTarget.style.opacity) {
+                    $fadeTarget.style.opacity = opacity;
+                }
+                if (opacity > 0) {
+                    opacity = opacity - 0.1;
+                    $fadeTarget.style.opacity = opacity;
+                } else {
+                    clearInterval(fadeOutEffect);
+                    $fadeTarget.style.display = "none";
+                    $image.src = '';
+                }
+            }, 50);
+        }
+    }, {
         key: 'loadTradeData',
         value: function loadTradeData() {
 
@@ -15541,18 +15561,40 @@ var TradePage = function (_Component) {
                         { className: 'page-content' },
                         _react2.default.createElement(
                             'section',
-                            { className: 'sectionItemList' },
+                            { className: 'sectionItemList small-container' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'mdl-grid' },
+                                { className: 'tradeCardItem' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'mdl-cell mdl-cell--12-col' },
-                                    _react2.default.createElement(_TradeTicket2.default, { item: this.state.item, userName: this.props.userName, userRole: this.props.userRole }),
+                                    { className: 'tradeCardItem-left' },
+                                    _react2.default.createElement(_TradeTicket2.default, { item: this.state.item, userName: this.props.userName, userRole: this.props.userRole })
+                                ),
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'tradeCardItem-right' },
                                     _react2.default.createElement(_CommentList2.default, { comments: this.state.comments, onNewComment: this.onNewComment, userName: this.props.userName, userRole: this.props.userRole })
                                 )
                             )
                         )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'attachmentPopup js-imagePopup' },
+                    _react2.default.createElement(
+                        'a',
+                        { href: '#', onClick: this.closePopup },
+                        _react2.default.createElement(
+                            'i',
+                            { className: 'material-icons' },
+                            'add'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'attachmentPopup-inner' },
+                        _react2.default.createElement('img', { src: 'noimage', className: 'js-imagePopup-image' })
                     )
                 )
             );
